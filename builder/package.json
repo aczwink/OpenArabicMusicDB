@@ -1,0 +1,19 @@
+{
+  "name": "builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-db": "node dist/main.js ../data",
+    "compile": "tsc",
+    "dev": "nodemon --exec \"npm run compile && nodemon --exec 'npm run build-db' --watch '../data'\""
+  },
+  "keywords": [],
+  "author": "Amir Czwink",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.8.3"
+  }
+}
