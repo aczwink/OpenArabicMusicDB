@@ -1,0 +1,42 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: سماعي ثقيل
+alternativeNames: ""
+category: Classical, موشحات
+usageText: Egypt
+timeSignatureNumerator: 10
+text: |
+  The most common rhythm in classical Arabic music.
+  It is counted 5 + 5.
+
+  <score type="rhythm">
+  \time 10/8
+  \set Timing.beamExceptions = #'()
+  \set Timing.beatStructure = 3,2,2,3
+    
+  \do r8 r \sep \ta r \sep \do \do \sep \ta r r
+  </score>
+
+  == References ==
+  # [[فرحان صباغ]]
+  # Rodolphe Erlanger. La Musique arabe Tome sixième: Essai de codification des règles usuelles de la musique arabe moderne, le système rythmique, les diverses formes de composition artistique. Number 6. Geuthner, 1959. p. 39
+  # p. 154 .1972 ,سليم الحلو. الموسيقى النظرية. دار مكتبة الحياة - بيروت, لبنان
+  # Faisal Zedan – Derbekki Fundamentals. Method DVD at ~01:24:15. Available at: http://davidreihs.com/product/faisal-zedan-derbekki-fundamentals/
+  # Habib Hassan Touma. Die Musik der Araber. Schaal, Richard, 2010. p. 81
+  # Mohamed A. Alsiadi. Arabic rhythms. Website. http://www.alsiadi.com/Iqaa_Samai_Thaqil10_8A.html
+  # Unknown. The riqq الرق. Website. https://riqq.webs.com/rhythms.htm
+  # Maqam world. Website. http://maqamworld.com/en/iqaa/samai_thaqil.php

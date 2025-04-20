@@ -16,15 +16,10 @@
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-== Theory ==
-* [[24-TET]]
-* [[53-TET]]
-* [[Arabic instruments]]
-* [[Construction of مقامات]]
-* [[Cultural categorization by region]]
-* [[Drum Strokes]]
-* [[Name origins]]
-* [[Pitch names]]
-* [[Rhythm Dynamics]]
-* [[Sources]]
-* [[Turkish Translations]]
+The levant, formerly بلاد الشام, is an area in the Middle East which nowadays approximately resembles the area of the states Syria, Lebanon, Palestine, Jordan and Israel.
+
+[[File:levant.svg]]
+
+=== Further reading ===
+* [https://ar.wikipedia.org/wiki/بلاد_الشام_(ولاية_إسلامية) بلاد الشام on Wikipedia]
+* [https://en.wikipedia.org/wiki/Levant Levant on Wikipedia]

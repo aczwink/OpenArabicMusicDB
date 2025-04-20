@@ -1,0 +1,53 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: دارج
+alternativeNames: |
+  (3/8): سماعي طائر, سماعي سربند
+  (3/4): سماعي دارج
+category: ""
+usageText: ""
+timeSignatureNumerator: 3
+text: |
+  Exists as 3/8 and 3/4.
+
+  <score type="rhythm">
+  \time 3/4
+  \dom \tak \tak
+  </score>
+
+  == Turkish ==
+  Turkish name: Semaî
+
+  One of the two basic rhythms in Turkish music, that are not further divisible.
+  Exists also as 3/8 and rarely as 3/2.
+
+  <score type="rhythm2">
+  \time 3/4
+  \dom_strong \takl_semi \takl
+  </score>
+
+  == References ==
+  # [[فرحان صباغ]]
+  # Rodolphe Erlanger. La Musique arabe Tome sixième: Essai de codification des règles usuelles de la musique arabe moderne, le système rythmique, les diverses formes de composition artistique. Number 6. Geuthner, 1959. p. 31, 52
+  # p. 136, 152, 158 .1972 ,سليم الحلو. الموسيقى النظرية. دار مكتبة الحياة - بيروت, لبنان
+  # Habib Hassan Touma. Die Musik der Araber. Schaal, Richard, 2010. p. 80
+  # Faisal Zedan – Derbekki Fundamentals. Method DVD at ~01:26:11. Available at: http://davidreihs.com/product/faisal-zedan-derbekki-fundamentals/
+  # Maqam world. Website. http://maqamworld.com/en/iqaa/samai_darij.php and http://maqamworld.com/en/iqaa/samai_saraband.php
+  # Unknown. The riqq الرق. Website. https://riqq.webs.com/rhythms.htm
+
+  # Raouf Yekta. La musique turque. Librairie Delagrave, 1922. p. 3029
+  # Esendere kültür sanat derneği. Website. http://eksd.org.tr/muzik_teorisi/semai_usulu.php

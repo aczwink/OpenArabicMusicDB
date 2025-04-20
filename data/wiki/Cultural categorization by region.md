@@ -16,15 +16,16 @@
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-== Theory ==
-* [[24-TET]]
-* [[53-TET]]
-* [[Arabic instruments]]
-* [[Construction of مقامات]]
-* [[Cultural categorization by region]]
-* [[Drum Strokes]]
-* [[Name origins]]
-* [[Pitch names]]
-* [[Rhythm Dynamics]]
-* [[Sources]]
-* [[Turkish Translations]]
+The Middle East (الشرق الأوسط) consists of three major cultures:
+* Arabic
+* Persian
+* Turkish
+These cultures share many similarities such as the religion and music, however their language is different.
+
+The Arabic world is divided into:
+* The East (المشرق), which consists of
+** Arabian Peninsula (or Persian Gulf area), with the countries: Saudi Arabia, Yemen, Oman, United Arab Emirates, Kuwait, Qatar and Bahrain
+** Iraq
+** The [[Levant]]
+** Egypt <br /> The latter two share a lot in their type of music. The others differ a bit from each other.
+* Northwest Africa (المغرب العربي), which consists of the countries: Tunisia, Algeria, Morocco and Libya. All these countries share similar music.

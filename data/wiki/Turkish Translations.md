@@ -16,15 +16,17 @@
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-== Theory ==
-* [[24-TET]]
-* [[53-TET]]
-* [[Arabic instruments]]
-* [[Construction of مقامات]]
-* [[Cultural categorization by region]]
-* [[Drum Strokes]]
-* [[Name origins]]
-* [[Pitch names]]
-* [[Rhythm Dynamics]]
-* [[Sources]]
-* [[Turkish Translations]]
+{| class="wikitable"
+!|Turkish word
+!|Translation
+|-
+|Ağır
+|heavy
+|-
+|Nim
+|half<ref>Rodolphe Erlanger. La Musique arabe Tome sixième: Essai de codification des règles usuelles de la musique arabe moderne, le système rythmique, les diverses formes de composition artistique. Number 6. Geuthner, 1959. p. 35</ref>
+|}
+
+=== References ===
+
+<references />

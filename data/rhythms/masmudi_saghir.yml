@@ -1,0 +1,54 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: مصمودي صغير
+alternativeNames: ""
+category: Folk, Popular music
+usageText: Egypt
+timeSignatureNumerator: 4
+text: |
+  This rhythm exists also as a slower version but is then called [[مصمودي كبير]].
+
+  <score type="rhythm">
+  \time 4/4
+    
+  \do \dom \ta \sep \dom \tak
+  </score>
+
+  == Ornamentation ==
+
+  === بلدي ===
+  A very popular variation of this rhythm is called بلدي.
+  Most people say that this is just an alternative name for مصمودي صغير or a term for folk rhythms.
+  I see it as a very popular variation of مصمودي صغير as shown in the rhythm definition below.
+  My decision is based on the fact that whenever I asked an Arabic percussion player to play بلدي, he will play exactly this variation.
+  Often the 16th notes pairs are rolled, and the 8th taks are played as slaps.
+
+  <score type="rhythm2">	
+  \time 4/4
+    
+  \do \do \ti \til \ta \sep \do_noBeam \ti \til \ta \ti \til
+  </score>
+
+  == References ==
+  # [[فرحان صباغ]]
+  # Rodolphe Erlanger. La Musique arabe Tome sixième: Essai de codification des règles usuelles de la musique arabe moderne, le système rythmique, les diverses formes de composition artistique. Number 6. Geuthner, 1959. p. 54
+  # p. 136 .1972 ,سليم الحلو. الموسيقى النظرية. دار مكتبة الحياة - بيروت, لبنان
+  # My own experience
+  # Faisal Zedan – Derbekki Fundamentals. Method DVD at ~01:10:57. Available at: http://davidreihs.com/product/faisal-zedan-derbekki-fundamentals/
+  # Mohamed A. Alsiadi. Arabic rhythms. Website. http://www.alsiadi.com/Iqaa_Masmudi_Saghir4_4.html
+  # Unknown. The riqq الرق. Website. https://riqq.webs.com/rhythms.htm
+  # Maqam world. Website. http://maqamworld.com/en/iqaa/baladi.php

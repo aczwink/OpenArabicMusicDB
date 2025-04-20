@@ -16,15 +16,9 @@
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-== Theory ==
-* [[24-TET]]
-* [[53-TET]]
-* [[Arabic instruments]]
-* [[Construction of مقامات]]
-* [[Cultural categorization by region]]
-* [[Drum Strokes]]
-* [[Name origins]]
-* [[Pitch names]]
-* [[Rhythm Dynamics]]
-* [[Sources]]
-* [[Turkish Translations]]
+* [[عود]]
+* [[قانون]]
+* [[ناي]]
+* [[Violin]]
+
+* [[دربوكة]]

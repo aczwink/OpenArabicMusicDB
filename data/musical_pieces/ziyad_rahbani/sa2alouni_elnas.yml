@@ -1,0 +1,63 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: سألوني الناس
+form: song
+composer: ziyad_rahbani
+releaseDate: 1973
+songWriter: rahbani_brothers
+singers: [fairuz]
+dialect: lb
+maqamat:
+  - maqam: bayati
+    explanation: The primary Maqam
+  - maqam: 3ajam
+    explanation: at the ending of the verse
+rhythms:
+  - rhythm: maqsum
+    explanation: The primary rhythm
+  - rhythm: masmudi_saghir
+    explanation: During the intro
+attachments:
+  - type: private
+    comment: Sheet music on D
+    contentType: application/pdf
+    uri: /pieces/sa2alouni_elnas.pdf
+text: |
+  == Links ==
+  * [https://arz.wikipedia.org/wiki/سألونى_الناس Egyptian Wikipedia]
+  * [https://www.youtube.com/watch?v=anZGS-6qZEE&t=915s Played on piano by Fadi Saade]
+lyrics: |
+  سألوني الناس عنك يا حبيبي
+  كتبوا المكاتيب وأخدها الهوا
+  بيعز علي غني يا حبيبي
+  لأول مرة ما منكون ســـوا
+
+  سألوني الناس عنك سألوني
+  قلتلهن راجع أوعى تلوموني
+  غمضت عيوني خوفي للناس
+  يشوفوك مخبا بعيوني
+  وهب الهوا
+  و بكاني الهوى
+  لأول مرة مـــا منكون ســوا
+
+  طل من الليل قال لي ضوي لي
+  لاقاني الليل وطفا قناديلي
+  ولا تســـأليني كيف إستهديت
+  كـــان قلبي لــعندك دلـيـلي
+  واللي إكتوى
+  بالشوق إكتوى
+  لأول مرة مــــــا منكون سوا
