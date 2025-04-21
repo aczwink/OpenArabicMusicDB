@@ -208,7 +208,7 @@ async function ReadRhythms(inputPath: string)
             usageText: data.usageText,
             name: data.name,
             text: data.text,
-            timeSignatureNumerator: data.timeSignatureNumerator,
+            timeSignatureNumerators: ("timeSignatureNumerators" in data) ? data.timeSignatureNumerators : [data.timeSignatureNumerator],
         });
     }
 

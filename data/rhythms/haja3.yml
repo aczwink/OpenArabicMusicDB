@@ -1,0 +1,51 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: هجع
+alternativeNames: ""
+category: "Folk, Sufi music"
+usageText: "Egypt"
+timeSignatureNumerators: [2, 4]
+text: |
+  This rhythm is usually considered 4/4 but there also exists a 2/4 version. Sometimes the 2/4 is called هجع صغير, while the 4/4 is called هجع كبير respectively.
+  However, the 2/4 version exists already under the name [[وحدة سائرة]], thus هجع should be the preferred name for the 4/4 version
+
+  <score type="rhythm">
+  \time 2/4
+  \dom \ta \ta
+  </score>
+
+  <score type="rhythm">
+  \time 4/4
+  \dom \ta \ta \sep
+  \tak \ta \ta
+  </score>
+
+  == Usage ==
+
+  # In [[ألف ليلة وليلة]] the composer logically extended the rhythm to 6/4 in a way, that it matches the feel of the rhythm. It looks like this:
+  <score type="rhythm">
+  \time 4/4
+  \dom \ta \ta \sep
+  \tak \ta \ta \sep
+  \tak \ta \ta
+  </score>
+
+  == References ==
+  # Faisal Zedan. Instructional web-video. https://www.youtube.com/watch?v=PBaXbkK5Xwk
+  # Faisal Zedan – Derbekki Fundamentals. Method DVD at ~01:17:00. Available at: http://davidreihs.com/product/faisal-zedan-derbekki-fundamentals/
+  # Maqam world. Website. http://maqamworld.com/en/iqaa/hachaa.php
+  # Mohamed A. Alsiadi. Arabic rhythms. Website. http://www.alsiadi.com/Iqaa_Hajia_Sageer2_4.html

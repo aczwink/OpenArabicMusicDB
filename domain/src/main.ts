@@ -111,7 +111,7 @@ export interface OpenArabicMusicDBRhythm
     alternativeNames: string;
     category: string;
     usageText: string;
-    timeSignatureNumerator: number;
+    timeSignatureNumerators: number[];
     text: string;
 }
 
