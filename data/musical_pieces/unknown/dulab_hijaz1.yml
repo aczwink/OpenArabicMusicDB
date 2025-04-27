@@ -14,23 +14,19 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: ع الماية
-form: song
+name: دولاب حجاز 1
+form: dulab
 composer: unknown
 releaseDate: "?"
-songWriter: unknown
-singers: []
-dialect: unknown
 maqamat:
-  - maqam: 3ajam
+  - maqam: hijaz
     explanation: ""
 rhythms:
-  - rhythm: haja3
+  - rhythm: masmudi_saghir
     explanation: ""
-attachments:
-  - type: private
-    comment: Finale sheet music
-    contentType: application/vnd.finale.mus
-    uri: /pieces/3al_mayya.mus
-text: ""
-lyrics: ""
+  - rhythm: wahda_kabira
+    explanation: ""
+  - rhythm: wahda_wa_nuss
+    explanation: ""
+attachments: []
+text: "Starts with re sol fa# sol"

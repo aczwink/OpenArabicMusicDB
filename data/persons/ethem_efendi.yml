@@ -14,23 +14,9 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: ع الماية
-form: song
-composer: unknown
-releaseDate: "?"
-songWriter: unknown
-singers: []
-dialect: unknown
-maqamat:
-  - maqam: 3ajam
-    explanation: ""
-rhythms:
-  - rhythm: haja3
-    explanation: ""
-attachments:
-  - type: private
-    comment: Finale sheet music
-    contentType: application/vnd.finale.mus
-    uri: /pieces/3al_mayya.mus
+#https://tr.wikipedia.org/wiki/Santur%C3%AE_Ethem_Bey
+name: Ethem Efendi
+lifeTime: 1855 - 14.09.1926
+origin: Istanbul
 text: ""
-lyrics: ""
+locations: tr

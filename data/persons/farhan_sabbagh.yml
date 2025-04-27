@@ -14,23 +14,11 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: ع الماية
-form: song
-composer: unknown
-releaseDate: "?"
-songWriter: unknown
-singers: []
-dialect: unknown
-maqamat:
-  - maqam: 3ajam
-    explanation: ""
-rhythms:
-  - rhythm: haja3
-    explanation: ""
-attachments:
-  - type: private
-    comment: Finale sheet music
-    contentType: application/vnd.finale.mus
-    uri: /pieces/3al_mayya.mus
-text: ""
-lyrics: ""
+name: فرحان الصباغ
+lifeTime: 1948 -
+origin: Homs, Syria
+text: His father is "محمد وصفي", who is the son of "رفيق". The brother of "رفيق" is called "توفيق".
+locations: sy
+image:
+  type: external
+  uri: https://farhan-sabbagh.de/images/farhan_oud_tessin_50.jpg

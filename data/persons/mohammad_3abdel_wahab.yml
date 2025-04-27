@@ -14,23 +14,11 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: ع الماية
-form: song
-composer: unknown
-releaseDate: "?"
-songWriter: unknown
-singers: []
-dialect: unknown
-maqamat:
-  - maqam: 3ajam
-    explanation: ""
-rhythms:
-  - rhythm: haja3
-    explanation: ""
-attachments:
-  - type: private
-    comment: Finale sheet music
-    contentType: application/vnd.finale.mus
-    uri: /pieces/3al_mayya.mus
+name: محمد عبد الوهاب
+lifeTime: 1898 - 1991
+origin: Cairo
 text: ""
-lyrics: ""
+locations: eg
+image:
+  type: external
+  uri: https://upload.wikimedia.org/wikipedia/commons/4/4b/Abdel_wahab.jpg

@@ -14,23 +14,22 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: ع الماية
-form: song
-composer: unknown
-releaseDate: "?"
-songWriter: unknown
-singers: []
-dialect: unknown
+name: سماعي حجاز كار
+form: sama3i
+composer: farhan_sabbagh
+releaseDate: 17.05.1986
 maqamat:
-  - maqam: 3ajam
-    explanation: ""
+  - maqam: hijaz_kar
+    explanation: The primary Maqam
+  - maqam: rast
+    explanation: 2nd Khana
+  - maqam: bayati
+    explanation: 3nd Khana
+    #TODO: maqam in 4th khana?
 rhythms:
-  - rhythm: haja3
-    explanation: ""
-attachments:
-  - type: private
-    comment: Finale sheet music
-    contentType: application/vnd.finale.mus
-    uri: /pieces/3al_mayya.mus
+  - rhythm: sama3i_thaqil
+    explanation: The primary rhythm
+  - rhythm: darij
+    explanation: 4th Khana
+attachments: []
 text: ""
-lyrics: ""

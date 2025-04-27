@@ -24,6 +24,8 @@ dialect: msa
 maqamat:
   - maqam: nahawand
     explanation: ""
+  - maqam: 3ajam
+    explanation: "During the 2nd verse"
 rhythms:
   - rhythm: sama3i_thaqil
     explanation: ""

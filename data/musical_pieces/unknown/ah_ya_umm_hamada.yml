@@ -14,7 +14,7 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: ع الماية
+name: آه يا أم حمادة
 form: song
 composer: unknown
 releaseDate: "?"
@@ -23,14 +23,12 @@ singers: []
 dialect: unknown
 maqamat:
   - maqam: 3ajam
-    explanation: ""
+    explanation: "The primary Maqam"
+  - maqam: nahawand
+    explanation: "2nd part"
 rhythms:
-  - rhythm: haja3
+  - rhythm: jerk
     explanation: ""
-attachments:
-  - type: private
-    comment: Finale sheet music
-    contentType: application/vnd.finale.mus
-    uri: /pieces/3al_mayya.mus
+attachments: []
 text: ""
 lyrics: ""

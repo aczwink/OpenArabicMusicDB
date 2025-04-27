@@ -1,0 +1,61 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: جرك
+alternativeNames: ""
+category: Folk, Popular music
+usageText: Egypt
+timeSignatureNumerator: 4
+text: |
+  <score type="rhythm">
+  \time 4/4
+  \dom \tak \sep
+  r8 \do \tak
+  </score>
+
+  == Ornamentation ==
+
+  In general it is filled with a lot of finger rolls.
+  Apart from the listed variations, because of its close relationship to western 4/4 rhythms, one can easily modulate to them.
+
+  <score type="rhythm">
+  \time 4/4
+  \dom \tak \sep
+  \ta_noBeam \do \tak
+  </score>
+
+  <score type="rhythm">
+  \time 4/4
+  \dom \tak \sep
+  \ta_noBeam \do_noBeam \ta \do_noBeam
+  </score>
+
+  <score type="rhythm">
+  \time 4/4
+  \dom \tak \sep
+  \du \do r16 \tak
+  </score>
+
+  <score type="rhythm">
+  \time 4/4
+  \dom \ta \do_noBeam \sep
+  r8 \do \tak
+  </score>
+
+  <score type="rhythm">
+  \time 4/4
+  \dom \ta r16 \do r16 \do \tak
+  </score>
