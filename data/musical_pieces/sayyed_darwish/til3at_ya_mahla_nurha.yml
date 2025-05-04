@@ -1,0 +1,45 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: طلعت يا محلا نورها
+form: song
+composer: sayyed_darwish
+releaseDate: "?"
+songWriter: unknown
+singers: [fairuz]
+dialect: eg
+maqamat:
+  - maqam: 3ajam
+    explanation: ""
+rhythms:
+  - rhythm: maqsum
+    explanation: ""
+attachments: []
+text: |
+  [https://arz.wikipedia.org/wiki/%D8%B7%D9%84%D8%B9%D8%AA_%D9%8A%D8%A7_%D9%85%D8%AD%D9%80%D9%84%D8%A7_%D9%86%D9%88%D8%B1%D9%87%D8%A7 Egyptian Wikipedia]
+lyrics: |
+  طلعت يا محلا نورها ياشمس الشموسة
+  يلا بنا نملا  ونحلب لبن الجاموسة
+
+  واقف ع النبع  يملّي أسمر وحليوة
+  عوج الطاقية وقال لي غني لي غنيوة
+  قلت له بقلبي ياخلـّـي يا أسمر ياحليوة
+  قدم لي وردة وقال لي حلوة ياعروسة
+
+  شفت الجميل الأسمر واقف ع المينا
+  وحلاوته زيّ السكر بإيده ياسمينة
+  وشــــذاه الحلو عطّر والله الـــجنينة
+  إتلفت لي وقالي يامرمر حلوة ياعروسة 

@@ -1,0 +1,56 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: زي العسل
+form: song
+composer: baligh_hamdi
+releaseDate: "1973"
+songWriter: mohammad_hamza
+singers: [sabah]
+dialect: eg
+maqamat: #TODO
+  - maqam: bayati
+    explanation: The primary Maqam
+rhythms: [] #TODO
+attachments:
+  - type: private
+    comment: Sheet music on A
+    contentType: application/pdf
+    uri: /pieces/zay_al3asal.jpg
+text: "[https://arz.wikipedia.org/wiki/%D8%B2%D9%89_%D8%A7%D9%84%D8%B9%D8%B3%D9%84 Egyptian Wikipedia]"
+lyrics: |
+  قابلت كتير
+  فرشوا لي عشاني الارض حرير
+  وشفت كتير وماشفتش زي حبيبي امير
+  مانيش رايده الا هو
+  مافيش فايده الا هو
+
+  فى البعد عاشقاه فى القرب عاشقاه
+  زي العسل على قلبي هواه
+
+  من صغرنا واحنا بنبني عشنا مع بعضنا
+  من حبنا يتعلم الطير مننا الهوى زينا
+  وكبرنا والهوى كبر ولا حد فى الدنيا قدر
+  يفرقنا ولو ليلة
+  دي قصتنا قــصــة طويلة
+
+  لو جابوا القمر من العالي
+  والنجوم حطوها على شالي
+  راح أرد وأقول وأنا مالي
+  ماقدرش أسيب حبيبي الغالي
+  دا القمر هو حبيبي
+  والنجوم دي عيون حبيبي
+  والدنيا دية هيا حبيبي

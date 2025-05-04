@@ -1,0 +1,55 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: أنا بعشقك
+form: song
+composer: baligh_hamdi
+releaseDate: "1985"
+songWriter: baligh_hamdi
+singers: [mayada_alhannawe]
+dialect: unknown
+maqamat: #TODO
+  - maqam: bayati
+    explanation: The primary Maqam
+rhythms: [] #TODO
+attachments:
+  - type: private
+    comment: Sheet music on D
+    contentType: application/pdf
+    uri: /pieces/ana_ba3sha2ak.jpg
+text: "[https://ar.wikipedia.org/wiki/%D8%A3%D9%86%D8%A7_%D8%A8%D8%B9%D8%B4%D9%82%D9%83_(%D8%A3%D8%BA%D9%86%D9%8A%D8%A9) Arabic Wikipedia]"
+lyrics: |
+  أنا بعشقك أنا... أنا كلي لك أنا
+  أنا أنا... أنا أنا أنا
+  يا من ملك روحي بهواه
+  الأمر لك طول الحياة
+  الماضي لك.. وبكرة لك.. وبعده لك
+  أنا في سهادي.. وفي منامي
+  بندهك وبسألك
+
+  بتحبني ولاّ الهوى عمره ما زارك
+  بتحبّني ولاّ انكتب على القلب نارك
+  قول يا حبيبي... حبيبي قول... قول يا ملاك
+
+  أنا أنا أنا بعشقك
+  أنا بعشق الكلمة اللي بتقولها
+  وبعشق ضحكتك
+  أنا أنا أنا بعشقك
+  أنا بعشق الليل اللي في عيونك
+  وبعشق رقتك
+  أنا أنا أنا بعشقك
+  أنا بعشقك الأرض اللي عدت عليها يوم .. خطواتك
+  وبسألك.. بسألك

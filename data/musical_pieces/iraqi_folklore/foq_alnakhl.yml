@@ -1,0 +1,46 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: فوق النخل
+form: song
+composer: iraqi_folklore
+releaseDate: "?"
+songWriter: unknown
+singers: []
+dialect: unknown
+maqamat:
+  - maqam: nahawand
+    explanation: ""
+rhythms:
+  - rhythm: maqsum
+    explanation: ""
+attachments:
+  - type: private
+    comment: Sheet music on C
+    contentType: application/pdf
+    uri: /pieces/foq_alnakhl.pdf
+text: |
+  Originally named فوق إلنا خِلّ.
+  "مَدْري" is dialect for "ما أدري".
+
+  [https://ar.wikipedia.org/wiki/%D9%81%D9%88%D9%82_%D8%A7%D9%84%D9%86%D8%AE%D9%84_(%D8%A3%D8%BA%D9%86%D9%8A%D8%A9) Arabic Wikipedia]
+lyrics: |
+  فوق النخل فوق يابا فوق النخل فوق 
+  مدري لمع خده يابا مدري القمر فوق 
+  والله ما ريده باليني بلوة 
+
+  بالله يا مجرى الماي يابا سلم عليهم
+  صعبان الفرقة علي يابا اشتقنا إليهم
