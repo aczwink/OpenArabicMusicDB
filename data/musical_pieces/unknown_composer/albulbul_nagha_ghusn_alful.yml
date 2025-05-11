@@ -1,0 +1,57 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: البلبل ناغى غصن الفل
+form: song
+composer: unknown
+releaseDate: "?"
+songWriter: unknown
+singers: []
+dialect: unknown
+maqamat:
+  - maqam: hijaz
+    explanation: ""
+rhythms:
+  - rhythm: masmudi_saghir
+    explanation: ""
+  - rhythm: malfuf
+    explanation: at "قصدي ألاقي محبوبي"
+attachments:
+  - type: private
+    comment: Sheet music on D
+    contentType: application/pdf
+    uri: /pieces/albulbul_nagha_ghusn_alful.pdf
+text: ""
+lyrics: |
+  البلبل ناغى ع غصن الفل
+  آه يا شقيق النعمان
+  قصدي ألاقي محبوبي
+  بين الياسمين والريحان
+
+  قلبي تلوع يا وعدي
+  بدي طبيب يداويني
+  دوا الطبيب ما ينفعني
+  شوفة حبيبي بتشفيني
+
+  إجى الشحاد على باب الدار
+  قالتله الحلوة على الله 
+  قال لها أنا ماني شحاد
+  وعطيني بوسة دخيل الله
+
+  كنا ستة على النبعة
+  وإجى المحبوب صرنا سبعة
+  وطلب بوسة ماعطيته
+  قلتله حرام يوم الجمعة

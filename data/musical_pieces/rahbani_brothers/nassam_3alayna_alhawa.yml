@@ -1,0 +1,52 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: نسّم علينا الهوى
+form: song
+composer: rahbani_brothers
+releaseDate: "1967"
+songWriter: rahbani_brothers
+singers: [fairuz]
+dialect: lb
+maqamat:
+  - maqam: kurdi
+    explanation: ""
+rhythms:
+  - rhythm: maqsum
+    explanation: ""
+attachments: []
+text: |
+  * [https://ar.wikipedia.org/wiki/%D9%86%D8%B3%D9%85_%D8%B9%D9%84%D9%8A%D9%86%D8%A7_%D8%A7%D9%84%D9%87%D9%88%D9%89 Arabic Wikipedia]
+  * [https://www.youtube.com/watch?v=YoaxUaYH-r0 by أنور الحريري and نزيه ابو الريش]
+  * [https://www.youtube.com/watch?v=TcsKSaw9UWg&feature=youtu.be by وليد المطعم]
+lyrics: |
+  نسم علينا الهوا من مفرق الوادي
+  يا هوا دخل الهوا خدني على بلادي
+  
+  يا هوا يا هوا يللي طاير بالهوا
+  في منتورة طاقة وصورة
+  خدني لعندن يا هوا 
+  فزعانة يا قلبي
+  أكبر بهالغربة
+  ما تعرفني بلادي 
+  خدني على بلادي
+  
+  شو بنا شو بنا يا حبيبي شو بنا؟
+  كنت وكنا تضلو عنا وافترقنا شو بنا
+  وبعدا الشمس بتبكي
+  عالباب وما تحكي
+  يحكي هوا بلادي 
+  خدني على بلادي

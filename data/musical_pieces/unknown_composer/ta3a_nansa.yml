@@ -1,0 +1,69 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: تعا ننسى
+form: song
+composer: unknown
+releaseDate: "?"
+songWriter: unknown
+singers: [melham_barakat]
+dialect: unknown
+maqamat:
+  - maqam: huzam
+    explanation: The primary Maqam
+  - maqam: nahawand
+    explanation: Part of the intro, Part of the 1st verse, First part of 2nd verse
+  - maqam: bayati
+    explanation: Part of the 1st verse
+  - maqam: 3ajam
+    explanation: Part of the 1st verse, 2nd part of 2nd verse
+  - maqam: kurdi
+    explanation: Part of the 1st verse
+rhythms: [] #TODO
+attachments:
+  - type: private
+    comment: Sheet music on E-half-flat
+    contentType: application/pdf
+    uri: /pieces/ta3a_nansa.pdf
+text: ""
+lyrics: |
+  تعا ننسى تعا ننسى
+  ايام الي راحت
+  ايام العذاب المرة
+  وسنين الي ضاعت
+
+  تعا ننسى يا قلبي بعد وليل الغربه
+  صعبة الفرقة صعبة ما الها امان
+
+  تعا ننسى يا روحي يا عايش بروحي
+  جروحك وجروحي يشفيها النسيان
+
+  تعا ننسى يا عيني لون الدمع بعيني
+  ما بينك وبيني اقوى من الزمان
+  اقوى من الزمان اه تعا ننسى
+
+  تعا ننسى الحولينا كل الي حكيوا علينا
+  والي بكوا عينينا تعا ننسى تعا ننسى
+
+  كل الي لامونا والي ظلمونا
+  وننسا الي نسيونا ونعيش بأمان
+  
+  يدوينا النسيان يا حبيبي
+  يدوينا النسيان
+  ونعيش بأمان يا حبيبي
+  ونعيش بأمان
+
+  يدوينا النسيان ونعيش بأمان اه تعا ننسى

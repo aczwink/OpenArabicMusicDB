@@ -1,0 +1,59 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: آه ونص
+form: song
+composer: tareq_madkur
+releaseDate: "2004"
+songWriter: ayman_baghat_amar
+singers: [nancy_ajram]
+dialect: eg
+maqamat:
+  - maqam: kurdi
+    explanation: ""
+rhythms:
+  - rhythm: sa3idi
+    explanation: ""
+attachments:
+  - type: private
+    comment: Sheet music on D
+    contentType: application/pdf
+    uri: /pieces/ah_wanuss.pdf
+text: |
+  == Translation ==
+  * The line "مافيش حاجه تيجي كده" directly translated means something like "no thing comes like this", which doesn't make any sense at all. The meaning is probably "nothing comes out of this", obviously talking about the relationship.
+  * "بص" is Egyptian and means "look at me".
+  * The term "اه ونص" is colloquial Egyptian and does not mean "yes and a half" but rather something like "yes, indeed".
+lyrics: |
+  مفيش حاجة تيجي كده
+  اهدا حبيبي كده وارجع زي زمان
+  يابني اسمعني هتدلعني
+  تاخد عيني كمان
+
+  حبيبي قرب بص وبص بص
+  زعلان ازعل , ازعل نص نص
+  لاحسن هبعد, ابعد اه ونص
+  وهتبقى انت اكيد خسران
+
+  ليه ده كل ده اخدت على كده
+  انت مابتزهقش ملام
+  تعبت يانا يانا ليالي حيرانه
+  اهدا بقى وكفاية حرام
+
+  دي حاجة متعبة اكمني طيبة
+  مستحملاك وبقالي كتير
+  حبيبي شوف انا صبرت كام سنة
+  خدت وقت معايا كبير

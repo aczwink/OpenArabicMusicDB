@@ -1,0 +1,42 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: يمر عجبا
+form: muwashah
+composer: 3omar_albatsh
+releaseDate: "?"
+songWriter: unknown
+singers: []
+dialect: msa
+maqamat:
+  - maqam: kurdi
+    explanation: "The primary Maqam"
+  - maqam: rast
+    explanation: 3rd verse
+rhythms:
+  - rhythm: mukhammas_turki
+    explanation: ""
+attachments:
+  - type: private
+    comment: Sheet music on A
+    contentType: application/pdf
+    uri: /pieces/yamurru_3ojiban.pdf
+text: ""
+lyrics: |
+  يمر عجباً ويمضي ولا يؤدي السلام
+  أليس هذا عجيباً أليس هذا حرام
+  العشق ياناس يقضي بشرب كاس الحمام
+  إذا الحبيب تجنى على اسير الغرام

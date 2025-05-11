@@ -1,0 +1,57 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: سيدي منصور
+form: song
+composer: tunisian_folklore
+releaseDate: "?"
+songWriter: unknown
+singers: [saber_alreba3i]
+dialect: tn
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments:
+  - type: private
+    comment: Sheet music on D
+    contentType: application/pdf
+    uri: /pieces/ta3a_nansa.pdf
+text: ""
+lyrics: |
+  الله الله يا بابا و السلام عليك يا بابا
+  سيدي منصور يا بابا و نجيك نزور يا بابا
+
+  أشهد بالله يا بابا، ما عشقت سواه يا بابا
+  جرح الحبيب يا بابا
+  علاش صعيب يا بابا
+  شحال يتيم يا بابا
+  ملهوف عليك يا بابا
+  و أشهد بالله يا بابا ما عشقت سواه
+  و نجيك يا سيدي
+  بشموع في إيدي
+  و النار في قلبي
+  تحرق وريدي
+
+  و كحيل العين يا بابا
+  حلو الخدين يا بابا
+  حلو و مغرور يا بابا
+  وعيونه بحور يا بابا
+  و غرقت معاه يا بابا
+  عذبني جفاه يا بابا
+  كحيل العين يا بابا
+  أخذ قلبي الى فين يا بابا
+  سيدي واسيني
+  إحكي و حاكيني
+  صبّر لي حالي، على اللي ناسيني

@@ -1,0 +1,66 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: الحلوة دي
+form: song
+composer: sayyed_darwish
+releaseDate: "?"
+songWriter: badi3_khairi
+singers: []
+dialect: eg
+maqamat:
+  - maqam: hijaz
+    explanation: The primary Maqam
+  - maqam: bayati
+    explanation: Ending
+rhythms:
+  - rhythm: maqsum
+    explanation: The primary rhythm
+  - rhythm: malfuf
+    explanation: "Chorus: يلا بنا... يجعل صباحك"
+  - rhythm: wahda_wa_nuss
+    explanation: Verse
+attachments:
+  - type: private
+    comment: Sheet music on D
+    contentType: application/pdf
+    uri: /pieces/al_helwa_di.pdf
+text: |
+  [https://arz.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D9%84%D9%88%D9%87_%D8%AF%D9%89 Egyptian Wikipedia]
+lyrics: |
+  الحلوة دي قامت تعجن في البدريَّة
+  والديك بِيِدَّنْ «كوكو كوكو» بالفجريَّة
+  يلَّا بنا على باب الله يا صنايعيَّة
+  يجعل صباحك؛ صباح الخير يا اسطى عطيَّة
+
+  صبّح الصباح فتَّح يا عليم
+  والجيب ما فيهشِ ولا ملِّيم
+  بس المزاج رايق وسليم
+  باب الأمل بابك يا رحيم
+
+  ده الصبر طيِّب عال
+  ويغيَّر الأحوال
+  يا اللي معاك المال
+  برضو الفقير له ربِّ كريم
+
+  إيدي في إيدك يا بو صلاح
+  ما دام مع الله تعيش مرتاح
+  خلِّي اتِّكالك عالفتَّاح
+  يلَّا بنا يلَّا الوقت اهو راح
+
+  الشمس طلعت والمُلْكِ لله
+  إجري لرزقك خلِّيها على الله
+  ما تشيل قَدُّومَك والعِدَّة ويلَّا
