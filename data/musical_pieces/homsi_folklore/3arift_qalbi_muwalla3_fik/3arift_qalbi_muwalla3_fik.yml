@@ -1,0 +1,74 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: عرفت قلبي مولع فيك
+form: song
+composer: homsi_folklore
+releaseDate: "?"
+songWriter: homsi_folklore
+singers: []
+dialect: unknown
+maqamat:
+  - maqam: rast
+    explanation: "The primary Maqam"
+  - maqam: suznak
+    explanation: '"ويعذب قلبك" and verse 2 and 3'
+rhythms:
+  - rhythm: maqsum
+    explanation: The primary rhythm
+  - rhythm: malfuf
+    explanation: Instrumental part during 2nd and 3rd verse
+attachments:
+  - type: public
+    comment: Sheet music on C
+    contentType: text/x-lilypond
+    uri: ./sheet-music.ly
+text: ""
+lyrics: |
+  عرفت قلبي مولع فيك
+  قسيت قلبك
+  آه
+  راح بدعي عليك
+  الله يخليك
+  للي يحبك
+
+  ويعذب قلبك
+  يا قاسي
+  زيّ ما تعذبني
+  يا قاسي
+  آه
+  عرفت قلبي
+  مولع فيك
+
+  عرفت قلبي وقسيت عليه
+  ليه كان ع ذابي
+  عندك حلال
+  لو كان شايفني مايل لغيرك
+  حقك تزيد
+  عليها دلال
+
+  آه
+  راح بدعي عليك
+  يا قاسي
+  الله يخليك
+  للي يحبك
+
+  يللي رضيت هجراني وبعدي
+  حايجيني يوم
+  وأتحاكم فيك
+  لو كنت ترحم قلبي وسوهدي
+  هنيني يوم
+  وأنا بهنيك

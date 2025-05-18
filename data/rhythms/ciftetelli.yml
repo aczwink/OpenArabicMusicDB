@@ -1,0 +1,39 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: Çiftetelli
+alternativeNames: ""
+category: Folk, Instrumental, Popular music
+usageText: Iraq, Turkey
+timeSignatureNumerator: 8
+text: |
+  The word is definitely Turkish and means double-stringed and refers to a folk dance.
+  However, I didn't find any Turkish source that mentions this rhythm (probably because its folk and not classical).
+  The rhythm is also very popular in middle eastern and Balkan music.
+  In Arabic music it is often used to accompany taqasim.
+
+  <score type="rhythm2">
+  \time 8/4
+  \dom \tal \ta \sep r8 \tal \tak \sep \dom \dom \sep \tak r4
+  </score>
+  The rhythm is also often played a bit faster and can also be considered a 8/8. When orienting to Arabic music its usually used in slow taqasim and is thus written as a 8/4 here.
+
+  == References ==
+  # [[فرحان صباغ]]
+  # Faisal Zedan – Derbekki Fundamentals. Method DVD at ~01:19:50. Available at: http://davidreihs.com/product/faisal-zedan-derbekki-fundamentals/
+  # Mohamed A. Alsiadi. Arabic rhythms. Website. http://www.alsiadi.com/Iqaa_Shaftatali8_8.html
+  # Unknown. The riqq الرق. Website. https://riqq.webs.com/rhythms.htm
+  # Maqam world. Website. http://maqamworld.com/en/iqaa/ciftetelli.php

@@ -21,7 +21,7 @@ import { OpenArabicMusicDBDialect, OpenArabicMusicDBDocument, OpenArabicMusicDBF
 import YAML from 'yaml';
 import { ParseOctavePitch } from "openarabicmusicdb-domain/dist/OctavePitch";
 
-async function* ReadDirectoryRecursively(inputPath: string): AsyncGenerator<string>
+async function* ReadDirectoryRecursively(inputPath: string, parentPath: string): AsyncGenerator<{ filePath: string; parentPath: string; }>
 {
     const children = await fs.promises.readdir(inputPath);
     for (const child of children)
@@ -29,9 +29,14 @@ async function* ReadDirectoryRecursively(inputPath: string): AsyncGenerator<stri
         const childPath = path.join(inputPath, child);
         const stats = await fs.promises.stat(childPath);
         if(stats.isDirectory())
-            yield* ReadDirectoryRecursively(childPath);
+            yield* ReadDirectoryRecursively(childPath, path.join(parentPath, child));
         else
-            yield childPath;
+        {
+            yield {
+                filePath: childPath,
+                parentPath
+            };
+        }
     }
 }
 
@@ -130,16 +135,29 @@ async function ReadMaqamat(inputPath: string, ajnas: OpenArabicMusicDBJins[])
     return result;
 }
 
-async function ReadMusicalPieces(inputPath: string, forms: OpenArabicMusicDBForm[])
+async function ReadMusicalPieces(dbSrcPath: string, forms: OpenArabicMusicDBForm[])
 {
+    const inputPath = dbSrcPath + "/musical_pieces";
     const result: OpenArabicMusicDBMusicalPiece[] = [];
-    for await (const filePath of ReadDirectoryRecursively(inputPath))
+    for await (const fileEntry of ReadDirectoryRecursively(inputPath, "/musical_pieces"))
     {
-        const content = await fs.promises.readFile(filePath, "utf-8");
+        if(path.extname(fileEntry.filePath) !== ".yml")
+            continue;
+
+        const content = await fs.promises.readFile(fileEntry.filePath, "utf-8");
         const data = YAML.parse(content);
 
-        const parsed = path.parse(filePath);
+        const parsed = path.parse(fileEntry.filePath);
         const form = forms.find(x => x.id === data.form)!;
+
+        for (const attachment of data.attachments)
+        {
+            if((attachment.type === "public") && (!attachment.uri.startsWith("/")))
+            {
+                const absPath = path.join(fileEntry.parentPath, attachment.uri);
+                attachment.uri = absPath;
+            }
+        }
 
         result.push({
             composerId: data.composer,
@@ -244,7 +262,7 @@ async function BuildDatabase(dbSrcPath: string)
         dialects: await ReadDialects(dbSrcPath + "/dialects"),
         forms,
         maqamat: await ReadMaqamat(dbSrcPath + "/maqamat", ajnas),
-        musicalPieces: await ReadMusicalPieces(dbSrcPath + "/musical_pieces", forms),
+        musicalPieces: await ReadMusicalPieces(dbSrcPath, forms),
         persons: await ReadPersons(dbSrcPath + "/persons"),
         rhythms: await ReadRhythms(dbSrcPath + "/rhythms"),
     };

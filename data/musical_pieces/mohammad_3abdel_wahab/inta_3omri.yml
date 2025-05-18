@@ -1,0 +1,96 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: إنت عمري
+form: song
+composer: mohammad_3abdel_wahab
+releaseDate: "1964"
+songWriter: ahmad_shafiq_kamel
+singers: [umm_kalthoum]
+dialect: eg
+maqamat:
+  - maqam: kurdi
+    explanation: The primary Maqam
+  - maqam: rast
+    explanation: Refrain at "إنت عمري", at 2nd verse, 3rd verse
+  - maqam: hijaz_kar
+    explanation: Short vocal improvisation before 3rd verse
+  - maqam: huzam
+    explanation: 4th verse
+  - maqam: nahawand
+    explanation: End of 4th verse
+rhythms:
+  - rhythm: ciftetelli
+    explanation: Intro
+  - rhythm: fox
+    explanation: Intro
+  - rhythm: wahda_wa_nuss
+    explanation: Refrain
+  - rhythm: maqsum
+    explanation: Intro of 2nd verse, 3rd verse, 4th verse
+  - rhythm: masmudi_saghir
+    explanation: 2nd verse
+  - rhythm: wahda_kabira
+    explanation: 2nd verse, End of 4th verse
+attachments:
+  - type: private
+    comment: Sheet music on A
+    contentType: application/pdf
+    uri: /pieces/inta_3omri.pdf
+text: |
+  == Links ==
+  [https://ar.wikipedia.org/wiki/%D8%A5%D9%86%D8%AA_%D8%B9%D9%85%D8%B1%D9%8A_(%D8%A3%D8%BA%D9%86%D9%8A%D8%A9) Arabic Wikipedia]
+  [https://arz.wikipedia.org/wiki/%D8%A7%D9%86%D8%AA_%D8%B9%D9%85%D8%B1%D9%89 Egyptian Wikipedia]
+lyrics: |
+  رجعونى عنيك لايامى اللى راحو
+  علمونى اندم على الماضى و جراحه
+
+  اللى شفته قبل ما تشوفك عينيا
+  عمر ضايع يحسبوه ازاى عليا
+  انت عمرى اللى ابتدا بنورك صباحه
+
+  قد ايه من عمرى قبلك راح وعدى
+  يا حبيبى قد ايه من عمرى راح
+  ولا شاف القلب قبلك فرحه واحده
+  ولا داق فى الدنيا غير طعم الجراح
+  ابتديت دلوقتى بس احب عمرى
+  ابتديت دلوقتى اخاف لا العمر يجرى
+  كل فرحه اشتاقها من قبلك خيالى
+  التقاها فى نور عنيك قلبى و فكرى
+  يا حياة قلبى يا اغلى من حياتى
+  ليه ما قابلتش هواك يا حبيبى بدرى
+
+  الليالى الحلوه والشوق والمحبه
+  من زمان والقلب شايلهم عشانك
+  دوق معايا الحب دوق حبه بحبه
+  من حنان قلبى اللى طال شوقه لحنانك
+  هات عنيك تسرح فى دنيتهم عينيا
+  هات ايديك ترتاح للمستهم ايديا
+  يا حبيبى تعالى وكفايه اللى فاتنا
+  هو اللى فاتنا يا حبيب الروح شويه
+
+  يا اغلى من ايامى
+  يا احلى من احلامى
+  خدنى لحنانك خدنى
+  عن الوجود وابعدنى
+  بعيد بعيد انا و انت
+  بعيد بعيد وحدينا
+  ع الحب تصحى ايامنا
+  ع الشوق تنام ليالينا
+  صالحت بيك ايامى
+  سامحت بيك الزمن
+  نستنى بيك آلامى
+  ونسيت معاك الشجن

@@ -30,7 +30,7 @@ export enum Interval
 
 interface FileReference
 {
-    type: "external" | "private";
+    type: "external" | "private" | "public";
     contentType: string;
     uri: string;
 }
