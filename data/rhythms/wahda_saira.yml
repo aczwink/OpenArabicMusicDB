@@ -1,0 +1,36 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: وحدة سائرة
+alternativeNames: وحدة مكلفة
+category: Folk
+usageText: Iraq
+timeSignatureNumerator: 2
+text: |
+  Not to be confused with وحدة صغيرة!
+
+  <score type="rhythm">
+  \time 2/4
+  \dom \ta \ta
+  </score>
+
+  == References ==
+  # [[فرحان صباغ]]
+  # Rodolphe Erlanger. La Musique arabe Tome sixième: Essai de codification des règles usuelles de la musique arabe moderne, le système rythmique, les diverses formes de composition artistique. Number 6. Geuthner, 1959. p. 52
+  # p. 136 .1972 ,سليم الحلو. الموسيقى النظرية. دار مكتبة الحياة - بيروت, لبنان
+  # Habib Hassan Touma. Die Musik der Araber. Schaal, Richard, 2010. p. 79
+  # Maqam world. Website. http://maqamworld.com/en/iqaa/wahda_saghira.php
+  # Mohamed A. Alsiadi. Arabic rhythms. Website. http://www.alsiadi.com/Iqaa_Wahda_Mukhalifa_2_4.html

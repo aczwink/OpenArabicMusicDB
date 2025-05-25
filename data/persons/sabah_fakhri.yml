@@ -1,0 +1,47 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: صباح فخري
+lifeTime: 1933 - 2021
+origin: Aleppo
+text: |
+  == موال نعم ==
+  نعم ســـرى طيف من أهوى فأرقّني 
+  والحب يعــــــترض اللذات بالألـــم 
+
+  لولا الهوى لم تُرق دمعا على طلل 
+  ولا أرقـــــت لذكر البـــــــان والعلم 
+
+  يا ساكنين بقلبي لاعدمت لكم 
+  معنى لطيفا سرى معناه ضمن دمي 
+  حارفوني فروحي في معارجــــــها 
+  بذكركم يداوى بالهوى ســـــقمي
+
+
+  == موال يا من بحبك ==
+  يا من بحبّك جريت بحور من عيني 
+  يابا لاظل اهواك ما زالت ترى عيني 
+  وحياة من أنزل الأقطار من عيني
+  يابا ما حيد عن عشرتك لو ربّي حرقني بنار
+
+  إي والذي إي والذي
+  إي والذي أنشأ الجنة أو النــــــــــار
+  إن حاسبك بالحشرأو مسّ جسمك نار
+  يابا لاطفي جهنم بفيض الدمع من عيني
+locations: sy
+image:
+  type: external
+  uri: https://upload.wikimedia.org/wikipedia/ar/7/77/%D8%B5%D9%88%D8%B1%D8%A9_%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9_%D8%B5%D8%A8%D8%A7%D8%AD_%D9%81%D8%AE%D8%B1%D9%8A.jpg
