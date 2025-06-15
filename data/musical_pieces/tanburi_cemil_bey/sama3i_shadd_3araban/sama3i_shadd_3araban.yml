@@ -14,28 +14,31 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: يمر عجبا
-form: muwashah
-composer: 3omar_albatsh
-songWriter: unknown
-singers: []
-dialect: msa
+name: سماعي شد عربان
+form: sama3i
+composer: tanburi_cemil_bey
+releaseDate: "?"
 maqamat:
-  - maqam: kurdi
-    explanation: "The primary Maqam"
+  - maqam: hijaz_kar
+    explanation: The primary Maqam
+  - maqam: nahawand
+    explanation: Parts of Taslim and 3rd Khana
+  - maqam: hijaz
+    explanation: End of 2nd Khana and directly after Rast part of 4th Khana
   - maqam: rast
-    explanation: 3rd verse
+    explanation: Second part of 4th Khana
 rhythms:
-  - rhythm: mukhammas_turki
-    explanation: ""
+  - rhythm: sama3i_thaqil
+    explanation: The primary rhythm
+  - rhythm: darij
+    explanation: 4th Khana
 attachments:
+  - type: public
+    comment: Sheet music on G
+    contentType: text/x-lilypond
+    uri: ./sheet-music.ly
   - type: private
-    comment: Sheet music on A
+    comment: Sheet music on G without quarter tones
     contentType: application/pdf
-    uri: /pieces/yamurru_3ojiban.pdf
+    uri: /pieces/sama3i_shadd_3araban.pdf
 text: ""
-lyrics: |
-  يمر عجباً ويمضي ولا يؤدي السلام
-  أليس هذا عجيباً أليس هذا حرام
-  العشق ياناس يقضي بشرب كاس الحمام
-  إذا الحبيب تجنى على اسير الغرام

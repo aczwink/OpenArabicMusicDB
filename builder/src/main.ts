@@ -135,8 +135,31 @@ async function ReadMaqamat(inputPath: string, ajnas: OpenArabicMusicDBJins[])
     return result;
 }
 
-async function ReadMusicalPieces(dbSrcPath: string, forms: OpenArabicMusicDBForm[])
+async function ReadMusicalPieces(dbSrcPath: string, forms: OpenArabicMusicDBForm[], persons: OpenArabicMusicDBPerson[])
 {
+    function YearToCentury(year: number)
+    {
+        const century = Math.floor(year / 100) + 1;
+        return century + "th century";
+    }
+
+    function FormReleaseDate(composerId: string, releaseDate?: string)
+    {
+        if(releaseDate === undefined)
+        {
+            const composer = persons.find(x => x.id === composerId)!;
+            if(composer.lifeTime !== undefined)
+            {
+                if(composer.lifeTime.deathYear === undefined)
+                    return YearToCentury(composer.lifeTime.birthYear);
+                return YearToCentury(Math.round((composer.lifeTime.birthYear + composer.lifeTime.deathYear) / 2));
+            }
+            return "unknown";
+        }
+
+        return releaseDate;
+    }
+
     const inputPath = dbSrcPath + "/musical_pieces";
     const result: OpenArabicMusicDBMusicalPiece[] = [];
     for await (const fileEntry of ReadDirectoryRecursively(inputPath, "/musical_pieces"))
@@ -164,7 +187,7 @@ async function ReadMusicalPieces(dbSrcPath: string, forms: OpenArabicMusicDBForm
             formId: data.form,
             id: parsed.name,
             name: data.name,
-            releaseDate: data.releaseDate,
+            releaseDate: FormReleaseDate(data.composer, data.releaseDate),
             text: data.text,
             maqamat: data.maqamat.map((x: any) => ({ maqamId: x.maqam, explanation: x.explanation })),
             rhythms: data.rhythms.map((x: any) => ({ rhythmId: x.rhythm, explanation: x.explanation })),
@@ -183,6 +206,19 @@ async function ReadMusicalPieces(dbSrcPath: string, forms: OpenArabicMusicDBForm
 
 async function ReadPersons(inputPath: string)
 {
+    function ParseLifeTime(lifeTime?: string)
+    {
+        if(lifeTime === undefined)
+            return undefined;
+
+        const lifeTimeParts = lifeTime.split("-").map(x => x.trim());
+
+        return {
+            birthYear: parseInt(lifeTimeParts[0]),
+            deathYear: (lifeTimeParts[1].length === 0) ? undefined : parseInt(lifeTimeParts[1]),
+        };
+    }
+
     const children = await fs.promises.readdir(inputPath);
     const result: OpenArabicMusicDBPerson[] = [];
     for (const child of children)
@@ -194,7 +230,7 @@ async function ReadPersons(inputPath: string)
         const parsed = path.parse(childPath);
 
         result.push({
-            lifeTime: data.lifeTime,
+            lifeTime: ParseLifeTime(data.lifeTime),
             origin: data.origin,
             id: parsed.name,
             name: data.name,
@@ -256,14 +292,16 @@ async function BuildDatabase(dbSrcPath: string)
 {
     const ajnas = await ReadAjnas(dbSrcPath + "/ajnas");
     const forms = await ReadForms(dbSrcPath + "/forms");
+    const persons = await ReadPersons(dbSrcPath + "/persons");
+
     const finalDB: OpenArabicMusicDBDocument = {
         ajnas,
         articles: await ReadWikiArticles(dbSrcPath + "/wiki"),
         dialects: await ReadDialects(dbSrcPath + "/dialects"),
         forms,
         maqamat: await ReadMaqamat(dbSrcPath + "/maqamat", ajnas),
-        musicalPieces: await ReadMusicalPieces(dbSrcPath, forms),
-        persons: await ReadPersons(dbSrcPath + "/persons"),
+        musicalPieces: await ReadMusicalPieces(dbSrcPath, forms, persons),
+        persons,
         rhythms: await ReadRhythms(dbSrcPath + "/rhythms"),
     };
     const stringified = JSON.stringify(finalDB);

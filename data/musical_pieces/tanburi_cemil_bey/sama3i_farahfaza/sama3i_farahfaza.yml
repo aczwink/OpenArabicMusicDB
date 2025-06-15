@@ -14,7 +14,31 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: Tunisian folklore
-origin: Tunisia
+name: سماعي فرحفزا
+form: sama3i
+composer: tanburi_cemil_bey
+releaseDate: "?"
+maqamat:
+  - maqam: nahawand
+    explanation: The primary Maqam
+  - maqam: 3ajam
+    explanation: 1st Khana
+  - maqam: bayati_shuri
+    explanation: 2nd part of 2nd Khana
+  - maqam: hijaz_kar
+    explanation: 3rd Khana
+rhythms:
+  - rhythm: sama3i_thaqil
+    explanation: The primary rhythm
+  - rhythm: ugrog
+    explanation: 4th Khana
+attachments:
+  - type: public
+    comment: Sheet music on G
+    contentType: text/x-lilypond
+    uri: ./sheet-music.ly
+  - type: private
+    comment: Sheet music on D
+    contentType: application/pdf
+    uri: /pieces/sama3i_farahfaza.pdf
 text: ""
-locations: tn

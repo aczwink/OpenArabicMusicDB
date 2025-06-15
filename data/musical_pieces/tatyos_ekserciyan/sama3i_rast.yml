@@ -14,7 +14,20 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: Tunisian folklore
-origin: Tunisia
+name: سماعي Rast
+form: sama3i
+composer: tatyos_ekserciyan
+maqamat:
+  - maqam: rast
+    explanation: "The primary Maqam"
+  - maqam: hijaz
+    explanation: 2nd Khana
+  - maqam: bayati
+    explanation: 3rd Khana
+rhythms:
+  - rhythm: sama3i_thaqil
+    explanation: The primary rhythm
+  - rhythm: darij
+    explanation: 4th Khana
+attachments: []
 text: ""
-locations: tn

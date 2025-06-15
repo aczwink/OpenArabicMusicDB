@@ -14,7 +14,11 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: Tunisian folklore
-origin: Tunisia
-text: ""
-locations: tn
+name: Tatyos Ekserciyan
+lifeTime: 1858 - 1913
+origin: Armenian from Istanbul
+text: He is also called "Tatyos Efendi"
+locations: tr
+image:
+  type: external
+  uri: https://upload.wikimedia.org/wikipedia/commons/b/bc/Tatyos-1.2.jpg

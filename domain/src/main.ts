@@ -97,7 +97,10 @@ export interface OpenArabicMusicDBPerson
 {
     id: string;
     name: string;
-    lifeTime: string;
+    lifeTime?: {
+        birthYear: number;
+        deathYear?: number;
+    };
     origin: string;
     text: string;
     locations: CountryCode[];

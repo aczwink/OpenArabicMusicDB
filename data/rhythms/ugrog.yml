@@ -1,0 +1,67 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: Ugrog
+alternativeNames: ""
+category: ""
+usageText: ""
+timeSignatureNumerator: 6
+text: |
+  In Arabic often the Turkish names are used but pronounced with Arabic letters.
+  In Arabic music this rhythm is most often used a bit faster - thus written as 6/8 here. It can also appear as 6/4.
+
+  <score type="rhythm">
+  \time 6/8
+  \do_noBeam \ta \ta \sep
+  \do_noBeam \ta r8
+  </score>
+
+  == Ornamentation ==
+
+  Erlanger and Faisal Zedan show an older variant of this rhythm with two Dums at the beginning.
+  The resulting rhythm is called سَنكين سماعي. It is usually conceived a slower rhythm and is thus written most of the times as 6/4.
+  <score type="rhythm">
+  \time 6/4
+  \set Timing.baseMoment = #(ly:make-moment 1/4)
+  \set Timing.beamExceptions = #'()
+  \set Timing.beatStructure = 2,1,1,2
+
+  \dom \dom \tak \sep
+  \dom \tak r4
+  </score>
+
+  == Turkish ==
+  Turkish name: Yürük semâî
+
+  Exists as either combination of three [[Nîm sofyan]] or two [[دارج#Turkish|Semaî]] rhythms.
+  Exists also as 6/4 and 6/2, but is then called Sengin semâî and Ağır Sengin semâî respectively.
+
+  <score type="rhythm2">
+  \time 6/8
+  \do_strong_noBeam \tal_semi \tal \do \takl_semi
+  </score>
+
+  == References ==
+  # [[فرحان صباغ]]
+  # Rodolphe Erlanger. La Musique arabe Tome sixième: Essai de codification des règles usuelles de la musique arabe moderne, le système rythmique, les diverses formes de composition artistique. Number 6. Geuthner, 1959. p. 56
+  # p. 137, 153, 158 .1972 ,سليم الحلو. الموسيقى النظرية. دار مكتبة الحياة - بيروت, لبنان
+  # Faisal Zedan – Derbekki Fundamentals. Method DVD at ~01:25:33. Available at: http://davidreihs.com/product/faisal-zedan-derbekki-fundamentals/
+  # Maqam world. Website. http://maqamworld.com/en/iqaa/yuruk_semai.php
+  # Mohamed A. Alsiadi. Arabic rhythms. Website. http://www.alsiadi.com/Iqaa_Yuruk6_8.html and http://www.alsiadi.com/Iqaa_Sinkin_Samaii6_4.html
+  # Unknown. The riqq الرق. Website. https://riqq.webs.com/rhythms.htm
+
+  # Raouf Yekta. La musique turque. Librairie Delagrave, 1922. p. 3031-3033
+  # Esendere kültür sanat derneği. Website. http://eksd.org.tr/muzik_teorisi/yuruksemai_usulu.php

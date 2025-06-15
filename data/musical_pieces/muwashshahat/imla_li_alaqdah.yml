@@ -14,28 +14,35 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: يمر عجبا
+name: إملأ لي الأقداح
 form: muwashah
-composer: 3omar_albatsh
+composer: unknown
 songWriter: unknown
-singers: []
+singers: [sabah_fakhri]
 dialect: msa
 maqamat:
-  - maqam: kurdi
-    explanation: "The primary Maqam"
-  - maqam: rast
-    explanation: 3rd verse
+  - maqam: bayati
+    explanation: ""
 rhythms:
-  - rhythm: mukhammas_turki
+  - rhythm: sama3i_thaqil
     explanation: ""
 attachments:
   - type: private
-    comment: Sheet music on A
+    comment: Sheet music on D
     contentType: application/pdf
-    uri: /pieces/yamurru_3ojiban.pdf
-text: ""
+    uri: /pieces/imla_li_alaqdah.pdf
+text: |
+  [https://arz.wikipedia.org/wiki/%D8%A7%D9%85%D9%84%D8%A7_%D9%84%D9%89_%D8%A7%D9%84%D8%A7%D9%82%D8%AF%D8%A7%D8%AD Egyptian Wikipedia]
 lyrics: |
-  يمر عجباً ويمضي ولا يؤدي السلام
-  أليس هذا عجيباً أليس هذا حرام
-  العشق ياناس يقضي بشرب كاس الحمام
-  إذا الحبيب تجنى على اسير الغرام
+  املأ لي الأقداح صرفا
+  و آسقنيها للصباح
+
+  شربها تيها و عجبا
+  نورها كالفجر لاح
+
+  آه من خمر قديمة
+  شربها يبري السقيم
+  طالعي فيها سعيد
+
+  كل من قد هام تيها
+  هو نديمي للصباح

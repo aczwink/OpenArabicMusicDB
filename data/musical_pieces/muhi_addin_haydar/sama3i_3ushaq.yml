@@ -14,7 +14,20 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: Tunisian folklore
-origin: Tunisia
+name: سماعي عشّاق
+form: sama3i
+composer: muhi_addin_haydar
+maqamat:
+  - maqam: bayati
+    explanation: The primary Maqam
+  - maqam: rast
+    explanation: 2nd Khana
+  - maqam: huzam
+    explanation: 3rd Khana
+rhythms:
+  - rhythm: sama3i_thaqil
+    explanation: The primary rhythm
+  - rhythm: ugrog
+    explanation: 4th Khana
+attachments: []
 text: ""
-locations: tn
