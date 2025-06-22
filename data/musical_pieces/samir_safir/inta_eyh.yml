@@ -1,0 +1,59 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: أنت ايه
+form: song
+composer: samir_safir
+releaseDate: 2004
+songWriter: mustafa_marsi
+singers: [nancy_ajram]
+dialect: eg
+maqamat:
+  - maqam: nahawand
+    explanation: ""
+rhythms: []
+attachments:
+  - type: private
+    comment: Sheet music on D
+    contentType: application/pdf
+    uri: /pieces/inta_eyh.pdf
+text: |
+  == Translation ==
+  يا ويلي is a colloquial term, coming from the verb ويل, usually meaning something like "oh my god" and expresses shock. In this case the line "لو كان ده حب يا ويلي منه" could be translated to: If this is love, woe upon it.
+lyrics: |
+  انت ايه
+  مش كفاية عليك تجرحني
+  حرام عليك
+  انت ايه
+  انت ليه دموعي حبيبي تهون عليك
+  طب وليه
+  انا راضية انك تجرحني ورحي فيك
+  طب وليه
+  يعني ايه راضية بعذابي بين ايديك
+
+  لو كان ده حب يا ويلي منه
+  لو كان ده ذنبي ما اتوب عنه
+  لو كان نصيبي اعيش في جراح
+  حاعيش في جراح
+
+  مش حرام
+  مش حرام انك تخدعني في حبي ليك
+  مش حرام
+  الغرام وسنين حيتاي وعشقي ليك
+  ضاع قوام
+  ولا كان لعبة في حياتك بتداويك
+  ضاع قوام
+  الحنان وحضن قلبي واملي فيك

@@ -1,0 +1,34 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: النهر الخالد
+form: maqtu3a
+composer: mohammad_3abdel_wahab
+releaseDate: 1954
+maqamat:
+  - maqam: kurdi
+    explanation: The primary Maqam
+  - maqam: rast
+    explanation: 2nd part
+rhythms:
+  - rhythm: wahda_kabira
+    explanation: The primary rhythm
+  - rhythm: malfuf
+    explanation: for the descending part in the Kurdi part and the whole Rast part
+attachments: []
+text: |
+  == Links ==
+  [https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%86%D9%87%D8%B1_%D8%A7%D9%84%D8%AE%D8%A7%D9%84%D8%AF_(%D8%A3%D8%BA%D9%86%D9%8A%D8%A9) Arabic Wikipedia]

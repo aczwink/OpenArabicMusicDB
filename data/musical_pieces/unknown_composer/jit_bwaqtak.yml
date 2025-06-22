@@ -1,0 +1,67 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: جيت بوقتك
+form: song
+composer: unknown
+songWriter: unknown
+singers: [melham_barakat]
+dialect: unknown
+maqamat:
+  - maqam: bayati
+    explanation: The primary Maqam
+  - maqam: nahawand
+    explanation: on fourth at "دقت الحب"
+  - maqam: rast
+    explanation: on fourth at "دخيلك شو عملت بقلبي" and "يللي حبك"
+  - maqam: huzam
+    explanation: on sixth at "أول نظرة وصرت بقلبي" and the instrumental part before it
+  - maqam: kurdi
+    explanation: on prime at the second "أول نظرة وصرت بقلبي" part
+rhythms:
+  - rhythm: sa3idi
+    explanation: ""
+  - rhythm: wahda_kabira
+    explanation: ""
+attachments:
+  - type: private
+    comment: Sheet music on C
+    contentType: application/pdf
+    uri: /pieces/jit_bwaqtak.pdf
+text: ""
+lyrics: |
+  جيت بوقتك فرفح قلبي
+  آه يا قلبي
+  زاح العتمة الساكن دربي
+
+  دقت الحب ومر الحب
+  دخيلك شو عملت بقلبي
+
+  يللي حبك غير عمري
+  ونسم بقلبي هواك
+  نسمة منك تطفي جمري
+  والمنى كلو رضاك
+
+  حبك أنت غير حالي
+  نور بعيوني الليالي
+
+  أول نظرة وصرت بقلبي
+  من عمري وروحي قريب
+  غابت كل قمار الغربة
+  سميتك أغلى حبيب
+
+  صرت الأغلى من حياتي
+  حبي ودمعاتي وآهاتي

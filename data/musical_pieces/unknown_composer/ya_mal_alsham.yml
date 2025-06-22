@@ -1,0 +1,57 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: يا مال الشام
+form: song
+composer: unknown
+songWriter: unknown
+singers: [sabah_fakhri]
+dialect: unknown
+maqamat:
+  - maqam: rast
+    explanation: ""
+  - maqam: saba
+    explanation: '"مشتاق ليك يا نور عيوني" part'
+rhythms:
+  - rhythm: maqsum
+    explanation: The primary rhythm
+  - rhythm: malfuf
+    explanation: '"ودعتيني و عاهدتيني" part and "مشتاق ليك يا نور عيوني" part when played in Maqam Rast'
+  - rhythm: zaffa
+    explanation: '"مشتاق ليك يا نور عيوني" part when played in Maqam صبا'
+attachments:
+  - type: private
+    comment: Sheet music on C
+    contentType: application/pdf
+    uri: /pieces/ya_mal_alsham.pdf
+text: |
+  * [https://arz.wikipedia.org/wiki/%D9%8A%D8%A7_%D9%85%D8%A7%D9%84_%D8%A7%D9%84%D8%B4%D8%A7%D9%85 Egyptian Wikipedia]
+  * [https://www.youtube.com/watch?v=cTuVTA-5AzI Played by Anwar Hariri on the Violin]
+lyrics: |
+  يا مال الشام ياالله يا مالي
+  طال المطال يا حلوه تعالي
+
+  يا مال الشام على بالي هواك
+  أحلى زمان قضيتو معاك
+  ودعتيني و عاهدتيني
+  لا تنسيني و لا أنساك
+  مهما تغيبي سنين و ليالي
+
+  لو المطال طال و طول
+  لا بيتغير و لا بيتحول
+  مشتاق ليك يا نور عيوني
+  حتى نعيد الزمن الأول
+  يللا تعالي كفاك تعالي

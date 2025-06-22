@@ -1,0 +1,38 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: زفة
+alternativeNames: ""
+category: Folk, Popular music
+usageText: Egypt, Syria
+timeSignatureNumerator: 8
+text: |
+  <score type="rhythm">
+  \time 8/8
+  \set Timing.baseMoment = #(ly:make-moment 1/16)
+  \set Timing.beamExceptions = #'()
+  \set Timing.beatStructure = 2,2,4,2,4,2
+  \do \ti \ti \ta \ta \sep
+  \do \ta \ta r8
+  </score>
+
+  == References ==
+  # [[فرحان صباغ]]
+  # Faisal Zedan – Derbekki Fundamentals. Method DVD at ~01:20:30. Available at: http://davidreihs.com/product/faisal-zedan-derbekki-fundamentals/
+  # Maqam world. Website. http://maqamworld.com/en/iqaa/zaffa.php
+  # Hossam Ramzy. Rhythms of the Nile: Introduction to Egyptian Dance Rhythms. Audio CD. www.hossamramzy.com/product/rhythms-of-the-nile-introduction-to-egyptian-dance-rhythms-2-cds/
+  # Mohamed A. Alsiadi. Arabic rhythms. Website. http://www.alsiadi.com/Iqaa_Zafah8_8.html
+  # Unknown. The riqq الرق. Website. https://riqq.webs.com/rhythms.htm
