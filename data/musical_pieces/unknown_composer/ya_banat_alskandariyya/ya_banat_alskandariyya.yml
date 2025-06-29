@@ -1,0 +1,40 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: يا بنات إسكندريّة
+form: song
+composer: unknown
+songWriter: unknown
+singers: []
+dialect: unknown
+maqamat:
+  - maqam: nahawand
+    explanation: ""
+rhythms:
+  - rhythm: maqsum
+    explanation: ""
+attachments:
+  - type: public
+    comment: Sheet music on G
+    contentType: text/x-lilypond
+    uri: ./sheet-music.ly
+text: |
+  == Links ==
+  * [https://ar.wikipedia.org/wiki/%D9%83%D8%A7%D8%AA%D8%A8%D9%8A_(%D9%82%D8%B5%D9%8A%D8%AF%D8%A9_%D8%AA%D8%B1%D9%83%D9%8A%D8%A9) Arabic Wikipedia]
+  * [http://www.shira.net/music/lyrics/banat-iskandaria.htm Songtext and translation]
+lyrics: |
+  يا بنات اسكندرية عشقكم حرام
+  ذاب قلبي و ذاب جسمي كله من الغرام

@@ -1,0 +1,55 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: انا خوفي
+form: song
+composer: filimon_wahbe
+songWriter: rahbani_brothers
+singers: [fairuz]
+dialect: unknown
+maqamat:
+  - maqam: bayati
+    explanation: The primary maqam
+  - maqam: hijaz_kar
+    explanation: Beginning and ending of verses
+  - maqam: rast
+    explanation: Middle of verses
+rhythms:
+  - rhythm: masmudi_saghir
+    explanation: ""
+  - rhythm: maqsum
+    explanation: ""
+  - rhythm: wahda_wa_nuss
+    explanation: ""
+attachments:
+  - type: private
+    comment: Sheet music on A
+    contentType: application/pdf
+    uri: /pieces/ana_khaufi.pdf
+text: "[https://www.youtube.com/watch?v=qEFi_lW4YL8 Recording with فيروز on A]"
+lyrics: |
+  أنا خوفي من عتم الليل و الليل و حرامي
+  يا حبيبي تعا قبل الليل و يا عيني لا تنامي
+
+  يا حبيبي لا تغيب كتير تتأخر ليليي
+  ما بدي هدايا حرير إسورة عيديي
+  بدي من عشيي نقعد بالسهرية
+  و صوتك يضحك ملوا البيت و يضوي أيامي
+
+  وعدوني عيونك بالنوم رجعوا سهروني
+  و راح اليوم و ميت يوم ما عادوا سألوني
+  قلتلك نسيوني راحوا ما حاكوني
+  إذا عرفوا فينا الحلوين يا حلوى بتنلامي

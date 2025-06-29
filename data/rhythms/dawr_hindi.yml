@@ -1,0 +1,59 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: دور هندي
+alternativeNames: نيم نوخت
+category: ""
+usageText: ""
+timeSignatureNumerator: 7
+text: |
+  <score type="rhythm">
+  \time 7/8
+  \do \ta \ta \sep
+  \do r8 \ta r8
+  </score>
+
+  Erlanger mentions a correlation with [[نوخت]]. He says that when the first tak of دور هندي is muted, the resulting rhythm becomes very close to نوخت and is then called نيم نوخت (since نوخت is usually slower than دور هندي). Thus نيم نوخت looks like the following:
+  <score type="rhythm">
+  \time 7/8
+  \do r8 \ta \sep
+  \do r8 \ta r8
+  </score>
+
+  == Turkish ==
+  Turkish name: Devri-Hîndî
+
+  Combination of [[دارج#Turkish|Semaî]] and [[صوفيان|Sofyân]] in that order.
+  Exists also as 7/4 but is then called Ağır Devri-Hîndî.
+
+  <score type="rhythm2">
+  \time 7/8
+  \do_strong \tal_semi \tal \sep
+  \dom_strong \takl
+  </score>
+
+  == References ==
+  # [[فرحان صباغ]]
+  # Rodolphe Erlanger. La Musique arabe Tome sixième: Essai de codification des règles usuelles de la musique arabe moderne, le système rythmique, les diverses formes de composition artistique. Number 6. Geuthner, 1959. p. 35
+  # p. 153 .1972 ,سليم الحلو. الموسيقى النظرية. دار مكتبة الحياة - بيروت, لبنان
+  # Habib Hassan Touma. Die Musik der Araber. Schaal, Richard, 2010. p. 82
+  # Mohamed A. Alsiadi. Arabic rhythms. Website. http://www.alsiadi.com/Iqaa_Dawr_hindi7_8.html
+  # Maqam world. Website. http://maqamworld.com/en/iqaa/dawr_hindi.php
+  # Unknown. The riqq الرق. Website. https://riqq.webs.com/rhythms.htm
+
+  * Raouf Yekta. La musique turque. Librairie Delagrave, 1922. p. 3033-3034
+  * Esendere kültür sanat derneği. Website. http://eksd.org.tr/muzik_teorisi/devrihindi_usulu.php
+  * Klasik Türk Müziği - Türk sanat müziği ve Türk halk müziği sitesi - turksanatmuzigi.org. Website. https://www.turksanatmuzigi.org/usullerimiz/devr-i-hindi-usulu/

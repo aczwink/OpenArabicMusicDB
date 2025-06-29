@@ -1,0 +1,33 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: سماعي حمص
+form: sama3i
+composer: farhan_sabbagh
+maqamat:
+  - maqam: zanjaran
+    explanation: The primary Maqam
+  - maqam: saba
+    explanation: 2nd Khana
+  - maqam: 3ajam
+    explanation: 3rd Khana, Many parts in 1st Khana, Taslim, 4th Khana
+rhythms:
+  - rhythm: sama3i_thaqil
+    explanation: The primary rhythm
+  - rhythm: dawr_hindi
+    explanation: 4th Khana
+attachments: []
+text: ""
