@@ -14,26 +14,22 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: سماعي حجاز كار
-form: sama3i
-composer: farhan_sabbagh
-releaseDate: 1986-05-17
-maqamat:
-  - maqam: hijaz_kar
-    explanation: The primary Maqam
-  - maqam: rast
-    explanation: 2nd Khana
-  - maqam: bayati
-    explanation: 3nd Khana
-    #TODO: maqam in 4th khana?
-rhythms:
-  - rhythm: sama3i_thaqil
-    explanation: The primary rhythm
-  - rhythm: darij
-    explanation: 4th Khana
-attachments:
-  - type: private
-    comment: Sheet music on C
-    contentType: text/x-lilypond
-    uri: /pieces/sama3i_hijaz_kar.ly
-text: "Other transcripts say it was released on the 17th May 1985"
+name: عدني
+alternativeNames: ""
+category: ""
+usageText: ""
+timeSignatureNumerator: 2
+text: |
+  Named after the town Aden in Yemen.
+
+  <score type="rhythm">
+  \time 2/4
+  \set Timing.baseMoment = #(ly:make-moment 1/16)
+  \set Timing.beamExceptions = #'()
+  \set Timing.beatStructure = 3,2,3
+    
+  \do_dot \ta \du \do
+  </score>
+
+  == References ==
+  # Faisal Zedan – Derbekki Fundamentals. Method DVD at ~01:15:49. Available at: http://davidreihs.com/product/faisal-zedan-derbekki-fundamentals/

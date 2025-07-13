@@ -1,0 +1,50 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: أنا قلبي إليك ميال
+form: song
+composer: muhammad_almoji
+songWriter: marsi_jamil_3aziz
+singers: [faiza_ahmad]
+dialect: unknown
+maqamat:
+  - maqam: rast
+    explanation: ""
+rhythms:
+  - rhythm: maqsum
+    explanation: ""
+  - rhythm: wahda_kabira
+    explanation: ""
+attachments:
+  - type: private
+    comment: Sheet music on C
+    contentType: application/pdf
+    uri: /pieces/ana_albi_ilik_mayyal.pdf
+text: |
+  * [https://youtu.be/S5NAOPWZFW4 Recording by فايزة on C]
+  * [https://arz.wikipedia.org/wiki/%D8%A7%D9%86%D8%A7_%D9%82%D9%84%D8%A8%D9%89_%D8%A7%D9%84%D9%8A%D9%83_%D9%85%D9%8A%D8%A7%D9%84 Egyptian Wikipedia]
+lyrics: |
+  أنا قلبـى ليــك ميـــال و مافيش غيــرك عالبــال
+  انت و بس اللـى حبيبـى مهما يقولــو العــزال
+
+  وبحبـك اد عينيــا حتى اكثــــر منها شويا
+  و اسألها انت .. و حلفهـا على طــول حتقلك هــيا
+
+  و الدنيــا انت بهجتهـــا و البهجه انت فرحتهــا
+  و الفرحــه انت يا حبيبى حلاوتهــا و ابتسامتهــا
+
+  و مليت الدنيــــــا عليا ود.. وحــب.. و حنيــه
+  خليتنى أحب الدنيــــا طول أيامــى و لياليــّا

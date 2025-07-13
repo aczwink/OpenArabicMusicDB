@@ -1,0 +1,62 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: زي الهوى
+form: song
+composer: baligh_hamdi
+releaseDate: 1970
+songWriter: mohammad_hamza
+singers: [3abd_al_halim_hafiz]
+dialect: eg
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments:
+  - type: private
+    comment: Sheet music on A
+    contentType: application/pdf
+    uri: /pieces/zay_alhawa.pdf
+text: "[https://arz.wikipedia.org/wiki/%D8%B2%D9%89_%D8%A7%D9%84%D9%87%D9%88%D8%A7 Egyptian Wikipedia]"
+lyrics: |
+  زى الهوا يا حبيبى زى الهوا
+  واه من الهوا يا حبيبى اه من الهوا
+
+  و خدتنى من ايدى .. يا حبيبى و مشينا
+  تحت القمر غنينا .. و سهرنا و حكينا
+
+  و ف عز الكلام .. سكت الكلام .. واتارينى
+  ماسك الهوا بايدى ماسك الهوا
+  و اه من الهوا يا حبيبى اه من الهوا
+
+  و خدتنى و مشينا و الفرح يضمنا
+  ونسينا يا حبيبى مين انتا و مين انا
+  حسيت ان هوانا هيعيش مليون سنه
+  و بئيت و انت معايا الدنيا ملك ايديا
+  اأمر علا هوايا تقول امرك يا عنيا
+
+  خايف .. و مشيت و انا خايف
+  ايدى ف ايدك و انا خايف
+  خايف علا فرحة قلبى
+  خايف علا شوقى و حبى
+  و ياما قلت لك انا
+  و احنا فى عز الهنا
+  قلت لك يا حبيبى
+  لانا اد الفرحه ديا
+  و حلاوة الفرحه ديا
+  خايف ل ف يوم و ليله
+  مالائكش بين ايديا
+  تروح و تغيب .. تغيب عليا يا حبيبى
+  و قولت لى يا حبيبى ساعتها
+  دى دنيتى انت اللى مليتها

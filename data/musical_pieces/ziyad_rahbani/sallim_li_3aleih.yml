@@ -1,0 +1,64 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: سلم لي عليه
+form: song
+composer: ziyad_rahbani
+songWriter: unknown
+singers: [fairuz]
+dialect: unknown
+maqamat:
+  - maqam: bayati
+    explanation: ""
+rhythms:
+  - rhythm: masmudi_saghir
+    explanation: Refrain
+  - rhythm: wahda_wa_nuss
+    explanation: Verse
+attachments:
+  - type: private
+    comment: Sheet music on D
+    contentType: application/pdf
+    uri: /pieces/sallim_li_3aleih.pdf
+text: |
+  == Translation ==
+  * الكوبليه from French "Couplet" i.e. Verse
+lyrics: |
+  سلّملي عليه .. وقلّو إنّي بسلّم عليه
+  وبوّسلي عينيه .. وقلّو إنّي ببوّس عينيه
+  إنتَ يللي بتفهم عليه .. سلّملي عليه سلّم
+
+  قلّو عيونو مش فجأة بينتسوا
+  وضحكات عيونو ثابتين ما بينقصوا
+  مدري شو بو .. وبعرف شو بو
+  مطبوعة بذاكرتو
+  ما تبحثوا .. عم تبحثوا
+  ما تبحثوا ما تبحثوا ما تبحثوا
+
+  هيدا حبيبي اللي إسمي بيهمسو
+  تعبان على سكوتو ودارسو
+  واضح شو بو .. ما تقول شو بو
+  اعمُل حالك مش عارف
+  ما تحرقصو .. بتحرقصو
+  ما تحرقصو ما تحرقصو ما تحرقصو
+
+  سلّملي عليه .. وقلو إنّي بسلّم عليه
+  وبوّسلي عينيه .. هوّي ومفتّحهن عينيه
+  وبوسو بخدّو وطوّلّي عليه .. فهمت عليّي إيه سلّم
+
+  وأنا عم غنّي المذهب .. ولمّا بغنّي ردّوا عليه
+  وبعدو نفسو المذهب .. ولولا قدرتوا زيدوا عليه
+  وعودوا تبقوا عيدوا الكوبليه .. سلّملي عليه سلّم

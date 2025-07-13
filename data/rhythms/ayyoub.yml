@@ -1,0 +1,50 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: أيوب
+alternativeNames: زار (Egypt)
+category: Folk, موشحات, Popular music, Sufi music
+usageText: |
+  Egypt, [[Levant]], Turkey
+
+  Origin: Arabic
+timeSignatureNumerator: 2
+text: |
+  <score type="rhythm">
+  \time 2/4
+    
+  \dom \sep \do_noBeam \ta
+  </score>
+
+  == Ornamentation ==
+
+  As a folk rhythm, it is usually ornamented:
+  <score type="rhythm2">
+    
+  \time 2/4
+  \set Timing.baseMoment = #(ly:make-moment 1/16)
+  \set Timing.beamExceptions = #'()
+  \set Timing.beatStructure = 3,1,2,2
+
+  \do_dot \til \sep \do_noBeam \ta
+  </score>
+
+  == References ==
+  # [[فرحان صباغ]]
+  # Hossam Ramzy. Rhythms of the Nile: Introduction to Egyptian Dance Rhythms. Audio CD. www.hossamramzy.com/product/rhythms-of-the-nile-introduction-to-egyptian-dance-rhythms-2-cds/
+  # Mohamed A. Alsiadi. Arabic rhythms. Website. http://www.alsiadi.com/Iqaa_Ayoub_2_4.html
+  # Unknown. The riqq الرق. Website. https://riqq.webs.com/rhythms.htm
+  # Maqam world. Website. http://maqamworld.com/en/iqaa/ayyub.php

@@ -14,26 +14,23 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: سماعي حجاز كار
-form: sama3i
-composer: farhan_sabbagh
-releaseDate: 1986-05-17
-maqamat:
-  - maqam: hijaz_kar
-    explanation: The primary Maqam
-  - maqam: rast
-    explanation: 2nd Khana
-  - maqam: bayati
-    explanation: 3nd Khana
-    #TODO: maqam in 4th khana?
-rhythms:
-  - rhythm: sama3i_thaqil
-    explanation: The primary rhythm
-  - rhythm: darij
-    explanation: 4th Khana
-attachments:
-  - type: private
-    comment: Sheet music on C
-    contentType: text/x-lilypond
-    uri: /pieces/sama3i_hijaz_kar.ly
-text: "Other transcripts say it was released on the 17th May 1985"
+name: مخلّص
+alternativeNames: ""
+category: ""
+usageText: ""
+timeSignatureNumerator: 3
+text: |
+  The rhythm is said to be originating in Marrakesh.
+
+  <score type="rhythm">
+  \time 3/8
+  \set Timing.baseMoment = #(ly:make-moment 1/16)
+  \set Timing.beamExceptions = #'()
+  \set Timing.beatStructure = 2,1,2,1
+  \do \ti \ta r16
+  </score>
+
+  == References ==
+  # [[فرحان صباغ]]
+  # p. 160 .1972 ,سليم الحلو. الموسيقى النظرية. دار مكتبة الحياة - بيروت, لبنان
+  # Mohamed A. Alsiadi. Arabic rhythms. Website. http://www.alsiadi.com/Iqaa_Mukhliss_Murakish_3_8.html

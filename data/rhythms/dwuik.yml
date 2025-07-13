@@ -1,0 +1,55 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: دويك
+alternativeNames: ""
+category: ""
+usageText: ""
+timeSignatureNumerator: 4
+text: |
+  Pronunciation in Arabic: دْوِيكْ
+
+  Its hard to differ this rhythm from [[مقسوم]] nowadays. One difference is that in دويك the taks are usually played with the weak hand, while in مقسوم these are stronger accentuated and therefore often played as slaps. However, when ornamenting or filling دويك, players usually just play مقسوم no matter whether they are from Arabic countries or Turkey.
+  مقسوم is a modern rhythm (from the 20th century) and is used in belly-dancing, folk and popular music while دويك is older and for instance in Turkish music present in classical pieces. For instance Erlanger and Yekta both mention دويك but not مقسوم, which wasn't even existing at these times.
+  مقسوم has a faster or more lively feeling than دويك but this does not necessarily affect the speed - though دويك is usually played slower.
+
+  The name comes from the two Persian words دو which means two and يك which means one.
+
+  <score type="rhythm">
+  \time 4/4
+  \do_noBeam \tak \ta \sep \dom \tak
+  </score>
+
+  == Turkish ==
+  Turkish name: Düyek
+
+  Combination of 2 [[Nîm sofyan]] as 4/8.
+  Exists also as 8/4 but is then called Ağır Düyek.
+
+  <score type="rhythm2">
+  \time 8/8
+  \do_semi \takl_strong \tal_semi \sep \dom_strong \takl
+  </score>
+
+  == References ==
+  # [[فرحان صباغ]]
+  # Rodolphe Erlanger. La Musique arabe Tome sixième: Essai de codification des règles usuelles de la musique arabe moderne, le système rythmique, les diverses formes de composition artistique. Number 6. Geuthner, 1959. p. 53
+  # p. 137 .1972 ,سليم الحلو. الموسيقى النظرية. دار مكتبة الحياة - بيروت, لبنان
+  # Mohamed A. Alsiadi. Arabic rhythms. Website. http://www.alsiadi.com/Iqaa_Dwake4_4.html
+
+  # Raouf Yekta. La musique turque. Librairie Delagrave, 1922. p. 3029, 3036
+  # Esendere kültür sanat derneği. Website. http://eksd.org.tr/muzik_teorisi/duyekagirduyek_usulleri.php
+  # Klasik Türk Müziği - Türk sanat müziği ve Türk halk müziği sitesi - turksanatmuzigi.org. Website. https://www.turksanatmuzigi.org/usullerimiz/duyek-usulu/

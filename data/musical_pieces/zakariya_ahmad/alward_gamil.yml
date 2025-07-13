@@ -1,0 +1,64 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: الورد جميل
+form: song
+composer: zakariya_ahmad
+releaseDate: 1947
+songWriter: bayram_attunsi
+singers: [umm_kalthoum]
+dialect: unknown
+maqamat:
+  - maqam: huzam
+    explanation: The primary Maqam
+  - maqam: bayati
+    explanation: Second verse i.e. at "والنرجس مال"
+  - maqam: nahawand
+    explanation: Second part in second verse at "عيونه تقول معانا عزول"
+  - maqam: rast
+    explanation: Third and fourth verse
+rhythms:
+  - rhythm: darij
+    explanation: ""
+attachments:
+  - type: private
+    comment: Sheet music on B-half-flat
+    contentType: application/pdf
+    uri: /pieces/alward_gamil.pdf
+text: |
+  [https://arz.wikipedia.org/wiki/%D8%A7%D9%84%D9%88%D8%B1%D8%AF_%D8%AC%D9%85%D9%8A%D9%84 Egyptian Wikipedia]
+lyrics: |
+  الورد جميل .. جميل الورد
+  الورد جميل و له اوراق عليها دليل من الاشواق
+  اذا أهداه حبيب لحبيب يكون معناه وصاله قريب
+
+  شوف الزهور و اتعلم .. بين الحبايب تتكلم
+  شوف شوف شوف
+  شوف الزهور الزهور .. شوف و اتعلم
+
+  و النرجس مال .. يمين و شمال
+  علا الاغصان بتيه و دلال
+  عيونه تقول معانا عزول .. خلينا بعيد عن العزال
+
+  يا فل يا روح يا روح الروح
+  مين شم هواك عمره ما ينساك
+  لكل جميل تقول بلغاك
+  حبيب مشتاق بيستناك
+
+  شوفو الياسمين جميل نعسان
+  حلى له النوم علا الاغصان
+  بكل حنان تضمه الايد
+  و بيه تزدان صدور الغيد

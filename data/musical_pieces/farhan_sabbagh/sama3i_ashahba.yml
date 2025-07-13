@@ -14,26 +14,28 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: سماعي حجاز كار
+name: سماعي الشهباء
 form: sama3i
 composer: farhan_sabbagh
-releaseDate: 1986-05-17
+releaseDate: 2003
 maqamat:
-  - maqam: hijaz_kar
+  - maqam: kurdi
     explanation: The primary Maqam
-  - maqam: rast
-    explanation: 2nd Khana
-  - maqam: bayati
-    explanation: 3nd Khana
-    #TODO: maqam in 4th khana?
+  - maqam: bayati_shuri
+    explanation: 3rd Khana
 rhythms:
   - rhythm: sama3i_thaqil
     explanation: The primary rhythm
-  - rhythm: darij
-    explanation: 4th Khana
 attachments:
   - type: private
-    comment: Sheet music on C
-    contentType: text/x-lilypond
-    uri: /pieces/sama3i_hijaz_kar.ly
-text: "Other transcripts say it was released on the 17th May 1985"
+    comment: Sheet music on A
+    contentType: application/pdf
+    uri: /pieces/sama3i_ashahba.pdf
+text: |
+  الشهباء refers to the city of Aleppo.
+
+  The rhythm for the 4th Khana is:
+  <score type="rhythm">
+  \time 5/8
+  \do \tak \ta \ta
+  </score>

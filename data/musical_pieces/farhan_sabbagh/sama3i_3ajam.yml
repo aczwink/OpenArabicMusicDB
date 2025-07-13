@@ -14,18 +14,17 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: سماعي حجاز كار
+name: سماعي عجم
 form: sama3i
 composer: farhan_sabbagh
-releaseDate: 1986-05-17
+releaseDate: 2022-12-07
 maqamat:
-  - maqam: hijaz_kar
+  - maqam: 3ajam
     explanation: The primary Maqam
-  - maqam: rast
-    explanation: 2nd Khana
-  - maqam: bayati
-    explanation: 3nd Khana
-    #TODO: maqam in 4th khana?
+  - maqam: shawq_afza
+    explanation: Second khana
+  - maqam: lami
+    explanation: Third khana
 rhythms:
   - rhythm: sama3i_thaqil
     explanation: The primary rhythm
@@ -33,7 +32,9 @@ rhythms:
     explanation: 4th Khana
 attachments:
   - type: private
-    comment: Sheet music on C
+    comment: Sheet music on Bb
     contentType: text/x-lilypond
-    uri: /pieces/sama3i_hijaz_kar.ly
-text: "Other transcripts say it was released on the 17th May 1985"
+    uri: /pieces/sama3i_3ajam.ly
+text: |
+  He started the composition in Germany on 11th December 1986 but did not finish it, since he thought that the western audience had a different desire as the major scale is already used extensively in western music.
+  In late 2022 he found his handwritten notations from back then and decided to finish the composition.

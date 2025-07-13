@@ -1,0 +1,72 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: أنا في انتظارك
+form: song
+composer: zakariya_ahmad
+releaseDate: 1943
+songWriter: bayram_attunsi
+singers: [umm_kalthoum]
+dialect: eg
+maqamat:
+  - maqam: hijaz
+    explanation: The primary Maqam
+  - maqam: rast
+    explanation: Refrain, end of 2nd verse, beginning and ending of 3rd verse, second part of 4th verse
+  - maqam: hijaz_kar
+    explanation: 2nd verse, just before the end of the refrain, first part of 4th verse
+  - maqam: nahawand
+    explanation: 2nd part of 2nd verse at "خليتني" and 2nd part of 3rd verse at "النسمة"
+rhythms:
+  - rhythm: wahda_kabira
+    explanation: The primary rhythm
+  - rhythm: maqsum
+    explanation: Used occasionally in the instrumental parts
+  - rhythm: malfuf
+    explanation: The phrase moving upwards in the instrumental part at the beginning
+attachments:
+  - type: private
+    comment: Sheet music on D
+    contentType: application/pdf
+    uri: /pieces/ana_fi_intizarak.pdf
+text: |
+  [https://arz.wikipedia.org/wiki/%D8%A7%D9%86%D8%A7_%D9%81%D9%89_%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D8%B1%D9%83 Egyptian Wikipedia]
+lyrics: |
+  أنا فى انتظارك خليت
+  ناري فى ضلوعي وحطِّيت
+  ايدي على خدِّي وعدِّيت
+  بالثانية غيابك ولا جيت
+
+  يا ريت
+  يا ريتني عمري ما حبيت
+
+  عايزة اعرف لا تكون غضبان
+  او شاغل قلبك انسان
+  خليتني من يأسي أقول
+  الغيبة دي غيبة على طول
+  واتفكّر ايه اللى جنيت
+  من ذنبِ يسيئك ما لقيت
+
+  اتقلب على جمر النار
+  واتشرد ويَّا الافكار
+  النسمة، أحسبها خطاك
+  والهمسة أحسبها لغاك
+  على كده أصبحت وأمسيت
+  وشافوني وقالوا اتجنيت
+
+  توعدني بسنين وأيَّام
+  وتجيني بحجج وكلام
+  وتسلِّم وتمرِّ قوام او تخلف وتقول لي نسيت
