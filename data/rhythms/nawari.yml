@@ -1,0 +1,50 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: نوري
+alternativeNames: ""
+category: Folk, Popular music
+usageText: "[[Levant]]"
+timeSignatureNumerator: 4
+text: |
+  This beat is often mistakenly confused with the [[قتاقفتي]] rhythm. They drastically differ in structure.
+  Traditionally it is played like this on the طبل:
+  <score type="rhythm">
+  \time 4/4
+  r8 \do r8 \ta \sep
+  \do r8 \ta_dot \ti
+  </score>
+
+  More modernly, it is played in the following style following the same progression as [[مقسوم]] and its related rhythms:
+
+  <score type="rhythm">
+  \time 4/4
+  \ta_noBeam \do r8 \ta \sep
+  \do r8 \ta r8
+  </score>
+
+  == Ornamentation ==
+  Modern version inspired by [[صعيدي]]:
+  <score type="rhythm">
+  \time 4/4
+  \ta_noBeam \do r8 \do \sep
+  \do r8 \ta r8
+  </score>
+
+  == References ==
+  # Faisal Zedan. Instructional web-video. https://www.youtube.com/watch?v=8hdYV8wNei4
+  # Faisal Zedan – Derbekki Fundamentals. Method DVD at ~01:13:08. Available at: http://davidreihs.com/product/faisal-zedan-derbekki-fundamentals/
+  # Maqam world. Website. http://maqamworld.com/en/iqaa/katakufti.php

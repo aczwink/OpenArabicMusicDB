@@ -1,0 +1,52 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: صوفيان
+alternativeNames: ""
+category: ""
+usageText: ""
+timeSignatureNumerator: 4
+text: |
+  The rhythm is said to be of Turkish origin <ref name="helu" />.
+  Arabs write the rhythm with an additional tak, like this:
+  <score type="rhythm">
+  \time 4/4
+  \dom r8 \ta \sep
+  \tak \tak
+  </score>
+
+  == Turkish ==
+  Turkish name: Sofyân
+
+  Combination of two [[Nîm sofyan]] rhythms.
+  Exists also as 4/8 and sometimes also as 4/2.
+
+  <score type="rhythm2">
+  \time 4/4
+  \doom_strong \sep \tak_semi \takl
+  </score>
+
+  == References ==
+  * [[فرحان صباغ]]
+  * Rodolphe Erlanger. La Musique arabe Tome sixième: Essai de codification des règles usuelles de la musique arabe moderne, le système rythmique, les diverses formes de composition artistique. Number 6. Geuthner, 1959. p. 53
+  <references>
+  <ref name="helu">p. 138 .1972 ,سليم الحلو. الموسيقى النظرية. دار مكتبة الحياة - بيروت, لبنان</ref>
+  </references>
+  * Unknown. The riqq الرق. Website. https://riqq.webs.com/rhythms.htm
+
+  * Raouf Yekta. La musique turque. Librairie Delagrave, 1922. p. 3028
+  * Esendere kültür sanat derneği. Website. http://eksd.org.tr/muzik_teorisi/sofyan_usulu.php
+  * Klasik Türk Müziği - Türk sanat müziği ve Türk halk müziği sitesi - turksanatmuzigi.org. Website. https://www.turksanatmuzigi.org/usullerimiz/sofyan-usulu/

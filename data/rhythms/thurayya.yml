@@ -1,0 +1,50 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: ثريا
+alternativeNames: ""
+category: ""
+usageText: ""
+timeSignatureNumerator: 5
+text: |
+  <score type="rhythm">
+  \time 5/8
+  \do r8 \ta r8 \ta
+  </score>
+
+  == Turkish ==
+  Turkish name: Türk Aksağı
+
+  Raouf Yekta mentions the Arabic name but lists "Türk Aksağı" as alternative name.
+
+  Combination of [[Nîm sofyan]] and [[دارج#Turkish|Semaî]] in that order.
+  Exists also as 5/4.
+
+  <score type="rhythm2">
+  \time 5/8
+  \dom_strong \sep \takl_semi \tal
+  </score>
+
+  == References ==
+  # [[فرحان صباغ]]
+  # Rodolphe Erlanger. La Musique arabe Tome sixième: Essai de codification des règles usuelles de la musique arabe moderne, le système rythmique, les diverses formes de composition artistique. Number 6. Geuthner, 1959. p. 33
+  # p. 152 .1972 ,سليم الحلو. الموسيقى النظرية. دار مكتبة الحياة - بيروت, لبنان
+  # Maqam world. Website. http://maqamworld.com/en/iqaa/thurayya.php
+  # Mohamed A. Alsiadi. Arabic rhythms. Website. http://www.alsiadi.com/Iqaa_Aqsaq_Turki5_8.html
+
+  # Raouf Yekta. La musique turque. Librairie Delagrave, 1922. p. 3030
+  # Esendere kültür sanat derneği. Website. http://eksd.org.tr/muzik_teorisi/turkaksagi_usulu.php
+  # Unknown. The riqq الرق. Website. https://riqq.webs.com/rhythms.htm

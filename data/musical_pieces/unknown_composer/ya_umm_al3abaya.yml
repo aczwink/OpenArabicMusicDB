@@ -1,0 +1,73 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: يا أم العباية
+form: song
+composer: unknown
+songWriter: unknown
+singers: []
+dialect: iq
+maqamat:
+  - maqam: suznak
+    explanation: The primary Maqam
+  - maqam: rast
+    explanation: Just at "جمالك آية"
+rhythms:
+  - rhythm: maqsum
+    explanation: ""
+attachments:
+  - type: private
+    comment: Sheet music on C
+    contentType: application/pdf
+    uri: /pieces/ya_umm_al3abaya.pdf
+text: |
+  The suffix "چ" in for example "عباتچ" is Iraqi dialect (see [https://en.wikipedia.org/wiki/Che_(Persian_letter) Wikipedia]) and would actually be "ك" in modern standard Arabic. Also "چم" is "كم".
+  The letter "گ" is g (see [https://en.wikipedia.org/wiki/Gaf Wikipedia]) and would be replaced with "ق" for modern standard Arabic. The "ق" however is pronounced as "ga" with the fatha being pronounced deeply just like when used on letter "ظَ".
+lyrics: |
+  يا أم العباية
+  حلوة عباتچ
+  جمالك آية
+  زينة صفاتچ
+
+  هلا و ميت هلا
+  يا ريم الفلا
+  و القلب نسيلا
+  چم من غمزاتچ
+
+  یا حیاة الروح
+  القلب مجروح
+  والجسم مطروح
+  يحيا بنظراتچ
+
+  أريد أگولچ
+  لطيف كولچ
+  نظرة لخلچ
+  لبسي عويناتچ
+
+  وجهك المنوّر
+  هلال مدور
+  سبحان من صور
+  حسنك وذاتك
+
+  يا بنت عمي
+  أبد لاتهتمي
+  فدوتچ دمي
+  روحي وحياتچ
+
+  سمرة ومهيوبة
+  نجمة محبوبة
+  رمز العروبة
+  حشمة عباتچ

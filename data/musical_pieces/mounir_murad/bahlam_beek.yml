@@ -1,0 +1,73 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: بحلم بيك
+form: song
+composer: mounir_murad
+releaseDate: 1959
+songWriter: marsi_jamil_3aziz
+singers: [3abd_al_halim_hafiz]
+dialect: eg
+maqamat:
+  - maqam: hijaz
+    explanation: The primary Maqam
+  - maqam: rast
+    explanation: 2nd verse at "بحلم بيك عارف من امتى" 
+  - maqam: nahawand
+    explanation: 2nd verse at "وانت حياتي و ابتساماتي" and 4th verse "ليلي نهاري بقول يا حبيبي"
+rhythms:
+  - rhythm: maqsum
+    explanation: ""
+attachments:
+  - type: private
+    comment: Sheet music on D
+    contentType: application/pdf
+    uri: /pieces/bahlam_beek.pdf
+  - type: private
+    comment: Alternative sheet music on D
+    contentType: application/pdf
+    uri: /pieces/bahlam_beek_2.pdf
+text: |
+  [https://arz.wikipedia.org/wiki/%D8%A8%D8%AD%D9%84%D9%85_%D8%A8%D9%8A%D9%83 Egyptian Wikipedia]
+lyrics: |
+  بحلم بيك انا بحلم بيك
+  و باشواقي مستنيك
+
+  وان ما سألتش فيا
+  يبقی كفاية عليا
+  عشت ليالي هنيه احلم بيك انا باحلم بيك
+
+  بحلم بيك يا حبيبي انا
+  ياللي مليت ايامي هنا
+  بحلم بيك عارف من امتى
+  من اول ماعرفت احب
+  بحلم بيك و بحبك و انت
+  اول حب وآخر حب
+  وانت حياتي و ابتساماتي
+  وانت النور للعين والقلب
+
+  بحلم بالجنة اللي خيالي
+  قبل الحب ماكانش يطولها
+  بحلم بيك و بيتهيألي
+  انك جنبي ليالي بطولها
+  و احسن احبك واحكي لك يا حبيب قلبي
+  و باجمل اسم انادي لك يا حبيب قلبي
+
+  اد ما عمري يطول يا حبيبي اد ما عمرى يطول
+  هستناك علی طول يا حبيبي هستناك على طول
+  ليلي نهاري بقول يا حبيبي ليلى نهارى بقول
+  ياللي ماحدش قالك ع الشوق اللى انا فيه
+  بكره الشوق يوصلك وتجرب لياليه

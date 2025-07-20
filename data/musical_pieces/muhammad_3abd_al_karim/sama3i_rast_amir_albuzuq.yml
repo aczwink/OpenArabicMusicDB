@@ -14,21 +14,16 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: خطوة حبيبي
-form: maqtu3a
-composer: mohammad_3abdel_wahab
-maqamat:
-  - maqam: hijaz
-    explanation: The primary Maqam
-  - maqam: hijaz_kar
-    explanation: 1st section
-  - maqam: rast
-    explanation: 2nd and last section
-rhythms: []
-  #TODO: rhythms
+name: سماعي Rast
+form: sama3i
+composer: muhammad_3abd_al_karim
+maqamat: [] #TODO
+rhythms: #TODO
+  - rhythm: sama3i_thaqil
+    explanation: The primary rhythm
 attachments:
   - type: private
-    comment: Sheet music on ? #TODO
+    comment: Sheet music on C
     contentType: application/pdf
-    uri: /pieces/khatwat_habibi.pdf
+    uri: /pieces/sama3i_rast_amir_albuzuq.pdf
 text: ""

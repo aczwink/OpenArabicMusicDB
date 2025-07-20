@@ -1,0 +1,63 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: ⁠⁠عندك بحرية
+form: song
+composer: mohammad_3abdel_wahab
+songWriter: unknown
+singers: [wadi3_alsafi]
+dialect: lb
+maqamat:
+  - maqam: bayati
+    explanation: The primary Maqam
+  - maqam: kurdi
+    explanation: Instrumental introduction, middle part of 1st and 3rd verse
+  - maqam: hijaz_kar
+    explanation: Instrumental part before 2nd verse and 2nd verse
+rhythms:
+  - rhythm: maqsum
+    explanation: ""
+attachments:
+  - type: private
+    comment: Sheet music on A
+    contentType: application/pdf
+    uri: /pieces/3andak_bahriyya.pdf
+text: |
+  [https://arz.wikipedia.org/wiki/%D8%B9%D9%86%D8%AF%D9%83_%D8%A8%D8%AD%D8%B1%D9%8A%D9%87 Egyptian Wikipedia]
+lyrics: |
+  عندك بحرية .. يا ريس
+  سمر و شرقية .. يا ريس
+  و البحر كويس يا ريس
+  وصلني حبيبى يا ريس
+
+  عا الرمل الدايب كتبنا
+  شوق الحبايب دوبنا
+  و انشالله توصل مراكبنا
+  فيها اهالينا و حبايبنا
+  و الفرحه تكمل .. يا ريس
+
+  ريحة اراضينا .. يا ريس
+  عم بتنادينا .. يا ريس
+  امشى و طير بينا .. يا ريس
+  من مينا لمينا .. يا ريس
+  وصلنا بلدنا .. يا ريس
+  تا نشم ترابها .. يا ريس
+
+  دخلك يا هوا الشمالى
+  نيران الهوا قتالى
+  و الغربه تخطر علا بالى
+  ايام زمان و ليالى
+  بعدا علا بالى .. يا ريس

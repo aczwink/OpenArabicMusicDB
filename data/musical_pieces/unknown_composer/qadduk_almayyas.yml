@@ -1,0 +1,57 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: قدك المياس
+form: song
+composer: unknown
+songWriter: unknown
+singers: [sabah_fakhri]
+dialect: msa
+maqamat:
+  - maqam: hijaz
+    explanation: ""
+rhythms: 
+  - rhythm: masmudi_saghir
+    explanation: The primary rhythm
+  - rhythm: malfuf
+    explanation: Always at the third line of each verse for example "أنت أحلى الناس فى نظري", during improvisation only when the singer sings
+attachments:
+  - type: private
+    comment: Sheet music on D
+    contentType: application/pdf
+    uri: /pieces/qadduk_almayyas.pdf
+text: |
+  [https://arz.wikipedia.org/wiki/%D9%82%D8%AF%D9%83_%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D8%B3 Egyptian Wikipedia]
+lyrics: |
+  قدك المياس يا عمري
+  يا غصين البان كاليسر
+  أنت أحلى الناس فى نظري
+  جل من سواك يا قمري
+
+  قدك المياس مذ مالا
+  لحظك الفتان قتالا
+  هل لواصل خلد لا لا لا لا
+  فاقطع الآمال و انتظري
+
+  انا و حبيبي فى جنينة
+  و الورد مخيم علينا
+  ان طلب مني وصالو
+  يا رب تستر علينا
+
+  عيونك سود يا محلاهم
+  قلبي بتولع بهواهم
+  صار لي سنتين بستناهم
+  حيرت العالم فى أمري

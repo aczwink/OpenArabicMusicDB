@@ -14,21 +14,11 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: خطوة حبيبي
-form: maqtu3a
-composer: mohammad_3abdel_wahab
-maqamat:
-  - maqam: hijaz
-    explanation: The primary Maqam
-  - maqam: hijaz_kar
-    explanation: 1st section
-  - maqam: rast
-    explanation: 2nd and last section
-rhythms: []
-  #TODO: rhythms
-attachments:
-  - type: private
-    comment: Sheet music on ? #TODO
-    contentType: application/pdf
-    uri: /pieces/khatwat_habibi.pdf
-text: ""
+name: محمد عبد الكريم (أمير البزق)
+lifeTime: 1911 - 1989
+origin: Syria
+text: Born in Homs.
+locations: sy
+image:
+  type: external
+  uri: https://upload.wikimedia.org/wikipedia/ar/9/9e/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85.jpg

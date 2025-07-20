@@ -28,7 +28,7 @@ rhythms: [] #TODO
 attachments:
   - type: private
     comment: Sheet music on A
-    contentType: application/pdf
+    contentType: image/jpg
     uri: /pieces/zay_al3asal.jpg
 text: "[https://arz.wikipedia.org/wiki/%D8%B2%D9%89_%D8%A7%D9%84%D8%B9%D8%B3%D9%84 Egyptian Wikipedia]"
 lyrics: |
