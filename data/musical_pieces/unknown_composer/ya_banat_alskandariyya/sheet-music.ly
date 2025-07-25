@@ -21,7 +21,7 @@
 \header
   {
     title = "يا بنات إسكندريّة"
-    tagline = "Released as part of https://github.com/aczwink/OpenArabicMusicDB. Copyright (C) 2025 Amir Czwink"
+    tagline = \markup { \abs-fontsize #11 "Released as part of https://github.com/aczwink/OpenArabicMusicDB. Copyright (C) 2025 Amir Czwink" }
   }
 
 \score

@@ -20,47 +20,46 @@
 
 \header
 {
-	title = "دولاب راست"
-	composer = "Unknown"
+	title = "دولاب بياتي"
+	composer = ""
     tagline = \markup { \abs-fontsize #11 "Released as part of https://github.com/aczwink/OpenArabicMusicDB. Copyright (C) 2025 Amir Czwink" }
 }
 
-\relative do'
+\relative re'
 {
-	\key do \rast
+	\key re \bayati
 	\set Staff.extraNatural = ##f
-	
-	\partial 4 la'8 sisb |
-	
-	\repeat volta 2
-	{
-	  
-	  \repeat percent 2
-	  {
-	    do4 sib8 la sol la sol fa |
-	    misb fa misb re do4 la'8 sisb |
-	  }
-	  do4 sib8 la sol la sol fa |
-	  misb fa misb re do4 re8 misb |
-	  fa4. misb8 misb re re do |
-	}
-	\alternative
-	{
-	  { do4 r2 la'8 sisb | }
-	  { do,4 fa8 fa fa4 fa}
-	}
 	
 	\repeat volta 2
 	{	
-	  do8 fa4 sol8 fa sol fa8. misb16 |
-	  re8 misb4 fa8 misb fa misb8. re16 |
-	  do8 re4 fa8 misb re do sisb |
+	  \repeat unfold 2
+	  {	
+	    sol8 sol4 sib8 la4 sol |
+	    fa8 sol sol fa misb re do4 |
+	    \alternative
+	    {
+	      {
+	        re misb fa sol |
+	        la8 sol fa la sol2 |
+	      }
+	      {
+	        la8 sol sol fa fa misb misb re |
+	      }
+	    }
+	  }
+	  
+	  \break	  
+	  \alternative
+	  {
+	    \volta 1 { re4. do8 sib la sol4 | }
+	    \volta 2 {
+	      do2 sol' |
+	    }
+	  }
 	}
-	\alternative
-	{
-	  { do re misb fa sol misb fa4 }
-	  { do sol do re |}
-	}
-	misb do re sisb
-	do1
+	
+	fa4. misb8 misb8. fa16 misb8 re |
+    re4 misb8 fa sol4 sol |
+    sol8. fa32 misb re8 misb fa re misb do |
+    re1 |
 }

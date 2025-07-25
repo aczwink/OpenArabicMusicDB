@@ -1,0 +1,56 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: بمبي
+alternativeNames: ""
+category: ""
+usageText: Egypt
+timeSignatureNumerator: 8
+text: |
+  A rather rare Egyptian folk rhythm.
+  Though hard to recognise, it is played in the original recording of جفنه علم الغزل by محمد عبد الوهاب.
+
+  <score type="rhythm">
+  \time 8/8
+
+  \do r16 \ta r16 \ta \sep
+  r8 r8 \do r8
+  </score>
+  Often the rhythm is started on beat 7.
+
+  == Ornamentation ==
+
+  The most popular variation is the following:
+  <score type="rhythm">
+  \time 8/8
+
+  \do r16 \ta r16 \ta \sep
+  r8 r8 \do \do
+  </score>
+  It is even more used than the actual rhythm. The form with two dums is sometimes called بمبي كبير and with 3 dums its called بمبي صغير because with two dums the rhythm feels more relaxed. However, this could also be referring to the speed thus whether it is played as 8/8 or 8/4.
+
+  Another variation is by placing an extra accentuated tak usually also with the extra dum like this:
+  <score type="rhythm">
+  \time 8/8
+
+  \do r16 \ta r16 \ta \sep
+  r16 \ta r16 \do \do
+  </score>
+
+  == References ==
+  # Faisal Zedan – Derbekki Fundamentals. Method DVD at ~01:21:10. Available at: http://davidreihs.com/product/faisal-zedan-derbekki-fundamentals/
+  # Unknown. The riqq الرق. Website. https://riqq.webs.com/rhythms.htm
+  # Maqam world. Website. http://maqamworld.com/en/iqaa/bambi.php

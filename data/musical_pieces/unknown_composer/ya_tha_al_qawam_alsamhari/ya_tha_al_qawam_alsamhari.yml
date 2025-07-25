@@ -1,0 +1,53 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: يا ذا القوام السمهري
+form: song
+composer: unknown
+songWriter: unknown
+singers: [sabah_fakhri]
+dialect: unknown
+maqamat:
+  - maqam: hijaz_kar
+    explanation: The primary Maqam
+  - maqam: kurdi
+    explanation: The second half of each Dawr
+  - maqam: bayati
+    explanation: The second half of the Khana
+rhythms:
+  - rhythm: maqsum
+    explanation: The primary rhythm
+  - rhythm: wahda_kabira
+    explanation: The first half of the 3rd verse i.e. anything before "بادر و جود"
+attachments:
+  - type: public
+    comment: Sheet music on A
+    contentType: text/x-lilypond
+    uri: ./sheet-music.ly
+text: |
+  [https://www.youtube.com/watch?v=tOHsd2qOvjo Recording of Sabah Fakhri on A]
+lyrics: |
+  يا ذا القوام السمهري
+  حاوي الرضاب السكري
+
+  عن ثغرك الزاهي اللمى
+  يروى صحاح الجوهري
+
+  كم ذا التجافي و البعاد
+  أحرمت أجفاني الرقاد
+
+  بادر و جود و ارعى الوداد
+  يا ذا الجبين الأنور
