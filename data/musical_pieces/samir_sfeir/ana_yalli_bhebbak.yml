@@ -1,0 +1,55 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: انا يللي بحبك
+form: song
+composer: samir_sfeir
+releaseDate: 2004
+songWriter: nizar_francis
+singers: [nancy_ajram]
+dialect: lb
+maqamat:
+  - maqam: kurdi
+    explanation: ""
+rhythms:
+  - rhythm: sa3idi
+    explanation: ""
+attachments:
+  - type: public
+    comment: Sheet music on C#
+    contentType: text/x-lilypond
+    uri: ./sheet-music.ly
+text: ""
+lyrics: |
+  انا ياللي بحبك وحدي انا
+  انا ياللي بريدك ليّا انا
+  انا ياللي بعمري ببقي انا
+  على وعدي ياوعدي ياوحدي انا
+
+  على وعدي ياوعدي ياوحدي انا
+  انا ياللي بعمري ببقي انا
+  انا ياللي بريدك ليّا انا
+  انا ياللي بحبك وحدي انا
+
+  الهوى ياحبيبي الهوى اسرار
+  حيره وغيره وشوء ونار
+  تسأل كيف بغار عليك
+  وقلبك علم قلبي يغار
+
+  الدنيا بتحلى و انا واياك
+  غير عمري بلحظه هواك
+  ماكان البي بيعرف حب
+  ولا عندو غالي لولاك
