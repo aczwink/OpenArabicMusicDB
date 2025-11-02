@@ -1,0 +1,71 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: أقصاق
+alternativeNames: ""
+category: Classical, موشحات
+usageText: Syria, Turkey
+timeSignatureNumerator: 9
+text: |
+  <score type="rhythm">
+  \time 9/8
+
+  \set Timing.beamExceptions = #'()
+  \set Timing.beatStructure = 4,2,3
+    
+  \do r8 \ta r \sep \do r \sep \ta r \ta
+  </score>
+
+  == Ornamentation ==
+
+  In Syria, often a second dum is placed on beat 6.
+  <score type="rhythm">
+  \time 9/8
+
+  \set Timing.beamExceptions = #'()
+  \set Timing.beatStructure = 4,2,3
+    
+  \do r8 \ta r \sep \do \do \sep \ta r \ta
+  </score>
+
+  == Turkish ==
+  Turkish name: Aksak
+
+  Combination of [[صوفيان#Turkish|Sofyân]] and [[ثريا#Turkish|Türk Aksağı]] in that order.
+  Exists also as 9/4 but is then called Ağır Aksak.
+
+  <score type="rhythm2">
+  \time 9/8
+  \set Timing.beamExceptions = #'()
+  \set Timing.beatStructure = 4,2,3
+
+  \dom_strong \ta_semi \tal \sep \dom_strong \takl_semi \tal
+  </score>
+
+  == References ==
+  # [[فرحان صباغ]]
+  # Rodolphe Erlanger. La Musique arabe Tome sixième: Essai de codification des règles usuelles de la musique arabe moderne, le système rythmique, les diverses formes de composition artistique. Number 6. Geuthner, 1959. p. 37, 63
+  # p. 139, 153 .1972 ,سليم الحلو. الموسيقى النظرية. دار مكتبة الحياة - بيروت, لبنان
+  # Habib Hassan Touma. Die Musik der Araber. Schaal, Richard, 2010. p. 81
+  # Faisal Zedan. Instructional web-video. https://youtu.be/HuZp_wPd4WE?t=241
+  # Mohamed A. Alsiadi. Arabic rhythms. Website. http://www.alsiadi.com/Iqaa_Aqsaq9_8.html
+  # Unknown. The riqq الرق. Website. https://riqq.webs.com/rhythms.htm
+  # Maqam world. Website. http://maqamworld.com/en/iqaa/aqsaq.php
+
+  # Raouf Yekta. La musique turque. Librairie Delagrave, 1922. p. 3025, 3038, 3040-3041
+  (The second stroke is dom here)
+  # Esendere kültür sanat derneği. Website. http://eksd.org.tr/muzik_teorisi/aksak_usulu.php
+  # Klasik Türk Müziği - Türk sanat müziği ve Türk halk müziği sitesi - turksanatmuzigi.org. Website. https://www.turksanatmuzigi.org/usullerimiz/aksak-usulu/

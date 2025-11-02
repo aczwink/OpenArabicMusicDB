@@ -1,0 +1,47 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: مالك يا حلوة
+form: song
+composer: unknown
+songWriter: unknown
+singers: [sabah_fakhri]
+dialect: unknown
+maqamat:
+  - maqam: suznak
+    explanation: ""
+rhythms:
+  - rhythm: maqsum
+    explanation: The primary rhythm
+  - rhythm: malfuf
+    explanation: "فتنوا عليك عذالك"
+attachments:
+  - type: public
+    comment: Sheet music on C
+    contentType: text/x-lilypond
+    uri: ./sheet-music.ly
+text: |
+  [https://arz.wikipedia.org/wiki/%D9%85%D8%A7%D9%84%D9%83_%D9%8A%D8%A7%D8%AD%D9%84%D9%88%D9%87_%D9%85%D8%A7%D9%84%D9%83 Egyptian Wikipedia]
+lyrics: |
+  مالك يا حلوة مالك
+  هو الغرام غير حالك
+  فتنوا عليك عذالك
+  لما رأوك بجمالك
+
+  إنت حياتي و روح قلبي
+  بحبك لكن إيه ذنبي
+  ما تحطي قلبك على قلبي
+  داوي حبيبك بوصالك

@@ -14,35 +14,25 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: مالك يا حلوة
-form: song
-composer: unknown
-releaseDate: "?"
-songWriter: unknown
-singers: [sabah_fakhri]
-dialect: unknown
+name: سماعي ماهور
+form: sama3i
+composer: nikolaki_efendi
 maqamat:
-  - maqam: suznak
+  - maqam: rast
     explanation: ""
 rhythms:
-  - rhythm: maqsum
+  - rhythm: sama3i_thaqil
     explanation: The primary rhythm
-  - rhythm: malfuf
-    explanation: "فتنوا عليك عذالك"
+  - rhythm: darij
+    explanation: 4th Khana
 attachments:
   - type: private
     comment: Sheet music on C
     contentType: application/pdf
-    uri: /pieces/malik_ya_helwa.pdf
+    uri: /pieces/sama3i_mahur.pdf
+  - type: private
+    comment: Old sheet music on C
+    contentType: application/pdf
+    uri: /pieces/sama3i_mahur_old.pdf
 text: |
-  [https://arz.wikipedia.org/wiki/%D9%85%D8%A7%D9%84%D9%83_%D9%8A%D8%A7%D8%AD%D9%84%D9%88%D9%87_%D9%85%D8%A7%D9%84%D9%83 Egyptian Wikipedia]
-lyrics: |
-  مالك يا حلوة مالك
-  هو الغرام غير حالك
-  فتنوا عليك عذالك
-  لما رأوك بجمالك
-
-  إنت حياتي و روح قلبي
-  بحبك لكن إيه ذنبي
-  ما تحطي قلبك على قلبي
-  داوي حبيبك بوصالك
+  [https://www.youtube.com/watch?v=BFbscamk-2k Recording on C]

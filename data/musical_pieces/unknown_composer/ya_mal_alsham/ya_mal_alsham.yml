@@ -37,6 +37,10 @@ attachments:
     comment: Sheet music on C
     contentType: application/pdf
     uri: /pieces/ya_mal_alsham.pdf
+  - type: public
+    comment: Sheet music with variations on C
+    contentType: text/x-lilypond
+    uri: ./sheet-music-variations.ly
 text: |
   * [https://arz.wikipedia.org/wiki/%D9%8A%D8%A7_%D9%85%D8%A7%D9%84_%D8%A7%D9%84%D8%B4%D8%A7%D9%85 Egyptian Wikipedia]
   * [https://www.youtube.com/watch?v=cTuVTA-5AzI Played by Anwar Hariri on the Violin]

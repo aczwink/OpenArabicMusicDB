@@ -1,0 +1,35 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: وحدة طويلة
+alternativeNames: ""
+category: ""
+usageText: ""
+timeSignatureNumerator: 8
+text: |
+  An extended version of [[وحدة كبيرة]].
+
+  <score type="rhythm">
+  \time 8/8
+  \set Timing.baseMoment = #(ly:make-moment 1/16)
+  \set Timing.beamExceptions = #'()
+  \set Timing.beatStructure = 3,3,2,4,4
+  \do_dot \ta_dot \ta \sep
+  r8 r8 \ta r8
+  </score>
+
+  == References ==
+  # Faisal Zedan – Derbekki Fundamentals. Method DVD at ~01:18:30. Available at: http://davidreihs.com/product/faisal-zedan-derbekki-fundamentals/
