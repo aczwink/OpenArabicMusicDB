@@ -27,8 +27,8 @@ rhythms: []
 attachments:
   - type: private
     comment: Sheet music on C
-    contentType: image/jpg
-    uri: /pieces/albint_ashalabiyya.jpg
+    contentType: image/heic
+    uri: /pieces/albint_ashalabiyya.HEIC
   - type: private
     comment: Finale sheet music on C
     contentType: application/vnd.musician

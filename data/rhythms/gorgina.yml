@@ -1,0 +1,50 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: جورجينا
+alternativeNames: ""
+category: Folk, موشحات
+usageText: Iraq
+timeSignatureNumerator: 10
+text: |
+  <score type="rhythm">
+  \time 10/8
+
+  \do r8 \ta \sep \ta r8 \sep \do r8 \sep \ta r8 r8
+  </score>
+
+  == Turkish ==
+  Turkish name: Aksak semâî / Curcuna (discouraged)
+
+  Combination of 2 [[ثريا#Turkish|Türk Aksağı]] rhythms.
+  Exists also as 10/4 but is then called Ağır Aksak semâî.
+
+  <score type="rhythm2">
+  \time 10/8
+  \dom_strong \sep \ta \takl_semi \sep \dom_strong \sep \takl_semi \tal
+  </score>
+
+  == References ==
+  # [[فرحان صباغ]]
+  # Rodolphe Erlanger. La Musique arabe Tome sixième: Essai de codification des règles usuelles de la musique arabe moderne, le système rythmique, les diverses formes de composition artistique. Number 6. Geuthner, 1959. p. 38, 40
+  # p. 104, 154 .1972 ,سليم الحلو. الموسيقى النظرية. دار مكتبة الحياة - بيروت, لبنان
+  # Maqam world. Website. http://maqamworld.com/en/iqaa/jurjina.php
+  # Mohamed A. Alsiadi. Arabic rhythms. Website. http://www.alsiadi.com/Iqaa_Jurjina_10_8.html
+  # Unknown. The riqq الرق. Website. https://riqq.webs.com/rhythms.htm
+
+  # Raouf Yekta. La musique turque. Librairie Delagrave, 1922. p. 3042-3043
+  # Habib Hassan Touma. Die Musik der Araber. Schaal, Richard, 2010. p. 82
+  # Esendere kültür sanat derneği. Website. http://eksd.org.tr/muzik_teorisi/aksaksemai_usulu.php

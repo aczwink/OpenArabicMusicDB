@@ -1,0 +1,37 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: خوش رنك
+alternativeNames: ""
+category: ""
+usageText: ""
+timeSignatureNumerator: 17
+text: |
+  <score type="rhythm">
+  \time 17/8
+  \do r8 \ta \do r8 \sep
+  \do \do \ta r8 \sep
+  \ta \ta \ta \sep
+  \do \do \tak \ta
+  </score>
+
+  == References ==
+  # Rodolphe Erlanger. La Musique arabe Tome sixième: Essai de codification des règles usuelles de la musique arabe moderne, le système rythmique, les diverses formes de composition artistique. Number 6. Geuthner, 1959. p. 49
+  # p. 156 .1972 ,سليم الحلو. الموسيقى النظرية. دار مكتبة الحياة - بيروت, لبنان
+  # Faisal Zedan. Instructional web-video. https://youtu.be/gyjqi0YRYeA?t=5m20s
+  # Mohamed A. Alsiadi. Arabic rhythms. Website. http://www.alsiadi.com/Iqaa_Khush_Rank17_8.html
+  # Unknown. The riqq الرق. Website. https://riqq.webs.com/rhythms.htm
+  # Maqam world. Website. http://maqamworld.com/en/iqaa/khosh_rang.php

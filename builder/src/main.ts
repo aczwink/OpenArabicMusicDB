@@ -306,6 +306,39 @@ async function BuildDatabase(dbSrcPath: string)
     };
     const stringified = JSON.stringify(finalDB);
     await fs.promises.writeFile("./dist/db.json", stringified, "utf-8");
+
+    WriteStats(finalDB);
+}
+
+function WriteStats(document: OpenArabicMusicDBDocument)
+{
+    console.log("STATS");
+    console.log("Number of pieces:", document.musicalPieces.length);
+    
+    let withSheetMusic = 0, withLilypond = 0;
+    for (const piece of document.musicalPieces)
+    {
+        for (const attachment of piece.attachments)
+        {
+            if(attachment.comment.toLowerCase().includes("sheet music"))
+            {
+                withSheetMusic++;
+                break;
+            }
+        }
+
+        for (const attachment of piece.attachments)
+        {
+            if(attachment.contentType === "text/x-lilypond")
+            {
+                withLilypond++;
+                break;
+            }
+        }
+    }
+
+    console.log("Pieces with sheet music:", Math.round(withSheetMusic / document.musicalPieces.length * 100) + "%");
+    console.log("Pieces with transposable sheet music:", Math.round(withLilypond / document.musicalPieces.length * 100) + "%");
 }
 
 const dbSrcPath = process.argv[2];

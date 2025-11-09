@@ -14,25 +14,32 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: النهر الخالد
-form: maqtu3a
-composer: mohammad_3abdel_wahab
-releaseDate: 1954
-maqamat:
-  - maqam: kurdi
-    explanation: The primary Maqam
-  - maqam: rast
-    explanation: 2nd part
-rhythms:
-  - rhythm: wahda_kabira
-    explanation: The primary rhythm
-  - rhythm: malfuf
-    explanation: for the descending part in the Kurdi part and the whole Rast part
-attachments:
-  - type: private
-    comment: Sheet music on A
-    contentType: image/jpeg
-    uri: /pieces/alnahr_alkhaled.JPEG
+name: Romani
+alternativeNames: ""
+category: Folk
+usageText: Turkey
+timeSignatureNumerator: 9
 text: |
-  == Links ==
-  [https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%86%D9%87%D8%B1_%D8%A7%D9%84%D8%AE%D8%A7%D9%84%D8%AF_(%D8%A3%D8%BA%D9%86%D9%8A%D8%A9) Arabic Wikipedia]
+  A family of 9/8 rhythms of the Romani people.
+
+  <score type="rhythm">
+  \time 9/8
+  \dom_dot \ta \sep
+  \dom_dot \tak
+  </score>
+
+  <score type="rhythm">
+  \time 9/8
+  \dom \dom \sep
+  \ta_dot \ta_dot \tak
+  </score>
+
+  <score type="rhythm">
+  \time 9/8
+  \dom \tak \sep
+  \do_dot \do_dot \tak
+  </score>
+
+  == References ==
+  # Faisal Zedan. Instructional web-video. https://youtu.be/HuZp_wPd4WE?t=343
+  # My own experience

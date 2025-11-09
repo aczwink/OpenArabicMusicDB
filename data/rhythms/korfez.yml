@@ -1,0 +1,73 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: Körfez
+alternativeNames: ""
+category: Popular music
+usageText: Turkey
+timeSignatureNumerator: 4
+text: |
+  Similar to ملفوف but played as 4/4. Each of the 2/4 parts can be repeated on its own arbitrarily much.
+
+  <score type="rhythm2">
+  \time 4/4
+  \set Timing.beamExceptions = #'()
+  \set Timing.baseMoment = #(ly:make-moment 1/16)
+
+  \set Timing.beatStructure = 3,3,2,3,3,2
+  \do_dot \saf \ba \sa
+  \ta_dot \saf \ba \do |
+
+  \do_dot \saf \ba \do
+  \ta_dot \saf \ba \do |
+  </score>
+
+
+  == Different ornamentation patterns ==
+  <score type="rhythm2">
+  \time 4/4
+  \set Timing.beamExceptions = #'()
+  \set Timing.baseMoment = #(ly:make-moment 1/16)
+
+  \set Timing.beatStructure = 2,4,1,2,2,3,2
+  \do \til \saf \ba \du \tifl \tifl
+  \ti \til \til \saf \ba \do | 
+
+  \break
+  \set Timing.beatStructure = 2,4,2,1,2,3,2
+
+  \do \til \saf \ba \til \til
+  \du \tifl \tifl \til \saf \ba \til \til |
+
+
+  %full ornamentation
+  \break
+  \set Timing.beatStructure = 1,2,2,2,4,2,2,1
+  \du \til \til \saf \baf \du \du \til
+  \ti \til \til \saf \baf \du \du \til |
+
+  \break
+
+  %extension
+  \break
+  \set Timing.beatStructure = 1,2,3,4,4,1,1
+
+  \du \til \til \saf \ba \saf \til
+  \tal \saf \saf \tal \du \til |
+  </score>
+
+  == External links ==
+  * Demonstration by Hakan Kaya: https://www.youtube.com/watch?v=geeDtaeCB-0

@@ -1,0 +1,109 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: بساط الريح
+form: song
+composer: farid_alatrash
+releaseDate: 1949
+songWriter: bayram_attunsi
+singers: [farid_alatrash]
+dialect: eg
+maqamat:
+  - maqam: rast
+    explanation: The primary Maqam
+  - maqam: suznak
+    explanation: 1st, 2nd and 3rd verse (1st part about Syria and Lebanon)
+  - maqam: bayati
+    explanation: 4th verse (about Baghdad), 6th verse (about Egypt)
+  - maqam: hijaz
+    explanation: 5th verse (about Tunisia)
+  - maqam: huzam
+    explanation: Outro (last two phrases of text)
+rhythms:
+  - rhythm: darij
+    explanation: The primary rhythm
+  - rhythm: masmudi_saghir
+    explanation: 2nd and 3rd verse (1st part about Syria and Lebanon)
+  - rhythm: ayyoub
+    explanation: The small interludes between the verses, Outro
+  - rhythm: maqsum
+    explanation: 4th verse (about Baghdad), 6th verse (about Egypt)
+  - rhythm: ciftetelli
+    explanation: During the موال part
+attachments:
+  - type: private
+    comment: Sheet music on C
+    contentType: application/pdf
+    uri: /pieces/busat_alrih.pdf
+text: |
+  [https://arz.wikipedia.org/wiki/%D8%A8%D8%B3%D8%A7%D8%B7_%D8%A7%D9%84%D8%B1%D9%8A%D8%AD Egyptian Wikipedia]
+  
+  During the Tunisia-verse the rhythm played is what Farhan Sabbagh calls Asmari i.e. Dum-tata-Dum-Tak.
+lyrics: |
+  بساط الريح جميل ومريح
+  وكلو امان ولا البولمان
+  بساط الريح
+
+  يا طاير فوق وكلّك ذوق
+  أنا مشتاق وبراني الشوق
+  ودواي في سوريا وفي لبنان
+
+  نسيم لبنان شفا الأرواح
+  عليل القلب عليه يرتاح
+  ويا مشتاق في أرض الشام
+  تبات سكران بلا أقداح بلا أقداح
+
+  سوريا ولبنان قامات وقدود
+  عليها بشوف عيون وخدود
+  تزوّد نار القلب ببارود
+  أنا أعشق سوريا ولبنان.. سوريا ولبنان
+
+  نروح يا بساط على بغداد
+  بلاد خيرات بلاد أمجاد
+
+  نحن هنا بالسيف نحمي ارضنا
+  وفي نهار الحيف نحمي عرضنا
+  أما الكرم للضيف مخلوق فرضنا
+  والعز في الاثنين : السيف والكرم
+  آه يا زلم
+
+  يا دجلة أنا عطشان ما أقدر أرتوي
+  من حسنك الفتّان هذا الكسروي
+  في كل رمشـــة عين خنجر ملتوي
+  لو صاب مني القلب يعدمني عدم
+  آه يا زلم
+
+  بساط الريح يا أبو الجناحين
+  مراكش فين وتونس فين
+  أنا لي حبيب هناك واثنين وبعادهم عني اليوم بشهرين
+
+  بلاد الحوت، والغلة والزيتون
+  فيها الشفايف قوت، وللشراب عيون
+  ياللي علينا تفوت، انزل وكن حنون
+  إشبعْ طعام وشراب ولا تزيد يا خي
+
+  تونس أيا خضرا يا حارقة الأكباد
+  غزلانك البيضا تصعب على الصياد
+  غزلان في المرسى والا في حلق الواد
+  على الشطوط تعوم ما تخوف صيد المي
+
+  بساط الريح قوام يا جميل أنا مشتاق لوادي النيل
+  أنا لفّيت كثير ولقيت البعد عليَّ يا مصر طويل
+
+  اللي يفوت أرضنا يروح ويرجع لنا
+  ما فيش كده حسننا وما فيش كده ظرفنا
+  يا حلو يا طبعنا
+  با خفة يا دمنا

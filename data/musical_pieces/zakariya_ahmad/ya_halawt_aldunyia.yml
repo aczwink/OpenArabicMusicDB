@@ -1,0 +1,65 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: يا حلاوة الدنيا
+form: song
+composer: zakariya_ahmad
+songWriter: bayram_attunsi
+singers: [sayyed_makawi]
+dialect: eg
+maqamat:
+  - maqam: zanjaran
+    explanation: The primary Maqam
+  - maqam: hijaz_kar
+    explanation: 2nd verse
+rhythms:
+  - rhythm: maqsum
+    explanation: The primary rhythm
+  - rhythm: wahda_kabira
+    explanation: At less lively parts during the verses
+attachments:
+  - type: private
+    comment: Sheet music on C
+    contentType: application/pdf
+    uri: /pieces/ya_halawt_aldunyia.pdf
+text: |
+  [https://arz.wikipedia.org/wiki/%D9%8A%D8%A7%D8%AD%D9%84%D8%A7%D9%88%D8%A9_%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7_%D9%8A%D8%A7%D8%AD%D9%84%D8%A7%D9%88%D9%87 Egyptian Wikipedia]
+lyrics: |
+  يا حلاوة الدنيا يا حلاوه
+  يا حلولو يا حلاوه
+
+  حلاوتها لما تصفى لي
+  أنا وإنتوا واللي في بالي
+  يبقالي ود مرغوبي
+  وكفاية وجه محبوبي
+  والباقي كلو يتساوى
+
+  وما دام الدنيا ماهيش دايمه
+  وقيامه على العالم قايمه
+  حلوها وافرحوا بيها
+  والطيب اعملوه فيها
+  أحباب والأنس يجمعنا
+  لا فراق ولا غدر ولا عداوه
+
+  خلوها حلوة يا بنات
+  خلوها حلوة يا جدعان
+  املوها سرور وإبتسامات
+  تلقوها جنة رضوان
+  وتدومي علينا يا حلاوه
+  فوقنا وحوالينا يا حلاوه
+  آه واللي يحبونا يا حلاوه
+  واللي ويانا يا حلاوه
+  واحنا وأهالينا يا حلاوه

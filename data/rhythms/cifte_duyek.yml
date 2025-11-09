@@ -1,0 +1,41 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: Çifte Düyek
+alternativeNames: ""
+category: ""
+usageText: ""
+timeSignatureNumerator: 16
+text: |
+  Combination of 2 [[دويك#Turkish|Düyek]] rhythms.
+  According to  <ref name="eksd" />., the rhythm is seldom used as 16/8.
+  However, <ref name="yekta" /> writes it as 8/4.
+
+  <score type="rhythm2">
+  \time 4/4
+  \time 16/4
+  \doom_semi \taaakl_strong \taakl_semi \sep \doom_strong \doom_semi \taakl_semi \tak_semi \takl
+  </score>
+  The second note is a Tak.
+
+  == References ==
+  * Rodolphe Erlanger. La Musique arabe Tome sixième: Essai de codification des règles usuelles de la musique arabe moderne, le système rythmique, les diverses formes de composition artistique. Number 6. Geuthner, 1959. p. 91
+  * p. 145-146 .1972 ,سليم الحلو. الموسيقى النظرية. دار مكتبة الحياة - بيروت, لبنان
+
+  <references>
+  <ref name="yekta">Raouf Yekta. La musique turque. Librairie Delagrave, 1922. p. 3037</ref>
+  <ref name="eksd">Esendere kültür sanat derneği. Website. http://eksd.org.tr/muzik_teorisi/cifteduyek_usulu.php</ref>
+  </references>
