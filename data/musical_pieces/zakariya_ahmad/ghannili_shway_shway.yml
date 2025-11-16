@@ -1,0 +1,67 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: غنيلي شوي شوي
+form: song
+composer: zakariya_ahmad
+releaseDate: 1945
+songWriter: bayram_attunsi
+singers: [umm_kalthoum]
+dialect: eg
+maqamat:
+  - maqam: suznak
+    explanation: The primary Maqam
+  - maqam: bayati
+    explanation: 2nd verse
+  - maqam: nahawand
+    explanation: 2nd half of 2nd verse
+  - maqam: huzam
+    explanation: 4th and 5th verse
+rhythms:
+  - rhythm: maqsum
+    explanation: ""
+attachments:
+  - type: private
+    comment: Sheet music on C
+    contentType: application/pdf
+    uri: /pieces/ghannili_shway_shway.pdf
+text: |
+  [https://arz.wikipedia.org/wiki/%D8%BA%D9%86%D9%8A%D9%84%D9%89_%D8%B4%D9%88%D9%89_%D8%B4%D9%88%D9%89 Egyptian Wikipedia]
+lyrics: |
+  غنّي لي شوي شوي
+  غنّي لي وخود عينيّ
+
+  خليني أقول ألحان تتمايل لها السامعين
+  وترفرف لها الأغصان النرجس مع الياسمين
+  وتسافر بها الركبان طاويين البوادي طيّ
+  شوي شوي شوي شوي غنيلي غنّي وخد عينيّ
+
+  المغنى حياة الروح يسمعها العليل تشفيه
+  وتداوي كبد مجروح تحتار الأطبّا فيه
+  وتخّلي ظلام اللّيل بعيون الحبايب ضيّ
+  شوي شوي شوي شوي غنيلي غنّي وخد عينيّ
+
+  لأغنّي واقول للطير من بدري صباح الخير
+  والقمر مع الخضّير ويّاى يردّوا عليّ
+  شوي شوي شوي شوي غنيلي غنّي وخد عينيّ
+
+  أحلفلك بربّ البيت يا مصدّق بربّ البيت
+  لاسحركم إذا غنّيت
+  وأرقّص بنات الحيّ
+  شوي شوي شوي شوي غنيلي غنّي وخد عينيّ
+
+  لأغني واغني وأغني وأوري الخلايق فني
+  والإنسي يقول للجني والرايح يقول للجي

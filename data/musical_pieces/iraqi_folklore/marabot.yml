@@ -14,20 +14,24 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: سماعي يكاه
-form: sama3i
-composer: 3aziz_dedah
+name: مرابط
+form: song
+composer: iraqi_folklore
+songWriter: unknown
+singers: []
+dialect: unknown
 maqamat:
   - maqam: rast
-    explanation: ""
+    explanation: The primary Maqam
+  - maqam: suznak
+    explanation: End of refrain
 rhythms:
-  - rhythm: sama3i_thaqil
-    explanation: The primary rhythm
-  - rhythm: darij
-    explanation: 4th Khana
+  - rhythm: dwuik
+    explanation: The primary
 attachments:
   - type: private
-    comment: Sheet music on G
-    contentType: image/heic
-    uri: /pieces/sama3i_yakah.HEIC
+    comment: Sheet music on C and text
+    contentType: image/jpg
+    uri: /pieces/marabot.jpg
 text: ""
+lyrics: ""

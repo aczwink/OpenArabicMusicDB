@@ -14,20 +14,28 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: سماعي يكاه
-form: sama3i
-composer: 3aziz_dedah
+name: ليلى
+form: maqtu3a
+composer: farid_alatrash
 maqamat:
-  - maqam: rast
-    explanation: ""
+  - maqam: hijaz
+    explanation: The primary Maqam
+  - maqam: huzam
+    explanation: Short part before the end
 rhythms:
-  - rhythm: sama3i_thaqil
-    explanation: The primary rhythm
-  - rhythm: darij
-    explanation: 4th Khana
+  - rhythm: masmudi_saghir
+    explanation: The primary rhyhtm
+  - rhythm: wahda_wa_nuss
+    explanation: During the introduction theme in the middle of the piece
+  - rhythm: ayyoub
+    explanation: During the Segah part
 attachments:
+  - type: public
+    comment: Sheet music on D without quarter tones
+    contentType: text/x-lilypond
+    uri: ./sheet-music.ly
   - type: private
-    comment: Sheet music on G
-    contentType: image/heic
-    uri: /pieces/sama3i_yakah.HEIC
+    comment: Sheet music on D without quarter tones (unknown source)
+    contentType: application/pdf
+    uri: /pieces/leyla.pdf
 text: ""

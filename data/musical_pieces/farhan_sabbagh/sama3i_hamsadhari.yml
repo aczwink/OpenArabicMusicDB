@@ -14,20 +14,25 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: سماعي يكاه
+name: سماعي Hamsadhari
 form: sama3i
-composer: 3aziz_dedah
+composer: farhan_sabbagh
+releaseDate: 2013
 maqamat:
-  - maqam: rast
-    explanation: ""
+  - maqam: saba_zamzam
+    explanation: Beginning of 2nd Khana
+  - maqam: nahawand
+    explanation: End of 2nd Khana
+  - maqam: hijaz_kar
+    explanation: 3rd Khana
+  - maqam: 3ajam
+    explanation: 4th Khana
 rhythms:
   - rhythm: sama3i_thaqil
     explanation: The primary rhythm
-  - rhythm: darij
-    explanation: 4th Khana
 attachments:
   - type: private
-    comment: Sheet music on G
-    contentType: image/heic
-    uri: /pieces/sama3i_yakah.HEIC
+    comment: Sheet music on D
+    contentType: text/x-lilypond
+    uri: /pieces/sama3i_hamsadhari.ly
 text: ""

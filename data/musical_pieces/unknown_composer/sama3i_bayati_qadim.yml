@@ -30,5 +30,9 @@ maqamat:
 rhythms:
   - rhythm: sama3i_thaqil
     explanation: ""
-attachments: []
+attachments:
+  - type: private
+    comment: Sheet music on D
+    contentType: application/pdf
+    uri: /pieces/sama3i_bayati_qadim.pdf
 text: ""

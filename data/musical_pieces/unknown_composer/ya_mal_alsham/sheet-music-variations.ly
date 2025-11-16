@@ -26,19 +26,18 @@
 {
   \key do \rast
   
-  r8 do do sisb do4 sisb8 la |
+  r8 do do sisb do8. sisb16 la4 |
   sisb4 do8 do sisb8. la16 sol4 |
   do8 sisb la sol sol fa misb re16 misb |
   fa8 sol sol fa misb8. re16 do16 sol' la sisb |
   
-  do8 do do sisb do4 sisb8 la |
-  sisb4 do8 do sisb8. la16 sol8 la16 sisb |
-  do8 sib la sol sol fa misb re16 misb |
-  fa8 sol sol fa misb8. re16 do16 sol' la sisb |
+  do8 do do sisb do16 re do sisb la sisb la la |
+  sisb do la sisb do re do re sisb do la sisb sol8 la16 sisb |
+  do8 sib la sol sol16 la sol fa misb8 re16 misb |
+  fa8 sol16 la sol la fa sol misb fa re misb do16 sol' la sisb |
   
-  do8 do do sisb do4 sisb8 la |
+  do8 do do sisb do8. sisb16 la4 |
   sisb4 do8 do sisb8. la16 sol4 |
   misb'16 re misb do re sisb do la sib sol la fa sol misb fa re |
-  fa8 sol sol fa misb8. re16 do16 sol' la sisb |
- 
+  fa8 sol16 la sol8 fa misb8. re16 do16 sol' la sisb |
 }

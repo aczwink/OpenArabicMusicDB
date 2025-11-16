@@ -1,0 +1,56 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: ع العين موليتين
+form: song
+composer: unknown
+songWriter: unknown
+singers: []
+dialect: unknown
+maqamat:
+  - maqam: bayati
+    explanation: ""
+rhythms:
+  - rhythm: nawari
+    explanation: ""
+attachments:
+  - type: public
+    comment: Sheet music on D
+    contentType: text/x-lilypond
+    uri: ./sheet-music.ly
+text: |
+  * [https://www.youtube.com/watch?v=D6Ex5WiW6vc Recording of سميرة توفيق]
+  * [https://www.youtube.com/watch?v=DxAlTukcCQE Recording by Anwar Hariri on Violin]
+lyrics: |
+  ع العين موليتين واتناش مولية
+  جسر الحديد انقطع من دوس رجليا
+  مشوار مشيته الصبح ومشيته عصريه
+  يااحباب لاترحلوا ضلوا حواليا
+
+  أهلا و سهلا و مرحبتين باللي جن
+  لقعود ورش الورد للسمر لما جن
+  نوبة يقولون انصدع و نوبة يقولون انجن
+  و نوبة يقولون صابته بالراس جنيه
+
+  ياريم تلحقتلك من فوق الجبال
+  والعين سودچ حلا من جر الميالي
+  ماريد منه شغل بس يقعد اقبالي
+  باديني اجيبه له الخبز واجيبه له الميه
+
+  لو ترحمه بس تجي من العين تسقيني
+  چان القلب يرتوي وهمي تنسيني
+  صياد أنا چنت وشلون صابوني
+  والعين سودچ حلا والشفة وردية

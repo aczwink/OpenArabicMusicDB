@@ -29,5 +29,9 @@ rhythms:
     explanation: The primary rhythm
   - rhythm: ugrog
     explanation: 4th Khana
-attachments: []
+attachments:
+  - type: private
+    comment: Sheet music on D
+    contentType: image/heic
+    uri: /pieces/sama3i_3ushaq.HEIC
 text: ""
