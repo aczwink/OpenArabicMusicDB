@@ -14,25 +14,26 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: سماعي ماهور
-form: sama3i
-composer: nikolaki_efendi
+name: Longa فرحفزا
+form: longa
+composer: riad_alsunbati
 maqamat:
-  - maqam: rast
-    explanation: ""
+  - maqam: nahawand
+    explanation: The primary Maqam
 rhythms:
-  - rhythm: sama3i_thaqil
+  - rhythm: fox
     explanation: The primary rhythm
-  - rhythm: darij
+  - rhythm: malfuf
+    explanation: During the Taslim
+  - rhythm: ugrog
     explanation: 4th Khana
 attachments:
   - type: private
-    comment: Sheet music on C
+    comment: Sheet music on G
     contentType: application/pdf
-    uri: /pieces/sama3i_mahur.pdf
+    uri: /pieces/longa_riad.pdf
   - type: private
-    comment: Old sheet music on C
-    contentType: image/heic
-    uri: /pieces/sama3i_mahur_old.HEIC
-text: |
-  [https://www.youtube.com/watch?v=BFbscamk-2k Recording on C]
+    comment: Finale sheet music on G
+    contentType: application/vnd.musician
+    uri: /pieces/longa_riad.mus
+text: ""

@@ -14,12 +14,20 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: سماعي ماهور
+name: سماعي شهناز
 form: sama3i
 composer: nikolaki_efendi
 maqamat:
+  - maqam: hijaz_kar
+    explanation: End of Taslim, Middle part of 2nd khana, Beginning of 3rd khana, first half of 4th khana, end of 4th khana
+  - maqam: hijaz
+    explanation: 1st khana, 3rd khana
   - maqam: rast
-    explanation: ""
+    explanation: Beginning of Taslim, part of 4th khana
+  - maqam: kurdi
+    explanation: 2nd khana
+  - maqam: bayati
+    explanation: Last measure of 3rd khana
 rhythms:
   - rhythm: sama3i_thaqil
     explanation: The primary rhythm
@@ -27,12 +35,7 @@ rhythms:
     explanation: 4th Khana
 attachments:
   - type: private
-    comment: Sheet music on C
+    comment: Sheet music on D
     contentType: application/pdf
-    uri: /pieces/sama3i_mahur.pdf
-  - type: private
-    comment: Old sheet music on C
-    contentType: image/heic
-    uri: /pieces/sama3i_mahur_old.HEIC
-text: |
-  [https://www.youtube.com/watch?v=BFbscamk-2k Recording on C]
+    uri: /pieces/sama3i_shahnaz.pdf
+text: ""

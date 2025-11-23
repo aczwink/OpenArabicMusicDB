@@ -14,25 +14,29 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: سماعي ماهور
-form: sama3i
-composer: nikolaki_efendi
-maqamat:
-  - maqam: rast
-    explanation: ""
-rhythms:
-  - rhythm: sama3i_thaqil
-    explanation: The primary rhythm
-  - rhythm: darij
-    explanation: 4th Khana
-attachments:
-  - type: private
-    comment: Sheet music on C
-    contentType: application/pdf
-    uri: /pieces/sama3i_mahur.pdf
-  - type: private
-    comment: Old sheet music on C
-    contentType: image/heic
-    uri: /pieces/sama3i_mahur_old.HEIC
-text: |
-  [https://www.youtube.com/watch?v=BFbscamk-2k Recording on C]
+name: قلبي يا قلبي
+form: song
+composer: nabil_khoury
+releaseDate: 2020
+songWriter: nabil_khoury
+singers: [nancy_ajram]
+dialect: unknown
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments: [] #TODO
+text: ""
+lyrics: |
+  قلبي يا قلبي تركني يا قلبي
+  مش وقتا هلق ارجع حب
+  هلق ما فيي و منه بايديي
+  مابعرف شو صارلو هالقلب
+
+  معقوله حبيتك ع زوقي لقيتك
+  بعيوني في انت وبس
+  ليالي ليالي عم بسهر ليالي
+  واشتاقلك من دون ما احس
+
+  ما بعرف شو قلك لو فيي ما قلك
+  عن قلبي وشو صاير فيه
+  ومبين علي في سر بعيني
+  طمني حسيت بشي

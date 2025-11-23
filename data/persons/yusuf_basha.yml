@@ -14,25 +14,7 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: سماعي ماهور
-form: sama3i
-composer: nikolaki_efendi
-maqamat:
-  - maqam: rast
-    explanation: ""
-rhythms:
-  - rhythm: sama3i_thaqil
-    explanation: The primary rhythm
-  - rhythm: darij
-    explanation: 4th Khana
-attachments:
-  - type: private
-    comment: Sheet music on C
-    contentType: application/pdf
-    uri: /pieces/sama3i_mahur.pdf
-  - type: private
-    comment: Old sheet music on C
-    contentType: image/heic
-    uri: /pieces/sama3i_mahur_old.HEIC
-text: |
-  [https://www.youtube.com/watch?v=BFbscamk-2k Recording on C]
+name: يوسف باشا
+origin: "?"
+text: ""
+locations: []
