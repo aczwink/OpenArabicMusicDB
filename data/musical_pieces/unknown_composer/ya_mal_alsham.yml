@@ -14,25 +14,32 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: عزيزة
-form: maqtu3a
-composer: mohammad_3abdel_wahab
-releaseDate: "?"
+name: يا مال الشام
+form: qadd_halabi
+composer: unknown
+songWriter: unknown
+singers: [muhammad_khairi]
+dialect: unknown
 maqamat:
-  - maqam: kurdi
+  - maqam: rast
     explanation: ""
 rhythms:
-  - rhythm: wahda_kabira
-    explanation: ""
   - rhythm: maqsum
     explanation: ""
-  - rhythm: malfuf
-    explanation: "تسليم"
   - rhythm: masmudi_saghir
-    explanation: "بلدي, last verse"
-attachments:
-  - type: private
-    comment: Sheet music on D
-    contentType: image/heic
-    uri: /pieces/3aziza.HEIC
+    explanation: ""
+attachments: []
 text: ""
+lyrics: |
+  يا مال الشام يالله يا مالي
+  طال المطال يا حلوه تعالي
+
+  طال المطال طال وطوَّل
+  الحلوة بتمشي بتمشي وتتحوَّل
+  يا ربّي يرجَع زمن الأوَّل
+  يوم يا لطيف ماكان على بالي
+
+  طال المطال وما شفناهم
+  يوم الأسوَد يوم الودَّعناهم
+  ياربي تجمَعْني معهم
+  يرجع ياللي شغل لي بالي

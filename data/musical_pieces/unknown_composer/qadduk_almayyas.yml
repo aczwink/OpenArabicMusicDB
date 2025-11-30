@@ -15,10 +15,10 @@
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 name: قدك المياس
-form: song
+form: qadd_halabi
 composer: unknown
 songWriter: unknown
-singers: [sabah_fakhri]
+singers: [sabah_fakhri, muhammad_khairi]
 dialect: msa
 maqamat:
   - maqam: hijaz

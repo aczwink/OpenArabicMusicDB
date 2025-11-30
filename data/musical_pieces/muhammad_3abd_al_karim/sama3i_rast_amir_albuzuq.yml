@@ -17,8 +17,14 @@
 name: سماعي Rast
 form: sama3i
 composer: muhammad_3abd_al_karim
-maqamat: [] #TODO
-rhythms: #TODO
+maqamat:
+  - maqam: rast
+    explanation: The primary Maqam
+  - maqam: suznak
+    explanation: At the beginning of the Taslim, short part in 2nd part of 4th Khana
+  - maqam: hijaz_kar
+    explanation: At the beginning of the 2nd Khana
+rhythms:
   - rhythm: sama3i_thaqil
     explanation: The primary rhythm
 attachments:

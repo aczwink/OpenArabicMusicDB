@@ -36,4 +36,8 @@ attachments:
     comment: Finale sheet music on G
     contentType: application/vnd.musician
     uri: /pieces/longa_riad.mus
+  - type: private
+    comment: Oud sheet music on G
+    contentType: image/heic
+    uri: /pieces/longa_riad_oud.HEIC
 text: ""
