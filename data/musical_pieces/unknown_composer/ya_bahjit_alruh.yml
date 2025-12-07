@@ -14,39 +14,34 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: يا غزال الرمل
+name: يا بهجة الروح
 form: muwashah
 composer: unknown
 songWriter: unknown
-singers: [muhammad_khairi]
+singers: [sabah_fakhri]
 dialect: unknown
 maqamat:
   - maqam: kurdi
-    explanation: The primary Maqam
-  - maqam: hijaz_kar
-    explanation: At "اترع الأقداح راحاً قرقفاً"
-  - maqam: rast
-    explanation: At "واسقني واشرب أو اشرب واسقني"
+    explanation: ""
 rhythms:
-  - rhythm: sama3i_thaqil
+  - rhythm: ugrog
     explanation: ""
 attachments:
   - type: private
     comment: Sheet music on C without quarter tones
     contentType: image/heic
-    uri: /pieces/ya_ghazal_alraml.HEIC
-text: ""
+    uri: /pieces/ya_bahjit_alruh.HEIC
+text: |
+  This piece is usually performed with a lot of vocal improvisation and thus a lot of Maqam switches. Especially on the phrase "هاتِ كاسِ الراح واسقني الأقداح".
 lyrics: |
-  يا غزال الرمل وا وجدي عليك
-  كاد سري فيك أن ينهتك
+  يابهجة الروح جد لي بالوصال
+  الفؤاد مجروح ولا له احتمال
 
-  هذه الصهباء والكأس لديك
-  وغرامي في هواك اشتبك
+  ازاي تهجرني وأنا قلبي يهواك
+  بعدك جنني جد لي بالوصال
 
-  اترع الأقداح راحاً قرقفاً
-  واسقني واشرب أو اشرب واسقني
-  فلماك العذبُ أحلى مرشفا
-  من دم الكرم ومآء المُزن
+  هاتِ كاسِ الراح واسقني الأقداح
 
-  اعطنى كأساً وخُذْ كأساً اليك
-  فلذيذ ُ العيش أن نشتركا
+  وجهك الوضاح ماله من مثال
+  جُدْ لي يابدري بلثمِ النَغـــر
+  الهوى العذري خلى حالي حال
