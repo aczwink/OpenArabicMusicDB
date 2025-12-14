@@ -14,28 +14,11 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: يمر عجبا
-form: muwashshah
-composer: 3omar_albatsh
-songWriter: unknown
-singers: [sabah_fakhri, muhammad_khairi]
-dialect: levantine_classical_mixed #from ChatGPT
-maqamat:
-  - maqam: kurdi
-    explanation: "The primary Maqam"
-  - maqam: rast
-    explanation: 3rd verse
-rhythms:
-  - rhythm: mukhammas_turki
-    explanation: ""
-attachments:
-  - type: private
-    comment: Sheet music on A
-    contentType: application/pdf
-    uri: /pieces/yamurru_3ojiban.pdf
+name: Mesut Cemil
+lifeTime: 1902 - 1963
+origin: Ottoman Empire / Turkey
 text: ""
-lyrics: |
-  يمر عجباً ويمضي ولا يؤدي السلام
-  أليس هذا عجيباً أليس هذا حرام
-  العشق ياناس يقضي بشرب كاس الحمام
-  إذا الحبيب تجنى على اسير الغرام
+locations: tr
+image:
+  type: external
+  uri: https://upload.wikimedia.org/wikipedia/commons/a/ab/1932_12_07_Cumhuriyet_Mesut_Cemil.jpg

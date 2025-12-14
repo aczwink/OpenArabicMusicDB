@@ -15,12 +15,11 @@
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 name: يا شادي الالحان
-form: muwashah
+form: muwashshah
 composer: sayyed_darwish
-releaseDate: "?"
 songWriter: unknown
 singers: [sabah_fakhri]
-dialect: msa
+dialect: classical #from ChatGPT
 maqamat:
   - maqam: rast
     explanation: The primary Maqam

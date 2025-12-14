@@ -15,11 +15,11 @@
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 name: إملأ لي الأقداح
-form: muwashah
+form: muwashshah
 composer: unknown
 songWriter: unknown
 singers: [sabah_fakhri]
-dialect: msa
+dialect: classical #from ChatGPT
 maqamat:
   - maqam: bayati
     explanation: ""

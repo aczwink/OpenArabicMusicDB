@@ -1,0 +1,42 @@
+{    
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "title": "OpenArabicMusicDB sama3i definition",
+    "description": "JSON Schema for OpenArabicMusicDB sama3i definitions",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "attachments": {
+            "type": "array"
+        },
+        "composer": {
+            "type": "string"
+        },
+        "form": {
+            "const": "sama3i"
+        },
+        "maqamat": {
+            "type": "array"
+        },
+        "name": {
+            "type": "string"
+        },
+        "releaseDate": {
+            "oneOf": [
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "string",
+                    "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+                }
+            ]
+        },
+        "rhythms": {
+            "type": "array"
+        },
+        "text": {
+            "type": "string"
+        }
+    },
+    "required": ["attachments", "composer", "form", "maqamat", "name", "rhythms", "text"]
+}

@@ -15,11 +15,11 @@
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 name: في الروض انا شفت الجميل
-form: muwashah
+form: muwashshah
 composer: 3omar_albatsh
 songWriter: unknown
 singers: [sabah_fakhri]
-dialect: unknown
+dialect: levantine_classical_mixed #from ChatGPT
 maqamat:
   - maqam: rast
     explanation: The primary Maqam

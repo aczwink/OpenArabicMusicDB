@@ -15,12 +15,11 @@
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 name: لما بدا يتثنى
-form: muwashah
+form: muwashshah
 composer: unknown
-releaseDate: "?"
 songWriter: unknown
 singers: []
-dialect: msa
+dialect: classical #from ChatGPT
 maqamat:
   - maqam: nahawand
     explanation: ""

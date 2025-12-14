@@ -15,11 +15,11 @@
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 name: يا بهجة الروح
-form: muwashah
+form: muwashshah
 composer: unknown
 songWriter: unknown
 singers: [sabah_fakhri]
-dialect: unknown
+dialect: mixed_classical_egyptian #from ChatGPT
 maqamat:
   - maqam: kurdi
     explanation: ""

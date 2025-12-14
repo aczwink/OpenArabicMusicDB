@@ -19,7 +19,7 @@ form: qadd_halabi
 composer: unknown
 songWriter: unknown
 singers: [sabah_fakhri, muhammad_khairi]
-dialect: msa
+dialect: mixed_classical_levantine #from ChatGPT
 maqamat:
   - maqam: hijaz
     explanation: ""

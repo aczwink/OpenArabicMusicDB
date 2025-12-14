@@ -1,0 +1,53 @@
+{    
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "title": "OpenArabicMusicDB song definition",
+    "description": "JSON Schema for OpenArabicMusicDB song definitions",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "attachments": {
+            "type": "array"
+        },
+        "composer": {
+            "type": "string"
+        },
+        "dialect": {
+            "enum": ["classical", "dz", "eg", "mixed_classical_egyptian", "mixed_classical_levantine"]
+        },
+        "form": {
+            "enum": ["muwashshah", "qadd_halabi", "song"]
+        },
+        "lyrics": {
+            "type": "string"
+        },
+        "maqamat": {
+            "type": "array"
+        },
+        "name": {
+            "type": "string"
+        },
+        "releaseDate": {
+            "oneOf": [
+                {
+                    "type": "number"
+                }
+            ]
+        },
+        "rhythms": {
+            "type": "array"
+        },
+        "singers": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "songWriter": {
+            "type": "string"
+        },
+        "text": {
+            "type": "string"
+        }
+    },
+    "required": ["attachments", "composer", "dialect", "form", "lyrics", "maqamat", "name", "rhythms", "singers", "songWriter", "text"]
+}

@@ -15,11 +15,11 @@
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 name: يا غزال الرمل
-form: muwashah
+form: muwashshah
 composer: unknown
 songWriter: unknown
 singers: [muhammad_khairi]
-dialect: unknown
+dialect: classical #from ChatGPT
 maqamat:
   - maqam: kurdi
     explanation: The primary Maqam

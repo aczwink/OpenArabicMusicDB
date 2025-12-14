@@ -1,0 +1,54 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: وحشتني
+form: song
+composer: khaled_alamir
+songWriter: salah_fayiz
+singers: [su3ad_muhammad]
+dialect: eg
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments: [] #TODO
+text: |
+  [https://arz.wikipedia.org/wiki/%D9%88%D8%AD%D8%B4%D8%AA%D9%86%D9%89 Egyptian Wikipedia]
+lyrics: |
+  وحشتني .. عدد نجوم السما
+  وحشتني .. عدد كلام الهوى
+  وحشتني في كل يوم انما
+  وحشتني اكتر واكتر واحنا سوا
+
+  تعالى نخلي الحلم حقيقة تعالى تعالى
+  تعالى نعوّض كل دقيقة تعالى تعالى
+  من خوفي لبكرا يفرقنا
+  واحنا يا روح قلبي ما صدقنا
+  اشتقتلي ورجعتلي .. وقلتلي وحشتني
+
+  ليالي ليالي ليالي
+  ما فارقتش ثانية خيالي ليالي
+  بستنى الفرحة وبستناك
+  وبغني وانا بحلم بلقاك
+  الله على لقى الحبيب بعد الغياب
+  حلاوته بتخلي الهوى يرجع شباب
+
+  يا قمر يا سهر .. راجعين راجعين
+  راجعين بحنين كل العاشقين
+  اسهرو ونورو ليالينا
+  دا الشوق ياما دوب فينا
+  ربنا يوعدنا ويسعدنا
+  ولا تخلص ابدا مواعيدنا
+  ونقول لبكرة يستنى
+  ونقول لبعده أبعد عنا

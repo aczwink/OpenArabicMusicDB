@@ -14,28 +14,30 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: يمر عجبا
-form: muwashshah
-composer: 3omar_albatsh
-songWriter: unknown
-singers: [sabah_fakhri, muhammad_khairi]
-dialect: levantine_classical_mixed #from ChatGPT
+name: سماعي نهاواند
+form: sama3i
+composer: mesut_cemil
 maqamat:
-  - maqam: kurdi
-    explanation: "The primary Maqam"
-  - maqam: rast
-    explanation: 3rd verse
+  - maqam: nahawand
+    explanation: The primary Maqam
+  - maqam: bayati
+    explanation: Many parts in 1st, 2nd, 3rd Khana
+  - maqam: saba
+    explanation: In 2nd and 4th Khana
+  - maqam: hijaz_kar
+    explanation: In 3rd and 4th Khana
+  - maqam: hijaz
+    explanation: In 3rd Khana
+  - maqam: nakriz
+    explanation: In 4th Khana
 rhythms:
-  - rhythm: mukhammas_turki
-    explanation: ""
+  - rhythm: sama3i_thaqil
+    explanation: The primary rhythm
+  - rhythm: dawr_hindi
+    explanation: 4th Khana
 attachments:
   - type: private
-    comment: Sheet music on A
+    comment: Sheet music on C
     contentType: application/pdf
-    uri: /pieces/yamurru_3ojiban.pdf
+    uri: /pieces/sama3i_nahawand.pdf
 text: ""
-lyrics: |
-  يمر عجباً ويمضي ولا يؤدي السلام
-  أليس هذا عجيباً أليس هذا حرام
-  العشق ياناس يقضي بشرب كاس الحمام
-  إذا الحبيب تجنى على اسير الغرام

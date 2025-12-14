@@ -1,0 +1,13 @@
+{    
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "title": "OpenArabicMusicDB musical piece definition",
+    "description": "JSON Schema for OpenArabicMusicDB musical piece definitions",
+    "oneOf": [
+        {
+            "$ref": "./pieces/sama3i.json"
+        },
+        {
+            "$ref": "./pieces/with-vocals.json"
+        }
+    ]
+}

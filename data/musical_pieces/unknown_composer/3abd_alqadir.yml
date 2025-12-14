@@ -1,0 +1,44 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: عبد القادر
+form: song
+composer: unknown
+songWriter: unknown
+singers: [cheb_khaled]
+dialect: dz
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments: [] #TODO
+text: |
+  [https://arz.wikipedia.org/wiki/%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D8%B1_(%D8%A7%D8%BA%D9%86%D9%8A%D9%87) Egyptian Wikipedia]
+lyrics: |
+  عبد القادر يا بوعلم ضاق الحال عليا
+  داوي حالي يا بوعلم سيدي ارؤف عليا
+  اااه سيدي عبد الرحمن دير مجهودك و تحزم
+  و انت راجل قايم
+  خديمك دير مزية
+
+  يا سيدي بومدين وانا فى ارضك نتأمن
+  يا سيدي بومدين وانا فى ارضك نتأمن
+  يا سيدي الهواري سلطان غالي
+  و اشفيني عبد الله سلطان الا عالي اه
+
+  دعوتي القليله يانا ذيك المبلية
+  اااه خليتني فى حيرة يانا العشرة طويله
+
+  ذاك الوالي اروح داوي لي حالي
+  سيدي عبد الرحمن داوي داوي داوي
