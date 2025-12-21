@@ -1,0 +1,50 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: على حسب وداد قلبي
+form: song
+composer: baligh_hamdi
+releaseDate: 1963
+songWriter: salah_abu_salem
+singers: [3abd_al_halim_hafiz]
+dialect: eg
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments: [] #TODO
+text: "[https://ar.wikipedia.org/wiki/%D8%B9%D9%84%D9%89_%D8%AD%D8%B3%D8%A8_%D9%88%D8%AF%D8%A7%D8%AF_%D9%82%D9%84%D8%A8%D9%8A Arabic Wikipedia]"
+lyrics: |
+  علا حسب وداد قلبي يا بويا راح أقول للزين سلامات
+  سلامات سلامات سلامات
+  علا حسب وداد قلبى يابوي
+  ضيعت عليه العمر يا بويا ده انا ليا معاه حكايات
+  حكايات حكايات حكايات
+  على حسب وداد قلبي يا بوي
+
+  موال الصبر أهو داب من يوم الحب ما غاب
+  ولا عمري يا عين يا ليل يا ليل يا عين يا ليل ما ترجع لي أحباب
+  وانا صابر ع المقسوم يمكن يرجع لي ف يوم
+  وتكون لي معاه تاني يا بويا أيام حلوه وحكايات
+
+  علا حسب الريح ما يودي الريح ما يودي الريح ما يودي
+  وياه أنا ماشي ماشي ماشي ماشي ولا بيدي
+  معرفش ان كنت مروح ولا امتا الهوا ها يهدي
+  و اهي دنيا بتلعب بينا يمكن ترجع غناوينا
+  وتكون لي معاه تاني يا بويا أيام حلوه وحكايات
+
+  لا هاسلم بالمكتوب ولا هارضا ابات مغلوب
+  و هاقول للدنيا يا دنيا انا راجع انا راجع انا راجع للمحبوب
+  و نغني اغاني جديده مليانه حكاوي سعيده
+  وهانغزل توب الفرحة يا بويا وهاقول يا حبيبي سلامات

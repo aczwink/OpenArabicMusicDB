@@ -12,10 +12,10 @@
             "type": "string"
         },
         "dialect": {
-            "enum": ["classical", "dz", "eg", "mixed_classical_egyptian", "mixed_classical_levantine"]
+            "enum": ["classical", "dz", "eg", "lb", "mixed_classical_egyptian", "mixed_classical_levantine", "mixed_levantine_egyptian"]
         },
         "form": {
-            "enum": ["muwashshah", "qadd_halabi", "song"]
+            "enum": ["muwashshah", "qadd_halabi", "qasida", "song"]
         },
         "lyrics": {
             "type": "string"

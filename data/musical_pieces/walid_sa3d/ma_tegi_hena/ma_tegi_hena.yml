@@ -1,0 +1,58 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: ما تيجي هنا
+form: song
+composer: walid_sa3d
+releaseDate: 2014
+songWriter: ayman_bahgat_amar
+singers: [nancy_ajram]
+dialect: eg
+maqamat:
+  - maqam: kurdi
+    explanation: ""
+rhythms:
+  - rhythm: sa3idi
+    explanation: ""
+attachments:
+  - type: public
+    comment: Sheet music on E
+    contentType: text/x-lilypond
+    uri: ./sheet-music.ly
+text: ""
+lyrics: |
+  ما تيجي هنا وأنا أحبك
+  عشان أعيش على حسك
+  حبيبي ده إنت الدنيا
+  وأنا أموت لو غيري يمسك
+  ما تيجي هنا خد فكرة
+  ده أنا بالنسبالك بكرة
+  أستاذة في الدنيا مذاكرة
+  كمل روحك، ده أنا نصك
+
+  ده غرامنا ما بينا
+  واخدة أنا بالي، ده أنا مش ننة
+  بكرة أهو باين قدامنا
+  وأنا أكتر واحدة تحسك
+  
+  حبيبي نيتي صافية
+  وإنت هتيجي هنا بالعافية
+  تهرب وتروح فين مني
+  ده أنا دكتورة في الجغرافيا
+  ما تيجي قوم وإعقلها
+  قولي بحبك ما تقولها
+  حبيبي ده أنا واحدة عادية
+  بالكلمة الحلوة تاكلها

@@ -1,0 +1,43 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: أخصمك آه
+form: song
+composer: muhammad_sa3d
+releaseDate: 2003
+songWriter: fawzi_ibrahim
+singers: [nancy_ajram]
+dialect: eg
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments: [] #TODO
+text: ""
+lyrics: |
+  اخاصمك آه
+  اسيبك لا
+  وجوه الروح هتفضل حبيبى اللى انا بهواه
+  بحبك آه
+  وافارقك لا
+  ملكنى هواك ولا اقدر حبيبى فى يوم انساك
+
+  دانت حبيبى ومنايا اللى دوبنى
+  وانت اللى بعده عن هوايا بيتعبنى
+
+  يمكن عليك بسوق دلالى ويخطر فى بالى اعاند هواك
+  لكن قوام بحن تانى واصالحك يا غالى وبطلب رضاك
+
+  فى حبك انت مالى حيله وعمرى فى ليله ما هبعد بعيد
+  والدنيا بعدك مستحيله وليله فليله حنينى يزيد

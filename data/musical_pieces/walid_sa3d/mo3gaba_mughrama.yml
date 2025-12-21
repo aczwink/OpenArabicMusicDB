@@ -1,0 +1,47 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: معجبة مغرمة
+form: song
+composer: walid_sa3d
+releaseDate: 2006
+songWriter: baha_aldim_muhammad
+singers: [nancy_ajram]
+dialect: eg
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments: [] #TODO
+text: ""
+lyrics: |
+  معجبة مغرمة
+  أنا بقى مش عايزة إلا هو
+  مشيته همسته
+  نظرته بتحرك قلبي جوا
+
+  حد يقوله حد يقوله
+  إني بحبه الحب ده كله
+  حد يحنن قلبه عليا
+  أنا مكسوفة أروحله وأقوله
+
+  أيوا خطفني بسحر جماله
+  شوقي باينله و عيني قيلاله
+  خايفة ما كونش أنا اللي في باله
+  بعد ده كله
+
+  روحوا قولولوا بحبه وماله
+  معجبة بيه ودايبة وميلاله
+  وحدة خلاص عاشقة وعيشاله
+  عمرها كله

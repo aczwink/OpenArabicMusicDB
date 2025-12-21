@@ -1,0 +1,40 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: قل للمليحة
+form: qasida
+composer: unknown
+songWriter: miskin_aldarimi
+singers: [muhammad_khairi, sabah_fakhri]
+dialect: classical #from ChatGPT
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments: [] #TODO
+text: |
+  Many additional phrases are added for موال. For example the following one is used by محمد خيري and صباح فخري as well:
+  يا داعيا لله مرفوع اليد متوسلا متضرعا للمنجد
+  يا طالبا منه الشفاعة في غد
+  قل للمليحة في الخمار الأسود
+  ماذا فعلت بناسك متعبدِ
+
+  [https://ar.wikipedia.org/wiki/%D9%82%D9%84_%D9%84%D9%84%D9%85%D9%84%D9%8A%D8%AD%D8%A9_(%D9%82%D8%B5%D9%8A%D8%AF%D8%A9) Arabic Wikipedia]
+lyrics: |
+  قل للمَليحة في الخِمارِ الأَسوَدِ
+  ماذا فعلت بناسك متعبدِ
+  قد كانَ شَمَّرَ للصَلاة ثيابه
+  حتىّ وقفت له بباب المسجد
+  ردي عليه صلاته وصيامه
+  لا تقتليه بحق دين محمدِ

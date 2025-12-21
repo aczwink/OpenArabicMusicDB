@@ -14,24 +14,9 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: بلد المحبوب
-form: maqtu3a
-composer: mohammad_3abdel_wahab
-maqamat:
-  - maqam: nahawand
-    explanation: ""
-rhythms:
-  - rhythm: wahda_kabira
-    explanation: ""
-  - rhythm: fox
-    explanation: Last part
-attachments:
-  - type: private
-    comment: Sheet music on C
-    contentType: application/pdf
-    uri: /pieces/balad_almahbub.pdf
-  - type: private
-    comment: Sheet music on C
-    contentType: image/heic
-    uri: /pieces/balad_almahbub.HEIC
-text: ""
+name: صلاح أبو سالم
+lifeTime: 1932 - 1971
+origin: Egypt
+text: |
+  [https://ar.wikipedia.org/wiki/%D8%B5%D9%84%D8%A7%D8%AD_%D8%A3%D8%A8%D9%88_%D8%B3%D8%A7%D9%84%D9%85 Arabic Wikipedia]
+locations: eg

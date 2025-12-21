@@ -1,7 +1,7 @@
 {    
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "title": "OpenArabicMusicDB sama3i definition",
-    "description": "JSON Schema for OpenArabicMusicDB sama3i definitions",
+    "title": "OpenArabicMusicDB instrumental definition",
+    "description": "JSON Schema for OpenArabicMusicDB instrumental definitions",
     "type": "object",
     "additionalProperties": false,
     "properties": {
@@ -12,7 +12,7 @@
             "type": "string"
         },
         "form": {
-            "const": "sama3i"
+            "enum": ["maqtu3a", "sama3i"]
         },
         "maqamat": {
             "type": "array"

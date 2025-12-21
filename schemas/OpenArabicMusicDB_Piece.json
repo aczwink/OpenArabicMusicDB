@@ -4,7 +4,7 @@
     "description": "JSON Schema for OpenArabicMusicDB musical piece definitions",
     "oneOf": [
         {
-            "$ref": "./pieces/sama3i.json"
+            "$ref": "./pieces/instrumental.json"
         },
         {
             "$ref": "./pieces/with-vocals.json"

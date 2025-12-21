@@ -14,34 +14,29 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: يا بهجة الروح
+name: أرجعي يا ألف ليلة
 form: muwashshah
 composer: unknown
 songWriter: unknown
-singers: [sabah_fakhri]
-dialect: mixed_classical_egyptian #from ChatGPT
+singers: [fairuz]
+dialect: classical #from ChatGPT
 maqamat:
   - maqam: kurdi
     explanation: ""
 rhythms:
-  - rhythm: ugrog
+  - rhythm: dawr_hindi
     explanation: ""
 attachments:
   - type: private
-    comment: Sheet music on C without quarter tones
-    contentType: image/heic
-    uri: /pieces/ya_bahjit_alruh.HEIC
-text: |
-  This piece is usually performed with a lot of vocal improvisation and thus a lot of Maqam switches. Especially on the phrase "هاتِ كاسِ الراح واسقني الأقداح".
+    comment: Sheet music on C
+    contentType: application/pdf
+    uri: /pieces/arja3i_ya_alfa_leyla.pdf
+text: ""
 lyrics: |
-  يابهجة الروح جد لي بالوصال
-  الفؤاد مجروح ولا له احتمال
-
-  ازاي تهجرني وأنا قلبي يهواك
-  بعدك جنني جد لي بالوصال
-
-  هاتِ كاسِ الراح واسقني الأقداح
-
-  وجهك الوضاح ماله من مثال
-  جُدْ لي يابدري بلثمِ الثغر
-  الهوى العذري خلى حالي حال
+  أرْجِعي يا ألفَ ليلةْ .. غيمةَ العِطرِ
+  فالهَوى يروي غليلَهْ .. من ندى الفجرِ
+  إنَّ أشواقي الطويلة .. أقْفَرَتْ عُمري
+  وحَكَاياكِ خميلةْ .. في مدى الدهرِ
+  أرْجِعي يا ألف ليلةْ
+  يا ألف ليلةْ .. يا ألف ليلةْ
+  غيمةَ العِطرِ

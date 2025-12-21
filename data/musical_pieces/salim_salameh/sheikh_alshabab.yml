@@ -14,8 +14,26 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: سمير صفير
-lifeTime: 1961 -
-origin: Lebanon
+name: شيخ الشباب
+form: song
+composer: salim_salameh
+releaseDate: 2010
+songWriter: faris_iskandar
+singers: [nancy_ajram]
+dialect: lb
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments: [] #TODO
 text: ""
-locations: lb
+lyrics: |
+  شو واثق بحاله وشو قلبه قوي
+  وقلبي من جماله دايب مستوي
+
+  كانت قصة اعجاب، صارت حب وعذاب
+  تاري شيخ الشباب، حبّه بيكوي كوي
+
+  كأنّه بيعرفني وحاسُّه قلبه شو عندي حنين
+  وأنا إسأل حالي شو خصّه، عم يسألني بصفته مين؟
+
+  فكّرته مجنون، ما توقّعته يكون
+  حبيبي ونصّي التاني اللي راح حبه بجنون
