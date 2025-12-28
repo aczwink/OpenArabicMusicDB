@@ -1,0 +1,48 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: أشتكي منو
+form: song
+composer: hamdi_alsadiq
+releaseDate: 2006
+songWriter: walid_al3isawi
+singers: [nancy_ajram]
+dialect: eg
+maqamat: [] #TODO
+rhythms:
+  - rhythm: sa3idi
+    explanation: ""
+attachments: [] #TODO
+text: ""
+lyrics: |
+  و أنا بين اديه و قصاد عنيه
+  مش حاسة غرام
+  مع انه كان بيقول كلام
+  مش أي كلام
+
+  اشتكي منه طب ابعد عنه
+  لا جاني و لا ماني ما خلصت أنا
+
+  احن له تاني اسمعه لو جاني
+  درسته حفضته فهمته أنا
+  الله الله عايز يرجعلي تاني
+  الله الله عايز من قلبي ايه
+  الله الله مش قللي انه حينساني
+  الله الله بيحن تاني ليه
+
+  ياني منه ياه ده أنا قلبي تاه و احتار وياه
+  هو فاكرني ايه يعني هموت عليه
+  دنا سهل انساه

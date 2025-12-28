@@ -1,0 +1,59 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: حيرت قلبي معاك 
+form: song
+composer: riad_alsunbati
+releaseDate: 1961
+songWriter: ahmad_rami
+singers: [umm_kalthoum]
+dialect: eg
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments: [] #TODO
+text: |
+  [https://ar.wikipedia.org/wiki/%D8%AD%D9%8A%D8%B1%D8%AA_%D9%82%D9%84%D8%A8%D9%8A_%D9%85%D8%B9%D8%A7%D9%83 Arabic Wikipedia]
+lyrics: |
+  حيرت قلبي معاك.. وانا باداري وأخبي
+  قل لي أعمل إيه وياك.. ولا أعمل إيه ويا قلبي
+
+  بدي أشكي لك من نار حبي.. بدي أحكي لك ع اللي ف قلبي
+  وأقول لك ع اللي سهرني.. وأقول لك ع اللي بكاني
+  واصور لك ضنى روحي.. وعزة نفسي مانعاني
+
+  يا قاسي بص ف عينيا.. وشوف إيه انكتب فيها
+  دي نظرة شوق وحنية.. ودي دمعة باداريها
+  وده خيال بين الأجفان.. فضل معايا الليل كله
+  سهرني بين فكر وأشجان.. وفات لي جوه العين ظله
+  وبين شوقي وحرماني.. وحيرتي ويا كتماني
+
+  ياما ليالي أنا وخيالي ، أفضل أصبر روحي بكلمة يوم قلتها لي
+  وبات أفكر.. في اللي جرى لك.. واللي جرى لي
+  وأقول ماشافش الحيرة.. علي لما باسلم
+  ولا شافش يوم الشوق.. في عيني راح يتكلم
+  وارجع واسامحك تاني.. واحن لك والقاني
+
+  خاصمتك بيني وبين روحي.. وصالحتك وخاصمتك تاني
+  وأقول أبعد يصعب على روحي.. تطاوعني ليزيد حرماني
+  ح أفضل أحبك من غير ما أقول لك.. إيه اللي حير أفكاري
+  لحد قلبك ما يوم يدلك.. على هوايا المتداري
+  ولما يرحمني قلبك.. ويبان لعيني هواك
+  وتنادي ع اللي انشغل بك.. وروحي تسمع نداك
+
+  أرضى اشكي لك من نار حبي
+  وابقى احكي لك ع اللي في قلبي
+  وأقول لك ع اللي سهرني.. وأقول لك ع اللي بكاني
+  وأقول يا قلبي ليه تخبي ..وليه يا نفس مانعاني

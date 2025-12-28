@@ -1,0 +1,49 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: حبيبي يا نور العين
+form: song
+composer: naser_almizdawi
+songWriter: ahmad_shata
+singers: []
+dialect: eg
+maqamat:
+  - explanation: The primary Maqam
+    maqam: hijaz
+  - explanation: Beginning of the verse
+    maqam: kurdi
+rhythms: [] #TODO
+attachments:
+  - type: public
+    comment: Sheet music on C
+    contentType: text/x-lilypond
+    uri: ./sheet-music.ly
+text: |
+  * [https://arz.wikipedia.org/wiki/%D9%86%D9%88%D8%B1_%D8%A7%D9%84%D8%B9%D9%8A%D9%86 Egyptian Wikipedia]
+  * [https://www.youtube.com/watch?v=ae0RMgLselQ&t Piano tutorial]
+lyrics: |
+  حبيبى يا نور العين .. يا ساكن خيالي
+  عاشق بقالى سنين .. ولا غيرك فى بالي
+
+  اجمل عيون فى الكون .. انا شفتها
+  الله عليك الله .. على سحرها
+  عيونك معايا .. عيونك كفاية
+  تنور ليالى ..
+
+  قلبك نادانى وقال .. بتحبني
+  الله عليك الله .. طمنتني
+  معاك البداية .. وكل الحكاية
+  معاك للنهاية ..

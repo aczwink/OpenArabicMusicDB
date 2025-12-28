@@ -12,7 +12,7 @@
             "type": "string"
         },
         "dialect": {
-            "enum": ["classical", "dz", "eg", "lb", "mixed_classical_egyptian", "mixed_classical_levantine", "mixed_levantine_egyptian"]
+            "enum": ["classical", "dz", "eg", "lb", "mixed_classical_egyptian", "mixed_classical_levantine", "mixed_levantine_egyptian", "msa", "north_levantine", "shami"]
         },
         "form": {
             "enum": ["muwashshah", "qadd_halabi", "qasida", "song"]
@@ -21,7 +21,20 @@
             "type": "string"
         },
         "maqamat": {
-            "type": "array"
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "explanation": {
+                        "type": "string"
+                    },
+                    "maqam": {
+                        "type": "string"
+                    }
+                },
+                "required": ["explanation", "maqam"]
+            }
         },
         "name": {
             "type": "string"

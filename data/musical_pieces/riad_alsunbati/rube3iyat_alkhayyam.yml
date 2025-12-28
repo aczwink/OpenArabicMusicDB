@@ -1,0 +1,103 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: رباعيات الخيام
+form: song
+composer: riad_alsunbati
+releaseDate: 1951
+songWriter: 3omar_alkhayyam
+singers: [umm_kalthoum]
+dialect: classical
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments: [] #TODO
+text: |
+  [https://ar.wikipedia.org/wiki/%D8%B1%D8%A8%D8%A7%D8%B9%D9%8A%D8%A7%D8%AA_%D8%A7%D9%84%D8%AE%D9%8A%D8%A7%D9%85_(%D8%A3%D8%BA%D9%86%D9%8A%D8%A9) Arabic Wikipedia]
+lyrics: |
+  سمعتُ صوتاً هاتفاً في السحر
+  نادى من الغيب غفاة البشر
+  هبوا املأوا كأس المنى
+  قبل أن تملأ كأسَ العمر كفُّ الَقَدر
+
+  لا تشغل البال بماضي الزمان
+  ولا بآتي العيش قبل الأوان
+  واغنم من الحاضر لذاته
+  فليس في طبع الليالي الأمان
+
+  غَدٌ بِظَهْرِ الغيب واليومُ لي
+  وكمْ يَخيبُ الظَنُ في المُقْبِلِ
+  ولَسْتُ بالغافل حتى أرى
+  جَمال دُنيايَ ولا أجتلي
+
+  القلبُ قد أضْناه عِشْق الجَمال
+  و الصَدرُ قد ضاقَ بما لا يُقال
+  يا ربِ هل يرضيك هذا الظَمأ
+  والماءُ يَنْسابُ أمامي زلال
+
+  أولى بهذا القلبِ أن يَخْفِق
+  وفي ضِرامِ الحُبِّ أنْ يُحرَق
+  ما أضْيَعَ اليومَ الذي مَرَّ بي
+  من غير أن أهْوى وأن أعْشَق
+
+  أفِقْ خَفيفَ الظِلِ هذا السَحَر
+  نادى دَعِ النومَ وناغِ الوَتَر
+  فما أطالَ النومُ عُمرأ
+  ولا قَصَرَ في الأعمارَ طولُ السَهَر
+
+  فكم تَوالى الليل بعد النهار
+  وطال بالأنجم هذا المدار
+  فامْشِ الهُوَيْنا إنَّ هذا الثَرى
+  من أعْيُنٍ ساحِرَةِ الاِحْوِرار
+
+  لا توحِشِ النَفْسَ بخوف الظُنون
+  واغْنَمْ من الحاضر أمْنَ اليقين
+  فقد تَساوى في الثَرى راحلٌ غداً
+  وماضٍ من أُلوفِ السِنين
+
+  أطفئ لَظى القلبِ بشَهْدِ الرِضاب
+  فإنما الأيام مِثل السَحاب
+  وعَيْشُنا طَيفُ خيالٍ فَنَلْ
+  حَظَكَ منه قبل فَوتِ الشباب
+
+  لبست ثوب العيش لم اُسْتَشَرْ
+  وحِرتُ فيه بين شتى الفِكر
+  وسوف انضو الثوب عني ولم
+  أُدْرِكْ لماذا جِئْتُ أين المفر 
+
+  يا من يِحارُ الفَهمُ في قُدرَتِك
+  وتطلبُ النفسُ حِمى طاعتك
+  أسْكَرَني الإثم ولكنني
+  صَحَوْتُ بالآمال في رَحمَتِك
+
+  إن لم أَكُنْ أَخلصتُ في طاعتِك
+  فإنني أطمَعُ في رَحْمَتِك
+  وإنما يَشْفعُ لي أنني
+  قد عِشْتُ لا أُشرِكُ في وَحْدَتِك
+
+  تُخفي عن الناس سنا طَلعتِك
+  وكل ما في الكونِ من صَنْعَتِك
+  فأنت مَجْلاهُ وأنت الذي
+  ترى بَديعَ الصُنْعِ في آيَتِك
+
+  إن تُفْصَلُ القَطرةُ من بَحْرِها
+  ففي مَداهُ مُنْتَهى أَمرِها
+  تَقارَبَتْ يا رَبُ ما بيننا
+  مَسافةُ البُعْدِ على قَدرِها
+
+  يا عالمَ الأسرار عِلمَ اليَقين
+  وكاشِفَ الضُرِّ عن البائسين
+  يا قابل الأعذار عُدْنا إلى
+  ظِلِّكَ فاقْبَلْ تَوبَةَ التائبين 

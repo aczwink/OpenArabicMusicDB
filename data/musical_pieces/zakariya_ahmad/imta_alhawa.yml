@@ -1,0 +1,38 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: إمتى الهوى
+form: song
+composer: zakariya_ahmad
+releaseDate: 1932
+songWriter: unknown
+singers: [umm_kalthoum]
+dialect: eg
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments: [] #TODO
+text: ""
+lyrics: |
+  إمتى الهوى يجي سوا وارتاح ولو في العمر يوم
+  يا ناس أنا قلبي انكوى وعيني ما يـــهواها نوم
+
+  في شرع مين يا منصفين العمر كله لوم في لوم
+
+  ليه يا ترى حيرتني يا دي الهوى بمـــــلاعبتك
+
+  إيه يعني لو ريحتني وعمـــلت غيري لعبــــتك 
+  وتميل عليه وتقول له ليه طاوعتني ما هي غلطتك 
+  في شرع مين يا منصفين العمر كله لوم في لوم

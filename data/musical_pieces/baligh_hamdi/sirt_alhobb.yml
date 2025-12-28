@@ -1,0 +1,78 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: سيرة الحب
+form: song
+composer: baligh_hamdi
+releaseDate: 1964
+songWriter: marsi_jamil_3aziz
+singers: [umm_kalthoum]
+dialect: eg
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments: [] #TODO
+text: |
+  [https://ar.wikipedia.org/wiki/%D8%B3%D9%8A%D8%B1%D8%A9_%D8%A7%D9%84%D8%AD%D8%A8_(%D8%A3%D8%BA%D9%86%D9%8A%D8%A9) Arabic Wikipedia]
+lyrics: |
+  طول عمري بخاف من الحب وسيرة الحب
+  وظلم الحب لكل اصحابه
+  وأعرف حكايات مليانة آهات ودموع وأنين
+  والعاشقين ذابوا ما تابوا
+  طول عمري بقول
+  لا أنا قد الشوق وليالي الشوق
+  ولا قلبي قد عذابه
+  وقابلتك إنت لقيتك بتغير كل حياتي
+  ما عرفش إزاي حبيتك
+  ما عرفش إزاي يا حياتي
+  من همسة حب لقيتني بحب
+
+  لقيتني بحب وأذوب في الحب
+  وأذوب في الحب وصبح وليل، وليل على بابه
+
+  فات من عمري سنين وسنين
+  شفت كثير، كثير وقليل عاشقين
+  اللي بيشكي حاله لحاله
+  واللي بيبكي على مواله
+  أهل الحب صحيح مساكين
+  ياما الحب نده على قلبي ما ردش قلبي جواب
+  ياما الشوق حاول يحايلني واقول له روح يا عذاب
+  ياما عيون شاغلوني لكن ولا شغلوني
+  إلا عُيونك إنت دول بس اللي خذوني
+  وبحُبك أمروني
+  أمروني أحب لقيتني بحب
+
+  يا اللي ظلمتوا الحب وقلتوا وعدتوا عليه
+  قلتوا عليه مش عارف إيه
+  العيب فيكم يا في حبايبكم
+  أما الحب يا روحي عليه
+  في الدنيا ما فيش أبدا أحلى من الحب
+  نتعب، نغلب، نشتكي منه لكن بنحب
+  يا سلام ع القلب وتنهيده في وصال وفراق
+  وشموع الشوق لما يقيدوا ليل المشتاق
+  يا سلام ع الدنيا وحلاوتها في عين العشاق
+  يا سلام على حلوتها
+  وأنا خذني الحب لقيتني بحب
+
+  يا اللي مليت من الحب حياتي أهدي حياتي إليك
+  روحي، قلبي، عقلي، حبي كلي مِلك إيديك
+  صوتك، نظراتك، همساتك شيء مش معقول
+  شيء خلّى الدنيا
+  زهور على طول وشموع على طول
+  الله يا حبيبي على حبك وهنايا معاك
+  ولا دمعة عين جرحت قلبي ولا قولة آه
+  ما بقول شي في حبك غير الله
+  الله يا حبيبي على حبك
+  من كثر الحب لقيتني بحب

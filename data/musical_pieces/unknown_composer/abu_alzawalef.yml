@@ -1,0 +1,43 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: أبو الزوالف
+form: song
+composer: unknown
+songWriter: unknown
+singers: [sabah_fakhri]
+dialect: shami
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments: [] #TODO
+text: |
+  [https://www.youtube.com/watch?v=4waHIOQ2kTk Recording by صباح فخري]
+lyrics: |
+  اه و زاولف يا يا بو الزلوف زلفى يا عينيا
+  مابين الشفايف عسل نقّط على على ايديا
+
+  اه يا عمي خذني معاك و عالشام لاتفرج
+  اي و ادخل عسوق الطويل واشتري لا لاتفرج
+  و كشفت على صدرها وقالت تعا اتفرج
+  ودكان تاجر فتح يا نضر عينايا
+
+  امان يا قلبي امان راحوا احبابي فين يوبه
+
+  طلبت مني الملح و منين اجيبلا الملح
+  و مبارح كنا صلح و اليوم احباب يوبه
+
+  طلبت مني التتن و منين اجيبلا التتن
+  و قعت انا بمحبتن ما كانوا عالبال يوبه

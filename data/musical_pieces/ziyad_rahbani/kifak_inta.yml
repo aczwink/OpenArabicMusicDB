@@ -1,0 +1,58 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: كيفك إنت
+form: song
+composer: ziyad_rahbani
+songWriter: ziyad_rahbani
+singers: [fairuz]
+dialect: lb
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments:
+  - type: private
+    comment: Sheet music on F
+    contentType: application/pdf
+    uri: /pieces/kifak_inta.pdf
+text: ""
+lyrics: |
+  بتذكر آخر مرّة شفتك سنتا؟
+  بتذكر وقتا آخر كلمة قلتا؟
+  وما عدت شفتك وهلّق شفتك
+  كيفك إنتَ؟ مَلّا إنتَ
+
+  بتذكر آخر سهره سهرتا عنّا؟
+  بتذكر كان في وحدة مضايق منّا؟
+  هيدي إمّي بتعتَل هَمّي
+  منّك إنتَ ملّا إنت
+
+  كيفك؟ قال عم بيقولو صار عندك ولاد
+  أنا والله كنت مفكّرتك برّات البلاد
+  شو بدّي بالبلاد الله يخلّي الولاد
+  إي كيفك إنتَ؟ مَلّا إنت
+
+  بيطلع عَ بالي إرجع أنا ويّاك
+  إنت حلالي إرجع أنا ويّاك
+  أنا وانتَ مَلّا إنت
+
+  بتذكر آخر مرّة شو قلتلّي
+  بدّك ضلّي بدّك فيكي تفلّي
+  زعلت بوقتا وما حلّلتا
+  إنّو إنتَ هيدا إنت
+
+  بترجع عَ راسي رغم العيَل والناس
+  إنت الأساسي وبحبّك بالأساس
+  بحبّك انت ملّا إنت

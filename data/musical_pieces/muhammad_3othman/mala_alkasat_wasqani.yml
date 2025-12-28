@@ -1,0 +1,35 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: ملا الكاسات وسـقاني
+form: song
+composer: muhammad_3othman
+songWriter: 3ashur_suleiman
+singers: [sabah_fakhri]
+dialect: eg
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments: [] #TODO
+text: |
+  [https://arz.wikipedia.org/wiki/%D9%85%D9%84%D8%A7_%D8%A7%D9%84%D9%83%D8%A7%D8%B3%D8%A7%D8%AA_%D9%88%D8%B3%D9%82%D8%A7%D9%86%D9%89 Egyptian Wikipedia]
+lyrics: |
+  ملا الكاسات وسـقاني
+  نحيل الخصر والقـد
+  حياة الروح في لفظه
+  سباني لحظه الهندي
+  مليمي لا تسل عني
+  و خليني على عهـدي
+  امان يا مليمي
