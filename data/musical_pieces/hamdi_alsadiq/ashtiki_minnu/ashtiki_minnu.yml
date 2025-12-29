@@ -21,11 +21,19 @@ releaseDate: 2006
 songWriter: walid_al3isawi
 singers: [nancy_ajram]
 dialect: eg
-maqamat: [] #TODO
+maqamat:
+  - maqam: kurdi
+    explanation: The primary Maqam
+  - maqam: hijaz
+    explanation: Some small parts in the strings accompaniment
 rhythms:
   - rhythm: sa3idi
     explanation: ""
-attachments: [] #TODO
+attachments:
+  - type: public
+    comment: Sheet music on G#
+    contentType: text/x-lilypond
+    uri: ./sheet-music.ly
 text: ""
 lyrics: |
   و أنا بين اديه و قصاد عنيه
