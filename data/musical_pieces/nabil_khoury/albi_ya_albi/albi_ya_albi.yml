@@ -20,10 +20,16 @@ composer: nabil_khoury
 releaseDate: 2020
 songWriter: nabil_khoury
 singers: [nancy_ajram]
-dialect: unknown
-maqamat: [] #TODO
-rhythms: [] #TODO
-attachments: [] #TODO
+dialect: lb
+maqamat:
+  - explanation: ""
+    maqam: 3ajam
+rhythms: []
+attachments:
+  - type: public
+    comment: Sheet music on F
+    contentType: text/x-lilypond
+    uri: ./sheet-music.ly
 text: ""
 lyrics: |
   قلبي يا قلبي تركني يا قلبي
