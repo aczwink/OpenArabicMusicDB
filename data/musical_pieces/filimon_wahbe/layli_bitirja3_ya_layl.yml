@@ -1,0 +1,46 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: ليلية بترجع ياليل
+form: song
+composer: filimon_wahbe
+songWriter: rahbani_brothers
+singers: [fairuz]
+dialect: lb
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments: #TODO
+  - type: private
+    comment: Sheet music on G
+    contentType: application/pdf
+    uri: /pieces/layli_bitirja3_ya_layl.pdf
+text: ""
+lyrics: |
+  ليلية بترجع يا ليل.. وبتسأل عالناس
+  وبتسقيهن يا هالليل.. كل واحد من كاس
+  غبلك شي ليلة يا ليل.. وانسانا يا ليل يا ليل
+
+  ليلية العنين السود.. بيطلّوا يبكّوني
+  غزلوني على صوت العود.. غنّية وغنّوني
+  قلتلّي خبيني.. بقلبك وانْسيني
+  يا زهر القناطر فتّح هالميل وهالميل
+  غبلك شي ليلة يا ليل.. وانسانا يا ليل يا ليل
+
+  أنا مش سودا بسّ الليل.. سوَّدني بجناحو
+  مرقوا الخيّالة عالخيل.. تركوني وراحوا
+  ندهتلّن راحوا.. لا وقفوا ولا ارتاحوا
+  معهُن حبيبي ما سمعني، بِعِدْ وبعدوا الخيل
+  غبلك شي ليلة يا ليل.. وانسانا يا ليل يا ليل

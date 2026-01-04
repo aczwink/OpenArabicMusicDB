@@ -1,6 +1,6 @@
 <!--
  OpenArabicMusicDB
- Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+ Copyright (C) 2025-2026 Amir Czwink (amir130@hotmail.de)
   
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU Affero General Public License as published by
@@ -20,6 +20,6 @@ The levant, formerly بلاد الشام, is an area in the Middle East which no
 
 [[File:levant.svg]]
 
-=== Further reading ===
-* [https://ar.wikipedia.org/wiki/بلاد_الشام_(ولاية_إسلامية) بلاد الشام on Wikipedia]
-* [https://en.wikipedia.org/wiki/Levant Levant on Wikipedia]
+# Further reading
+* [بلاد الشام on Wikipedia](https://ar.wikipedia.org/wiki/بلاد_الشام_(ولاية_إسلامية))
+* [Levant on Wikipedia](https://en.wikipedia.org/wiki/Levant)

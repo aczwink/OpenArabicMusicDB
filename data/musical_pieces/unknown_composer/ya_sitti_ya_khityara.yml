@@ -16,11 +16,11 @@
 
 name: يا ستي يا ختيارة
 form: song
-composer: unknown
+composer: unknown #TODO
 releaseDate: "?"
-songWriter: unknown
+songWriter: unknown #TODO
 singers: [turub]
-dialect: unknown
+dialect: unknown #TODO
 maqamat:
   - maqam: nahawand
     explanation: ""

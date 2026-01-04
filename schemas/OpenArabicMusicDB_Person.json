@@ -1,0 +1,30 @@
+{    
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "title": "OpenArabicMusicDB person definition",
+    "description": "JSON Schema for OpenArabicMusicDB person definitions",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "lifeTime": {
+            "type": "string"
+        },
+        "locations": {
+            "oneOf": [
+                {
+                    "type": "string",
+                    "enum": ["ly"]
+                }
+            ]
+        },
+        "name": {
+            "type": "string"
+        },
+        "origin": {
+            "type": "string"
+        },
+        "text": {
+            "type": "string"
+        }
+    },
+    "required": ["lifeTime", "locations", "name", "origin", "text"]
+}

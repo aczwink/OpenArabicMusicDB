@@ -14,27 +14,8 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: زورونى كل سـنة مرة
-form: song
-composer: sayyed_darwish
-releaseDate: "?"
-songWriter: unknown #TODO
-singers: [fairuz]
-dialect: eg
-maqamat:
-  - maqam: 3ajam
-    explanation: ""
-rhythms:
-  - rhythm: wahda_wa_nuss
-    explanation: ""
-attachments: []
-text: |
-  [https://arz.wikipedia.org/wiki/%D8%B2%D9%88%D8%B1%D9%88%D9%86%D9%89_%D9%83%D9%84_%D8%B3%D9%80%D9%86%D9%87_%D9%85%D8%B1%D9%87 Egyptian Wikipedia]
-lyrics: |
-  زوروني كلّ سنة مرّة
-  حرام تنسوني بالمرّة
-
-  يا خوفي والهوى نظرة
-  تجي وتروح بالمرّة
-  حبيبي فرقتك مُرّة
-  حرام تنسونا بالمرّة
+name: مأمون الشناوي
+lifeTime: 1914 - 1994
+origin: Egypt
+text: ""
+locations: eg

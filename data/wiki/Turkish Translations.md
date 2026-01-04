@@ -1,6 +1,6 @@
 <!--
  OpenArabicMusicDB
- Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+ Copyright (C) 2025-2026 Amir Czwink (amir130@hotmail.de)
   
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU Affero General Public License as published by
@@ -16,17 +16,11 @@
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-{| class="wikitable"
-!|Turkish word
-!|Translation
-|-
-|Ağır
-|heavy
-|-
-|Nim
-|half<ref>Rodolphe Erlanger. La Musique arabe Tome sixième: Essai de codification des règles usuelles de la musique arabe moderne, le système rythmique, les diverses formes de composition artistique. Number 6. Geuthner, 1959. p. 35</ref>
-|}
+| Turkish word | Translation |
+| ------------ | ----------- |
+| Ağır | heavy |
+| Nim | half<ref>Rodolphe Erlanger. La Musique arabe Tome sixième: Essai de codification des règles usuelles de la musique arabe moderne, le système rythmique, les diverses formes de composition artistique. Number 6. Geuthner, 1959. p. 35</ref> |
 
-=== References ===
+# References
 
 <references />

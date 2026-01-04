@@ -16,8 +16,8 @@
 
 name: قدك المياس
 form: qadd_halabi
-composer: unknown
-songWriter: unknown
+composer: unknown #TODO
+songWriter: unknown #TODO
 singers: [sabah_fakhri, muhammad_khairi]
 dialect: mixed_classical_levantine #from ChatGPT
 maqamat:

@@ -1,6 +1,6 @@
 <!--
  OpenArabicMusicDB
- Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+ Copyright (C) 2025-2026 Amir Czwink (amir130@hotmail.de)
   
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU Affero General Public License as published by
@@ -16,14 +16,14 @@
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-The traditional Arabic pitch name system contains 48 relative pitches each having a unique name. Thus there is no repetition at the octave. The system is not fixed pitched as western scientific pitch notation but relative. So each instrument resembles these sounds differently. For instance on the Violin the pitch [[Name_origins#Yagah|Yagah]] would be the G3, the lowest string. However, suppose the Violin is tuned a whole step down, then that pitch is F3 but it would still be called [[Name_origins#Yagah|Yagah]].
+The traditional Arabic pitch name system contains 48 relative pitches each having a unique name. Thus there is no repetition at the octave. The system is not fixed pitched as western scientific pitch notation but relative. So each instrument resembles these sounds differently. For instance on the Violin the pitch [[Name origins#Yagah|Yagah]] would be the G3, the lowest string. However, suppose the Violin is tuned a whole step down, then that pitch is F3 but it would still be called [[Name origins#Yagah|Yagah]].
 The following two tables list the note names. The pitch rise from top to bottom, so lowest pitch is at the top.
 
-Arabic sheet music is usually written in G-Clef. Therefore Arabic pitch names in relation with a score, are given for the Violin. In other words, in a score the pitch [[Name_origins#Yagah|Yagah]] is G3 and all others are relative to that.
+Arabic sheet music is usually written in G-Clef. Therefore Arabic pitch names in relation with a score, are given for the Violin. In other words, in a score the pitch [[Name origins#Yagah|Yagah]] is G3 and all others are relative to that.
 
-== Lower octave ==
+# Lower octave
 | Western pitch | Arabic name |
-| --------------- | ------------- |
+| ------------- | ----------- |
 | G | [[Name origins#Yagah|Yagah]] |
 | A | عُشَيران |
 | B-quarter-flat | عـراق |
@@ -31,9 +31,9 @@ Arabic sheet music is usually written in G-Clef. Therefore Arabic pitch names in
 | D | [[Name origins#Dukah|Dukah]] |
 | E-quarter-flat | [[Name origins#Segah|Segah]] |
 
-== Higher octave ==
+# Higher octave
 | Western pitch | Arabic name |
-| --------------- | ------------- |
+| ------------- | ----------- |
 | G | نوا |
 | A | حسيني |
 | C | كِردان |

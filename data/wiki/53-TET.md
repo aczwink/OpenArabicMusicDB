@@ -1,6 +1,6 @@
 <!--
  OpenArabicMusicDB
- Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+ Copyright (C) 2025-2026 Amir Czwink (amir130@hotmail.de)
   
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU Affero General Public License as published by
@@ -20,7 +20,7 @@
 
 The major second is in this tuning equal to 9 steps. The minor is either 4 or 5 dependent on what to approximate.
 
-== Turkish music ==
+# Turkish music
 This tuning system is prevalently used in Turkish music.
 The turks call the step misleadingly "comma". This shouldn't be confused with a syntonic or pythagorean comma. The Turkish comma is simply the name for the smallest interval in the tuning system which has the frequency ratio <math>\sqrt[53]{2}</math> (this approximates the syntonic comma however).
 53-TET is considered to be a good approximation of the Pythagorean tuning from which Turkish music is derived.

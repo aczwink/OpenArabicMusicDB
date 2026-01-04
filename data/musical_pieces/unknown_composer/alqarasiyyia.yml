@@ -16,10 +16,10 @@
 
 name: القراصية
 form: song
-composer: unknown
-songWriter: unknown
+composer: unknown #TODO
+songWriter: unknown #TODO
 singers: [sabah_fakhri]
-dialect: unknown
+dialect: unknown #TODO
 maqamat:
   - maqam: bayati
     explanation: ""

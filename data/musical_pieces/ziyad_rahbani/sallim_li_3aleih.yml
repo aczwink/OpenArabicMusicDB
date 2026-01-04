@@ -17,9 +17,9 @@
 name: سلم لي عليه
 form: song
 composer: ziyad_rahbani
-songWriter: unknown
+songWriter: unknown #TODO
 singers: [fairuz]
-dialect: unknown
+dialect: unknown #TODO
 maqamat:
   - maqam: bayati
     explanation: ""

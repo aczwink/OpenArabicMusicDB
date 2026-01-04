@@ -1,6 +1,6 @@
 /**
  * OpenArabicMusicDB
- * Copyright (C) 2021-2025 Amir Czwink (amir130@hotmail.de)
+ * Copyright (C) 2021-2026 Amir Czwink (amir130@hotmail.de)
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -18,7 +18,7 @@
 
 import { OctavePitch } from "./OctavePitch";
 
-export type CountryCode = "eg" | "gr" | "iq" | "lb" | "sy" | "tn" | "tr";
+export type CountryCode = "eg" | "gr" | "iq" | "lb" | "ly" | "sy" | "tn" | "tr";
 
 export enum Interval
 {

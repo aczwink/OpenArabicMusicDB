@@ -14,27 +14,26 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: زورونى كل سـنة مرة
-form: song
-composer: sayyed_darwish
-releaseDate: "?"
+name: عذبوني ما استطعتم
+form: muwashshah
+composer: 3omar_albatsh
 songWriter: unknown #TODO
-singers: [fairuz]
-dialect: eg
-maqamat:
-  - maqam: 3ajam
-    explanation: ""
-rhythms:
-  - rhythm: wahda_wa_nuss
-    explanation: ""
-attachments: []
-text: |
-  [https://arz.wikipedia.org/wiki/%D8%B2%D9%88%D8%B1%D9%88%D9%86%D9%89_%D9%83%D9%84_%D8%B3%D9%80%D9%86%D9%87_%D9%85%D8%B1%D9%87 Egyptian Wikipedia]
+singers: [muhammad_khairi]
+dialect: classical #from ChatGPT
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments:
+  - type: private
+    comment: Sheet music on C
+    contentType: image/heic
+    uri: /pieces/3athibuni_ma_astata3tum.HEIC
+text: ""
 lyrics: |
-  زوروني كلّ سنة مرّة
-  حرام تنسوني بالمرّة
+  عذبوني ما استطعتم عذبوا
+  فعذابي في هواكم يعذب
 
-  يا خوفي والهوى نظرة
-  تجي وتروح بالمرّة
-  حبيبي فرقتك مُرّة
-  حرام تنسونا بالمرّة
+  أنا صبٌ في هواكم مغرم
+  أنا عبدٌ وإليكم أنسب
+
+  أنا راضٍ بالذي ترضونه
+  وسواكم سادتي لا أرغب

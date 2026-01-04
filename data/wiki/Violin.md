@@ -1,6 +1,6 @@
 <!--
  OpenArabicMusicDB
- Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+ Copyright (C) 2025-2026 Amir Czwink (amir130@hotmail.de)
   
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU Affero General Public License as published by
@@ -22,24 +22,24 @@ Typically for Arabic music the Violin is tuned G3, D4, G4, D5.
 The drawback of the common GDAE-tuning is that the most-frequent quarter tones in Arabic music E-Half-flat and B-Half-flat are difficult to intonate in first position because the fourth finger has to be used.
 The range of the Violin with GDAE-tuning is G3 to roughly E7, and therefore should be D7 with the Arabic tuning.
 However, the highest note may be even higher than just stated, which depends of course on the instrument and skill of the player.
-The pitch [[Name_origins#Yagah|Yagah]] is the lowest note on the Violin, so usually a G3.
+The pitch [[Name origins#Yagah|Yagah]] is the lowest note on the Violin, so usually a G3.
 
-== Playing style ==
+# Playing style
 
-=== Turn / Gruppetto ===
+## Turn / Gruppetto
 Ascending example: La-Sib-Do-Sib
 Descending example: Do-Sib-La-Sib
-[https://en.wikipedia.org/wiki/Ornament_(music)#Turn See Wikipedia]
+[See Wikipedia](https://en.wikipedia.org/wiki/Ornament_(music)#Turn)
 
 
-=== Arabic trill ===
+## Arabic trill
 A normal trill but ending with a single descending Turn.
 For example: Hold La and do a trill with Sib. Finally play Sib-La-Sol-La.
 
 
-== Glissando / Portamento ==
+# Glissando / Portamento
 Glissando is used ubiquitously to connect neighboring tones. 
 
 
-=== Vibrato ===
+## Vibrato
 In Arabic playing style wide vibrato is usually omitted. Soft vibrato without the wrist is used.

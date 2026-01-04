@@ -23,9 +23,39 @@ singers: [umm_kalthoum]
 dialect: eg
 maqamat: [] #TODO
 rhythms: [] #TODO
-attachments: [] #TODO
+attachments:
+  - type: private
+    comment: Sheet music on D
+    contentType: application/pdf
+    uri: /pieces/hubbi_eyh.pdf
+  - type: private
+    comment: Sheet music on D
+    contentType: application/pdf
+    uri: /pieces/hubbi_eyh_long.pdf
 text: |
   == Links ==
   * [https://ar.wikipedia.org/wiki/%D8%AD%D8%A8_%D8%A5%D9%8A%D9%87_(%D8%A3%D8%BA%D9%86%D9%8A%D8%A9) Arabic Wikipedia]
   * [https://arz.wikipedia.org/wiki/%D8%AD%D8%A8_%D8%A7%D9%8A%D9%87 Egyptian Wikipedia]
-lyrics: "" #TODO
+lyrics: |
+  حب ايه اللي انتى جاي تقول عليه
+  انتى عارف قبلى معنى الحب ايه
+  لما تتكلم عليه
+
+  أنت مابينك وبين الحب دنيا
+  دنيا ماتطولها ولا حتى بخيالك
+  اما نفس الحب عندي حاجه تانيه
+  حاجه اغلى من حياتي ومن جمالك
+
+  انتى فين والحب فين ظالمه ليه دايما معاك
+  ده أنت لو حبيت يومين كان هواك خلاك ملاك
+  ليه بتتجني كده على الحب ليه
+
+  كنت بخلصلك في حبي بكل قلبي
+  وأنت بتخون الوداد من كل قلبك
+  بعت ودي ..بعت حبي ..بعت قلبي
+  بعتني وفاكرني ليه هشتاق لقربك ليه
+
+  يا ما طول عمري رضيت منك اسيه
+  لما داب املي وانا بتمنى ودك
+  كل شكوى كنت بتشوفها في عينيا
+  وأنت في قربك ناسيني زي بعدك

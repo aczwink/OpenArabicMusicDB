@@ -16,8 +16,8 @@
 
 name: لما بدا يتثنى
 form: muwashshah
-composer: unknown
-songWriter: unknown
+composer: unknown #TODO
+songWriter: unknown #TODO
 singers: []
 dialect: classical #from ChatGPT
 maqamat:

@@ -16,8 +16,8 @@
 
 name: لولو بلولو
 form: song
-composer: unknown
-songWriter: unknown
+composer: unknown #TODO
+songWriter: unknown #TODO
 singers: [sabah_fakhri]
 dialect: mixed_levantine_egyptian #from ChatGPT
 maqamat: [] #TODO

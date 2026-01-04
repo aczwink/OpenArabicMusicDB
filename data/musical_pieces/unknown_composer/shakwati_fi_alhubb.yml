@@ -16,8 +16,8 @@
 
 name: شكوتي في الحب
 form: qasida
-composer: unknown
-songWriter: unknown
+composer: unknown #TODO
+songWriter: unknown #TODO
 singers: [muhammad_khairi]
 dialect: classical
 maqamat: [] #TODO

@@ -1,6 +1,6 @@
 <!--
  OpenArabicMusicDB
- Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+ Copyright (C) 2025-2026 Amir Czwink (amir130@hotmail.de)
   
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU Affero General Public License as published by
@@ -24,8 +24,8 @@ These cultures share many similarities such as the religion and music, however t
 
 The Arabic world is divided into:
 * The East (المشرق), which consists of
-** Arabian Peninsula (or Persian Gulf area), with the countries: Saudi Arabia, Yemen, Oman, United Arab Emirates, Kuwait, Qatar and Bahrain
-** Iraq
-** The [[Levant]]
-** Egypt <br /> The latter two share a lot in their type of music. The others differ a bit from each other.
+    * Arabian Peninsula (or Persian Gulf area), with the countries: Saudi Arabia, Yemen, Oman, United Arab Emirates, Kuwait, Qatar and Bahrain
+    * Iraq
+    * The [[Levant]]
+    * Egypt <br /> The latter two share a lot in their type of music. The others differ a bit from each other.
 * Northwest Africa (المغرب العربي), which consists of the countries: Tunisia, Algeria, Morocco and Libya. All these countries share similar music.

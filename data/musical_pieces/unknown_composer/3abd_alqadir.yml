@@ -16,8 +16,8 @@
 
 name: عبد القادر
 form: song
-composer: unknown
-songWriter: unknown
+composer: unknown #TODO
+songWriter: unknown #TODO
 singers: [cheb_khaled]
 dialect: dz
 maqamat: [] #TODO

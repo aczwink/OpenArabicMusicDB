@@ -1,6 +1,6 @@
 /**
  * OpenArabicMusicDB
- * Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+ * Copyright (C) 2025-2026 Amir Czwink (amir130@hotmail.de)
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -276,7 +276,9 @@ async function ReadWikiArticles(inputPath: string)
     for (const articleFile of articleFiles)
     {
         const childPath = path.join(inputPath, articleFile);
-        const text = await fs.promises.readFile(childPath, "utf-8");
+        let text = await fs.promises.readFile(childPath, "utf-8");
+
+        text = text.replace(/<!--[\s\S]+-->/, "");
 
         const parsed = path.parse(childPath);
         articles.push({

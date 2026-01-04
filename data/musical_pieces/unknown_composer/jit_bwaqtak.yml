@@ -16,10 +16,10 @@
 
 name: جيت بوقتك
 form: song
-composer: unknown
-songWriter: unknown
+composer: unknown #TODO
+songWriter: unknown #TODO
 singers: [melham_barakat]
-dialect: unknown
+dialect: unknown #TODO
 maqamat:
   - maqam: bayati
     explanation: The primary Maqam

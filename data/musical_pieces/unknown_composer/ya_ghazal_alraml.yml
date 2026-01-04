@@ -16,8 +16,8 @@
 
 name: يا غزال الرمل
 form: muwashshah
-composer: unknown
-songWriter: unknown
+composer: unknown #TODO
+songWriter: unknown #TODO
 singers: [muhammad_khairi]
 dialect: classical #from ChatGPT
 maqamat:

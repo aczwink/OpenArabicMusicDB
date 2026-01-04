@@ -1,6 +1,6 @@
 <!--
  OpenArabicMusicDB
- Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+ Copyright (C) 2025-2026 Amir Czwink (amir130@hotmail.de)
   
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU Affero General Public License as published by
@@ -31,7 +31,7 @@ This wiki is based on the following resources, ordered by importance (top is mos
 
 * The Syrian artist Mohamed Alsiadi collects Arabic tonal scales and rhythms and offers them freely on his websites.
 
-== Turkish Music ==
+# Turkish Music
 
 When studying Arabic rhythms, you compulsorily come across Turkish rhythms. Their influence on the Arabic music (and vice versa) is ubiquitously present and noticeable. Therefore it is not possible to look at Arabic rhythms exclusively. This is why OpenArabicMusicDB also includes information about Turkish percussion methodology.
 The following sources were considered for that matter (the same ordering as for the other sources):

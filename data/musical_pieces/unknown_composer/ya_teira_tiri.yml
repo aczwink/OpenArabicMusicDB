@@ -16,11 +16,11 @@
 
 name: يا طيرة طيري
 form: song
-composer: unknown
+composer: unknown #TODO
 releaseDate: "?"
-songWriter: unknown
+songWriter: unknown #TODO
 singers: [sabah_fakhri]
-dialect: unknown
+dialect: unknown #TODO
 maqamat:
   - maqam: rast
     explanation: ""

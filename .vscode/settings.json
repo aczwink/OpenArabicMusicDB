@@ -1,5 +1,6 @@
 {
     "yaml.schemas": {
+        "./schemas/OpenArabicMusicDB_Person.json": "/data/persons/**/*.yml",
         "./schemas/OpenArabicMusicDB_Piece.json": "/data/musical_pieces/**/*.yml",
     }
 }

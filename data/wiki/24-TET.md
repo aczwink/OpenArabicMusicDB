@@ -1,6 +1,6 @@
 <!--
  OpenArabicMusicDB
- Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+ Copyright (C) 2025-2026 Amir Czwink (amir130@hotmail.de)
   
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU Affero General Public License as published by
@@ -17,4 +17,4 @@
 -->
 
 Arabs use a 24-tone per octave system for notation of their notes. In practice there is no standard Arabic tonal system. The Arab world is large and their countries could not agree on the same pitches for the same notes <span style="color:white; background:red">TODO: [2] says this somewhere with halqah althaniah</span>. The term quarter tone does not mean that the note is exactly in the middle of two semitones. For notation and teaching purposes the 24-tone system is sufficient but does not resemble practically the Arabic music tradition.
-It is for instance common that the E-quarter-flat is tuned differently in several مقامات while it is always written with the quarter-flat symbol. In general it is tuned lowest in [[Name_origins#بياتي|بياتي]], "middle" in [[Name_origins#Rast|Rast]] and highest in [[Name_origins#Segah|Segah]] <span style="color:white; background:red">TODO: this is for isntance said by anwar hariri</span>.
+It is for instance common that the E-quarter-flat is tuned differently in several مقامات while it is always written with the quarter-flat symbol. In general it is tuned lowest in [[Name origins#بياتي|بياتي]], "middle" in [[Name origins#Rast|Rast]] and highest in [[Name origins#Segah|Segah]] <span style="color:white; background:red">TODO: this is for isntance said by anwar hariri</span>.
