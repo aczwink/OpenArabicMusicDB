@@ -12,7 +12,11 @@
             "oneOf": [
                 {
                     "type": "string",
-                    "enum": ["ly"]
+                    "enum": ["ly", "sy"]
+                },
+                {
+                    "type": "array",
+                    "const": []
                 }
             ]
         },
@@ -26,5 +30,5 @@
             "type": "string"
         }
     },
-    "required": ["lifeTime", "locations", "name", "origin", "text"]
+    "required": ["locations", "name", "origin", "text"]
 }

@@ -1,5 +1,5 @@
 #  OpenArabicMusicDB
-#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+#  Copyright (C) 2025-2026 Amir Czwink (amir130@hotmail.de)
   
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU Affero General Public License as published by
@@ -16,8 +16,8 @@
 
 name: أرجعي يا ألف ليلة
 form: muwashshah
-composer: unknown #TODO
-songWriter: unknown #TODO
+composer: rahbani_brothers
+songWriter: rafiq_khoury
 singers: [fairuz]
 dialect: classical #from ChatGPT
 maqamat:

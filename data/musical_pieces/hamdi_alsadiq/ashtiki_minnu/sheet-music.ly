@@ -108,7 +108,7 @@
     r8 sold, la sid dod red mi fa |
     fad2 r |
     R1*2 |
-    r8 sold fad red do sold do red |
+    r8 sold fad red sid sold sid red |
     dod2 r4 r8 mi' |
     dod2 r4 r8 sold '|
     mi2 r |

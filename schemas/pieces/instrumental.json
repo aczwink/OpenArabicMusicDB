@@ -15,7 +15,21 @@
             "enum": ["maqtu3a", "sama3i"]
         },
         "maqamat": {
-            "type": "array"
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "explanation": {
+                        "type": "string"
+                    },
+                    "maqam": {
+                        "type": "string",
+                        "enum": ["3ajam", "bayati", "hijaz", "hijaz_kar", "nahawand", "nakriz", "saba"]
+                    }
+                },
+                "required": ["explanation", "maqam"]
+            }
         },
         "name": {
             "type": "string"
@@ -32,7 +46,21 @@
             ]
         },
         "rhythms": {
-            "type": "array"
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "explanation": {
+                        "type": "string"
+                    },
+                    "rhythm": {
+                        "type": "string",
+                        "enum": ["dawr_hindi", "rumba", "sama3i_thaqil"]
+                    }
+                },
+                "required": ["explanation", "rhythm"]
+            }
         },
         "text": {
             "type": "string"
