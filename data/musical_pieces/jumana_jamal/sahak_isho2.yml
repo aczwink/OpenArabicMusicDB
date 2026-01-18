@@ -1,0 +1,55 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2026 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: صحاك الشوق
+form: song
+composer: jumana_jamal
+songWriter: jumana_jamal
+singers: [fadel_chaker]
+dialect: north_levantine
+maqamat: [] #TODO
+rhythms:
+  - explanation: ""
+    rhythm: sa3idi
+attachments:
+  - type: private
+    comment: Sheet music on D
+    contentType: application/pdf
+    uri: /pieces/sahak_isho2.pdf
+text: ""
+lyrics: |
+  صحاك الشوق من نومك
+  وبقلبي تعا كفي نومك
+  لا يومي يخلص ولا يومك
+  إلا بلقاك ياحبيبي
+  تعى عيش الحب وأياموا
+  ونوعي ..  كل الي نامو
+  دخيل الحب وكلاموا
+  ودخيلو قلبك يا حبيبي
+
+  على شي سهره …فيها غمره
+  وشاهد علينا القمر
+  وانته حدي ..مابقى بدي
+  الوقت يعدي …ياقمر
+
+  الدنيا بنعيشا مره
+  نخليها حلوه ..ليه مره
+  رح ضلني حبك كل مره
+  مثل الاول ياحبيبي
+  يا ربي يخلي ضحكاته
+  ما يشوف الهم بحياته
+  و تضلى الفرحة جواته
+  ترسم لياليك يا حبيبي

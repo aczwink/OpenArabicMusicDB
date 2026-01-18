@@ -5,6 +5,19 @@
     "type": "object",
     "additionalProperties": false,
     "properties": {
+        "image": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "type": {
+                    "const": "external"
+                },
+                "uri": {
+                    "type": "string"
+                }
+            },
+            "required": ["type"]
+        },
         "lifeTime": {
             "type": "string"
         },
@@ -12,7 +25,7 @@
             "oneOf": [
                 {
                     "type": "string",
-                    "enum": ["ly", "sy"]
+                    "enum": ["lb", "ly", "sy", "tr", "ye"]
                 },
                 {
                     "type": "array",

@@ -6,7 +6,27 @@
     "additionalProperties": false,
     "properties": {
         "attachments": {
-            "type": "array"
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "comment": {
+                        "type": "string"
+                    },
+                    "contentType": {
+                        "type": "string",
+                        "enum": ["application/pdf"]
+                    },
+                    "type": {
+                        "const": "private"
+                    },
+                    "uri": {
+                        "type": "string"
+                    }
+                },
+                "required": ["comment", "contentType", "type", "uri"]
+            }
         },
         "composer": {
             "type": "string"
@@ -47,7 +67,21 @@
             ]
         },
         "rhythms": {
-            "type": "array"
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "explanation": {
+                        "type": "string"
+                    },
+                    "rhythm": {
+                        "type": "string",
+                        "enum": ["sa3idi"]
+                    }
+                },
+                "required": ["explanation", "rhythm"]
+            }
         },
         "singers": {
             "type": "array",
