@@ -1,0 +1,56 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2026 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: يا زريف الطول
+form: song
+composer: palestinian_folklore
+songWriter: palestinian_folklore
+singers: []
+dialect: ps
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments: [] #TODO
+text: ""
+lyrics: |
+  يا زريف الطول وقف تقلك
+  رايح عالغربة وبلادك احسنلك
+  خايف يا زريف تروح وتتملك
+  وتعاشر الغير وتنساني انا
+
+  يا زريف الطول يا سن الضحوك
+  يلي رابي في دلال امك وابوك
+  يا زريف الطول يوم الي غربوك
+  شعر راسي شاب والظهر انحنا
+
+  يا زريف الطول متغرب على القوم
+  لا تبعد عنا وتحط علينا اللوم
+  انشالله بترجع بترجع عالكروم
+  نحصد القمحات ونجمع شملنا
+
+  يا زريف الطول غايب عن الاوطان
+  وغيابك عنا ملا القلب احزان
+  ارجع لامك وارجع للحنان
+  ما تلقى الحنية غير في بلادنا
+
+  يا زريف الطول حلو يا دلوع
+  والي يطيح البير يحسب للطلوع
+  احنا اتفرقنا وعالله الرجوع
+  والمفرق والمجمع ربنا
+
+  يا زريف الطول مالي ومالكم
+  وابتليته بالهوى وش حالكم
+  وان كان عشرت غيرنا طابت ليكم
+  خبرونا تندبر حالنا

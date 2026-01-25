@@ -25,7 +25,7 @@
             "oneOf": [
                 {
                     "type": "string",
-                    "enum": ["lb", "ly", "sy", "tr", "ye"]
+                    "enum": ["lb", "ly", "ps", "sy", "tr", "ye"]
                 },
                 {
                     "type": "array",

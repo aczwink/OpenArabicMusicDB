@@ -32,7 +32,7 @@
             "type": "string"
         },
         "dialect": {
-            "enum": ["classical", "dz", "eg", "lb", "mixed_classical_egyptian", "mixed_classical_levantine", "mixed_levantine_egyptian", "msa", "north_levantine", "shami"]
+            "enum": ["classical", "dz", "eg", "lb", "mixed_classical_egyptian", "mixed_classical_levantine", "mixed_levantine_egyptian", "msa", "north_levantine", "ps", "shami"]
         },
         "form": {
             "enum": ["muwashshah", "qadd_halabi", "qasida", "song"]

@@ -18,7 +18,7 @@
 
 import { OctavePitch } from "./OctavePitch";
 
-export type CountryCode = "eg" | "gr" | "iq" | "lb" | "ly" | "sy" | "tn" | "tr" | "ye";
+export type CountryCode = "eg" | "gr" | "iq" | "lb" | "ly" | "ps" | "sy" | "tn" | "tr" | "ye";
 
 export enum Interval
 {
