@@ -6,7 +6,27 @@
     "additionalProperties": false,
     "properties": {
         "attachments": {
-            "type": "array"
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "comment": {
+                        "type": "string"
+                    },
+                    "contentType": {
+                        "type": "string",
+                        "enum": ["application/pdf", "image/heic", "image/jpg"]
+                    },
+                    "type": {
+                        "const": "private"
+                    },
+                    "uri": {
+                        "type": "string"
+                    }
+                },
+                "required": ["comment", "contentType", "type", "uri"]
+            }
         },
         "composer": {
             "type": "string"

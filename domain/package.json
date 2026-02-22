@@ -1,5 +1,5 @@
 {
-  "name": "openarabicmusicdb-domain",
+  "name": "@aczwink/openarabicmusicdb-domain",
   "version": "1.0.0",
   "description": "",
   "main": "dist/main.js",
