@@ -61,8 +61,7 @@ jobs:
       #OpenArabicMusicDB
       - name: Building OpenArabicMusicDB builder
         run: |
-          npm link openarabicmusicdb-domain
-          npm install
+          npm ci
           npm run compile
           npm run build-db
         working-directory: ./builder
