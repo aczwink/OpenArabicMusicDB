@@ -17,9 +17,9 @@
  * */
 import fs from "fs";
 import path from "path";
-import { OpenArabicMusicDBDialect, OpenArabicMusicDBDocument, OpenArabicMusicDBForm, OpenArabicMusicDBJins, OpenArabicMusicDBMaqam, OpenArabicMusicDBMusicalPiece, OpenArabicMusicDBPerson, OpenArabicMusicDBRhythm, OpenArabicMusicDBWikiArticle } from "openarabicmusicdb-domain";
+import { OpenArabicMusicDBDialect, OpenArabicMusicDBDocument, OpenArabicMusicDBForm, OpenArabicMusicDBJins, OpenArabicMusicDBMaqam, OpenArabicMusicDBMusicalPiece, OpenArabicMusicDBPerson, OpenArabicMusicDBRhythm, OpenArabicMusicDBWikiArticle } from "@aczwink/openarabicmusicdb-domain";
 import YAML from 'yaml';
-import { ParseOctavePitch } from "openarabicmusicdb-domain/dist/OctavePitch";
+import { ParseOctavePitch } from "@aczwink/openarabicmusicdb-domain/dist/OctavePitch";
 
 async function* ReadDirectoryRecursively(inputPath: string, parentPath: string): AsyncGenerator<{ filePath: string; parentPath: string; }>
 {
