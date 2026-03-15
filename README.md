@@ -1,3 +1,3 @@
 # OpenArabicMusicDB
-[![Build and deploy to Azure](https://github.com/aczwink/OpenArabicMusicDB/actions/workflows/build-and-deploy-to-azure.yml/badge.svg)](https://github.com/aczwink/OpenArabicMusicDB/actions/workflows/build-and-deploy-to-azure.yml)
+[![Publish package](https://github.com/aczwink/OpenArabicMusicDB/actions/workflows/publish-package.yml/badge.svg)](https://github.com/aczwink/OpenArabicMusicDB/actions/workflows/publish-package.yml)
 A data set for Arabic music
