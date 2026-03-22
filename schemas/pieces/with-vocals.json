@@ -16,10 +16,11 @@
                     },
                     "contentType": {
                         "type": "string",
-                        "enum": ["application/pdf"]
+                        "enum": ["application/pdf", "text/x-lilypond"]
                     },
                     "type": {
-                        "const": "private"
+                        "type": "string",
+                        "enum": ["public", "private"]
                     },
                     "uri": {
                         "type": "string"
@@ -77,7 +78,7 @@
                     },
                     "rhythm": {
                         "type": "string",
-                        "enum": ["sa3idi"]
+                        "enum": ["maqsum", "masmudi_saghir", "sa3idi"]
                     }
                 },
                 "required": ["explanation", "rhythm"]

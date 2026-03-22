@@ -1,5 +1,5 @@
 #  OpenArabicMusicDB
-#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+#  Copyright (C) 2025-2026 Amir Czwink (amir130@hotmail.de)
   
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU Affero General Public License as published by
@@ -35,6 +35,10 @@ attachments:
     comment: Sheet music on A
     contentType: application/pdf
     uri: /pieces/fayeq_ya_hawa.pdf
+  - type: public
+    comment: Sheet music on A
+    contentType: text/x-lilypond
+    uri: ./sheet-music.ly
 text: ""
 lyrics: |
   فايق يا هوى لِم كنّا سوى
