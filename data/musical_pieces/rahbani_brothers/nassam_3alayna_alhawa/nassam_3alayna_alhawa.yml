@@ -32,6 +32,10 @@ attachments:
     comment: Sheet music on A
     contentType: text/x-lilypond
     uri: ./sheet-music.ly
+  - type: public
+    comment: Sheet music with variations on A
+    contentType: text/x-lilypond
+    uri: ./sheet-music-variations.ly
 text: |
   * [https://ar.wikipedia.org/wiki/%D9%86%D8%B3%D9%85_%D8%B9%D9%84%D9%8A%D9%86%D8%A7_%D8%A7%D9%84%D9%87%D9%88%D9%89 Arabic Wikipedia]
   * [https://www.youtube.com/watch?v=YoaxUaYH-r0 by أنور الحريري and نزيه ابو الريش]
