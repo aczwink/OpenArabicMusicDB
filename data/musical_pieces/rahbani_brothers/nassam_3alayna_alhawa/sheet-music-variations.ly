@@ -90,3 +90,13 @@ melody = \relative sol'
   \new Staff \melody
  >>
 }
+
+\language "english"
+\markup "Arpeggios for measure 6-7"
+\relative c
+{
+  c'8 g' bf e % C dominant 7
+  d, a' d f |
+  bf,, f' bf d
+  g,, bf d g |
+}
