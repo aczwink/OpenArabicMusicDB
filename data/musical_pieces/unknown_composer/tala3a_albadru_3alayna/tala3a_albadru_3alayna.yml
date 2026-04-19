@@ -1,0 +1,39 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2026 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: طلع البدر علينا
+form: song
+composer: unknown
+songWriter: unknown
+singers: []
+dialect: classical
+maqamat:
+  - explanation: ""
+    maqam: huzam
+rhythms: [] #TODO
+attachments: [] #TODO
+text: |
+  * [https://ar.wikipedia.org/wiki/%D8%B7%D9%84%D8%B9_%D8%A7%D9%84%D8%A8%D8%AF%D8%B1_%D8%B9%D9%84%D9%8A%D9%86%D8%A7 Arabic Wikipedia]
+lyrics: |
+  طَلَعَ ٱلْبَدْرُ عَلَيْنَا
+  مِنْ ثَنِيَّاتِ ٱلْوَدَاع
+  وَجَبَ ٱلشُكْرُ عَلَيْنَا
+  مَا دَعَا لِلّٰهِ دَاعَ
+  
+  أَيُّهَا ٱلْمَبْعُوثَ فِينَا
+  جِئْتَ بِالْأَمْرِ ٱلْمُطَاع
+  جِئْتَ شَرَّفْتَ ٱلْمَدِينَة
+  مَرْحَبًا يَا خَيْرَ دَاع
