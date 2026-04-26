@@ -1,5 +1,5 @@
 #  OpenArabicMusicDB
-#  Copyright (C) 2025-2026 Amir Czwink (amir130@hotmail.de)
+#  Copyright (C) 2026 Amir Czwink (amir130@hotmail.de)
   
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU Affero General Public License as published by
@@ -14,14 +14,10 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: توتة
-form: maqtu3a
-composer: farid_alatrash
-maqamat: [] #TODO
-rhythms: [] #TODO
-attachments:
-  - comment: Sheet music on D
-    contentType: application/pdf
-    type: private
-    uri: /pieces/tuta.pdf
+name: Bastanikar
+rootJins: sikah
+dominant: 3
+additionalIntervals: ["3/2", "3/4"]
 text: ""
+forms:
+  - branchingJins: saba

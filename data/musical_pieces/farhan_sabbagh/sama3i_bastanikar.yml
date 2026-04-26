@@ -1,5 +1,5 @@
 #  OpenArabicMusicDB
-#  Copyright (C) 2025-2026 Amir Czwink (amir130@hotmail.de)
+#  Copyright (C) 2026 Amir Czwink (amir130@hotmail.de)
   
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU Affero General Public License as published by
@@ -14,14 +14,26 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: توتة
-form: maqtu3a
-composer: farid_alatrash
-maqamat: [] #TODO
-rhythms: [] #TODO
+name: سماعي Bastanikar
+form: sama3i
+composer: farhan_sabbagh
+releaseDate: 1981-07-01
+maqamat:
+  - explanation: The primary Maqam
+    maqam: bastanikar
+  - explanation: 3rd Khana
+    maqam: rast
+rhythms:
+  - rhythm: sama3i_thaqil
+    explanation: The primary rhythm
 attachments:
-  - comment: Sheet music on D
-    contentType: application/pdf
-    type: private
-    uri: /pieces/tuta.pdf
-text: ""
+  - type: private
+    comment: Sheet music on B quarter flat
+    contentType: text/x-lilypond
+    uri: /pieces/sama3i_bastanikar.ly
+text: |
+  The rhythm for the 4th khana is called دقة مراكش and is notated as following:
+  <score type="rhythm">
+  \time 6/8
+  \ti \ti \do_noBeam r16 \ta \ti \do_noBeam r8
+  </score>
