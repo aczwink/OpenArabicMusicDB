@@ -1,0 +1,58 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2025-2026 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: انا عم بحلم
+form: song
+composer: nur_almallah
+songWriter: ilia_abu_shadid
+singers: [majida_alrumi]
+dialect: eg #from ChatGPT
+maqamat:
+  - maqam: kurdi
+    explanation: ""
+rhythms:
+  - explanation: The primary rhythm
+    rhythm: maqsum
+  - explanation: During second half of intro and refrain
+    rhythm: karatshi
+  - explanation: During second half of verse
+    rhythm: haja3
+attachments:
+  - type: public
+    comment: Sheet music on C
+    contentType: text/x-lilypond
+    uri: ./sheet-music.ly
+  - type: private
+    comment: Sheet music on D
+    contentType: application/pdf
+    uri: /pieces/ana_3am_bahlam.pdf #TODO remove this
+text: ""
+lyrics: |
+  انا عم بحلم
+  ليل نهار بالوردة المليانة زرار
+  تقطف باقة تشم وراقا
+  ويسكر بالعطر المشوار
+  أنا عم بحلم
+
+  عم بحلم انّك جاي بزورق نجمة مضوّاية
+  وصار الزورق يعلا ويغرق بالبحر المالو نهاية
+  ولمّا فتحت عيوني صار
+  عشطوط عيوني البحّار
+
+  أنا عم بحلم ليليّة انت وغافي بعيني
+  نزلت دمعة دابت شمعة واحترقت فيك وفي
+  وصرنا نطفي النّار
+  وما عدنا عرفنا شو صار
