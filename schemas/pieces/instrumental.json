@@ -32,7 +32,7 @@
             "type": "string"
         },
         "form": {
-            "enum": ["maqtu3a", "sama3i"]
+            "enum": ["bashraf", "dulab", "longa", "maqtu3a", "sama3i", "tahmila"]
         },
         "maqamat": {
             "type": "array",
