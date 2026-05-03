@@ -35,10 +35,6 @@ attachments:
     comment: Sheet music on C
     contentType: text/x-lilypond
     uri: ./sheet-music.ly
-  - type: private
-    comment: Sheet music on D
-    contentType: application/pdf
-    uri: /pieces/ana_3am_bahlam.pdf #TODO remove this
 text: ""
 lyrics: |
   انا عم بحلم

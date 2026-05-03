@@ -45,7 +45,7 @@
                     },
                     "maqam": {
                         "type": "string",
-                        "enum": ["3ajam", "bayati", "hijaz", "hijaz_kar", "nahawand", "nakriz", "saba"]
+                        "enum": ["3ajam", "bastanikar", "bayati", "hijaz", "hijaz_kar", "nahawand", "nakriz", "rast", "saba"]
                     }
                 },
                 "required": ["explanation", "maqam"]
