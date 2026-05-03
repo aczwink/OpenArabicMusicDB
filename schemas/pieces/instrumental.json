@@ -16,10 +16,10 @@
                     },
                     "contentType": {
                         "type": "string",
-                        "enum": ["application/pdf", "image/heic", "image/jpg"]
+                        "enum": ["application/pdf", "image/heic", "image/jpg", "text/x-lilypond"]
                     },
                     "type": {
-                        "const": "private"
+                        "enum": ["public", "private"]
                     },
                     "uri": {
                         "type": "string"
@@ -76,7 +76,7 @@
                     },
                     "rhythm": {
                         "type": "string",
-                        "enum": ["dawr_hindi", "rumba", "sama3i_thaqil"]
+                        "enum": ["darij", "dawr_hindi", "rumba", "sama3i_thaqil"]
                     }
                 },
                 "required": ["explanation", "rhythm"]
