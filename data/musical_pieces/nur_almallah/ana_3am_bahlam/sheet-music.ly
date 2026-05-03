@@ -16,6 +16,8 @@
 \version "2.24.4"
 \include "arabic.ly"
 
+#(set-global-staff-size 22)
+
 \header
 {
   title = "أنا عم بحلم"

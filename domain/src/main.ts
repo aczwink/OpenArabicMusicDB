@@ -17,6 +17,8 @@
  * */
 
 import { OctavePitch } from "./OctavePitch";
+import { OAMDB_RhythmDefinition, OAMDB_RhythmDefinition_Note, OAMDB_RhythmDefinition_Seperation } from "./rhythm";
+import { OAMDB_SheetMusic_Document, OAMDB_SheetMusic_LilyPondMusic, OAMDB_SheetMusic_MaqamEntry, OAMDB_SheetMusic_MelodyEntry, OAMDB_SheetMusic_MelodyEntryType, OAMDB_SheetMusic_MusicEntry, OAMDB_SheetMusic_RhythmEntry, OAMDB_SheetMusic_Section } from "./sheet-music";
 
 export type CountryCode = "eg" | "gr" | "iq" | "lb" | "ly" | "ps" | "sy" | "tn" | "tr" | "ye";
 
@@ -91,6 +93,7 @@ export interface OpenArabicMusicDBMusicalPiece
         songWriterId: string;
     };
     attachments: OpenArabicMusicDBAttachment[];
+    sheetMusic?: OAMDB_SheetMusic_Document;
 }
 
 export interface OpenArabicMusicDBPerson
@@ -114,6 +117,7 @@ export interface OpenArabicMusicDBRhythm
     alternativeNames: string;
     category: string;
     usageText: string;
+    rhythm?: OAMDB_RhythmDefinition;
     timeSignatureNumerators: number[];
     text: string;
 }
@@ -135,3 +139,17 @@ export interface OpenArabicMusicDBDocument
     persons: OpenArabicMusicDBPerson[];
     rhythms: OpenArabicMusicDBRhythm[];
 }
+
+export {
+    OAMDB_RhythmDefinition,
+    OAMDB_RhythmDefinition_Note,
+    OAMDB_RhythmDefinition_Seperation,
+    OAMDB_SheetMusic_Document,
+    OAMDB_SheetMusic_LilyPondMusic,
+    OAMDB_SheetMusic_MaqamEntry,
+    OAMDB_SheetMusic_MelodyEntry,
+    OAMDB_SheetMusic_MelodyEntryType,
+    OAMDB_SheetMusic_MusicEntry,
+    OAMDB_SheetMusic_RhythmEntry,
+    OAMDB_SheetMusic_Section,
+};
