@@ -147,7 +147,10 @@ async function ReadMusicalPieces(dbSrcPath: string, forms: OpenArabicMusicDBForm
     {
         if(releaseDate === undefined)
         {
-            const composer = persons.find(x => x.id === composerId)!;
+            const composer = persons.find(x => x.id === composerId);
+            if(composer === undefined)
+                throw new Error("Database error - missing composer: " + composerId);
+
             if(composer.lifeTime !== undefined)
             {
                 if(composer.lifeTime.deathYear === undefined)

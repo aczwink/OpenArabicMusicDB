@@ -19,7 +19,7 @@ form: song
 composer: nur_almallah
 songWriter: ilia_abu_shadid
 singers: [majida_alrumi]
-dialect: eg #from ChatGPT
+dialect: lb #from ChatGPT
 maqamat:
   - maqam: kurdi
     explanation: ""

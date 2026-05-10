@@ -1,5 +1,5 @@
 #  OpenArabicMusicDB
-#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+#  Copyright (C) 2025-2026 Amir Czwink (amir130@hotmail.de)
   
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU Affero General Public License as published by
@@ -14,13 +14,12 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: ع الماية
+name: عالمايا عالمايا
 form: song
 composer: unknown #TODO
-releaseDate: "?"
 songWriter: unknown #TODO
 singers: []
-dialect: unknown #TODO
+dialect: north_levantine #from ChatGPT
 maqamat:
   - maqam: 3ajam
     explanation: ""
@@ -33,4 +32,21 @@ attachments:
     contentType: application/vnd.finale.mus
     uri: /pieces/3al_mayya.mus
 text: ""
-lyrics: ""
+lyrics: |
+  عالمايا عالمايا عالعين يا ملايا
+  يا بنية بالله اسقيني عطشان اسقيني مايا
+
+  يا ويل ويلي طولها
+  رمح الرديني طولها
+  و اللي يحاول يطولها
+  لذوقه المنايا
+
+  يا ويل ويلي عيونها
+  عيون المها يا عيونها
+  و إن ذبلتلي جفونها
+  تدغدغلي الحنايا
+
+  يا ويا ويلي منها
+  هالشاغلتني بسرها
+  و الله لاتبع أثرها
+  مهما تكون النهاية
