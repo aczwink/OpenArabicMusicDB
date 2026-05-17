@@ -1,0 +1,25 @@
+{    
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "title": "Sheet music section definition",
+    "description": "JSON Schema for sheet music section definitions",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "chords": {
+            "type": "array",
+            "items": {
+                "$ref": "./lilypond.json"
+            }
+        },
+        "melody": {
+            "type": "array",
+            "items": {
+                "$ref": "./melody.json"
+            }
+        },
+        "name": {
+            "type": "string"
+        }
+    },
+    "required": ["chords", "melody", "name"]
+}

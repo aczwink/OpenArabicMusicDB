@@ -58,3 +58,39 @@ lyrics: |
   عالباب وما تحكي
   يحكي هوا بلادي 
   خدني على بلادي
+sheetMusic:
+  sections:
+    - chords:
+        - noteLanguage: english
+          notes: |
+            a1:5.8
+            a:5.8
+            c2 bf
+            g:min a:5.8
+            d:5.8 g:min
+            bf f
+            d:5.8 bf
+            g:min a:5.8 a:5.8
+      melody:
+        - maqam: kurdi
+          pitch: A
+        - rhythm: maqsum
+        - noteLanguage: italian
+          notes: |
+            \repeat volta 2
+            {
+              \repeat percent 2
+              {
+                sol8 la sib la la2 |
+              }
+              
+              do8 re mi do sib do re sib |
+              la sib do sib la4. sol16 la |
+              sib8 la sol fa mi4. fa16 sol |
+              la8 sol fa mi re4. mi16 fa |
+              sol8 fa mi re do sib la sol |
+              la sib do sib la2 |
+            }
+      name: intro
+
+  sectionsSequence: [intro]

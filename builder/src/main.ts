@@ -20,6 +20,7 @@ import path from "path";
 import { OpenArabicMusicDBDialect, OpenArabicMusicDBDocument, OpenArabicMusicDBForm, OpenArabicMusicDBJins, OpenArabicMusicDBMaqam, OpenArabicMusicDBMusicalPiece, OpenArabicMusicDBPerson, OpenArabicMusicDBRhythm, OpenArabicMusicDBWikiArticle } from "@aczwink/openarabicmusicdb-domain";
 import YAML from 'yaml';
 import { ParseOctavePitch } from "@aczwink/openarabicmusicdb-domain/dist/OctavePitch";
+import { ParseSheetMusic } from "./sheet-music";
 
 async function* ReadDirectoryRecursively(inputPath: string, parentPath: string): AsyncGenerator<{ filePath: string; parentPath: string; }>
 {
@@ -200,7 +201,8 @@ async function ReadMusicalPieces(dbSrcPath: string, forms: OpenArabicMusicDBForm
                 songWriterId: data.songWriter,
                 text: data.lyrics
             }) : undefined,
-            attachments: data.attachments
+            attachments: data.attachments,
+            sheetMusic: ParseSheetMusic(data.sheetMusic)
         });
     }
 

@@ -1,0 +1,22 @@
+{    
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "title": "Sheet music definition",
+    "description": "JSON Schema for sheet music definitions",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "sections": {
+            "type": "array",
+            "items": {
+                "$ref": "./section.json"
+            }
+        },
+        "sectionsSequence": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "required": ["sections", "sectionsSequence"]
+}

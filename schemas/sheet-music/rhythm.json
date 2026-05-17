@@ -1,0 +1,14 @@
+{    
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "title": "Rhythm definition",
+    "description": "JSON Schema for rhythm definitions",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "rhythm": {
+            "type": "string",
+            "enum": ["maqsum"]
+        }
+    },
+    "required": ["rhythm"]
+}

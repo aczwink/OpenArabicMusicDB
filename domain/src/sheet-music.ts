@@ -20,6 +20,7 @@ export enum OAMDB_SheetMusic_MelodyEntryType
 {
     LilyPondMusic,
     Maqam,
+    Repeat,
     Rhythm,
 }
 
@@ -37,13 +38,19 @@ export interface OAMDB_SheetMusic_MaqamEntry
     pitch: string;
 }
 
+export interface OAMDB_SheetMusic_RepeatEntry
+{
+    type: OAMDB_SheetMusic_MelodyEntryType.Repeat;
+    music: OAMDB_SheetMusic_MelodyEntry;
+}
+
 export interface OAMDB_SheetMusic_RhythmEntry
 {
     type: OAMDB_SheetMusic_MelodyEntryType.Rhythm;
     rhythmId: string;
 }
 
-export type OAMDB_SheetMusic_MelodyEntry = OAMDB_SheetMusic_LilyPondMusic | OAMDB_SheetMusic_MaqamEntry | OAMDB_SheetMusic_RhythmEntry;
+export type OAMDB_SheetMusic_MelodyEntry = OAMDB_SheetMusic_LilyPondMusic | OAMDB_SheetMusic_MaqamEntry | OAMDB_SheetMusic_RepeatEntry | OAMDB_SheetMusic_RhythmEntry;
 export type OAMDB_SheetMusic_MusicEntry = OAMDB_SheetMusic_LilyPondMusic;
 
 export interface OAMDB_SheetMusic_Section

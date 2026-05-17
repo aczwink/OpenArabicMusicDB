@@ -1,0 +1,17 @@
+{    
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "title": "Lilypond music definition",
+    "description": "JSON Schema for Lilypond music definitions",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "noteLanguage": {
+            "type": "string",
+            "enum": ["english", "italian"]
+        },
+        "notes": {
+            "type": "string"
+        }
+    },
+    "required": ["noteLanguage", "notes"]
+}
