@@ -10,6 +10,9 @@
             "$ref": "./maqam.json"
         },
         {
+            "$ref": "./repeat.json"
+        },
+        {
             "$ref": "./rhythm.json"
         }
     ]

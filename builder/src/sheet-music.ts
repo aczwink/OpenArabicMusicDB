@@ -30,12 +30,17 @@ interface MaqamDefinition
     pitch: string;
 }
 
+interface RepeatDefinition
+{
+    repeat: MelodyDefinition;
+}
+
 interface RhythmDefinition
 {
     rhythm: string;
 }
 
-type MelodyDefinition = LilypondDefinition | MaqamDefinition | RhythmDefinition;
+type MelodyDefinition = LilypondDefinition | MaqamDefinition | RepeatDefinition | RhythmDefinition;
 
 interface SectionDefinition
 {
@@ -66,6 +71,13 @@ function ParseMelodyDefinition(def: MelodyDefinition): OAMDB_SheetMusic_MelodyEn
             type: OAMDB_SheetMusic_MelodyEntryType.Maqam,
             maqamId: def.maqam,
             pitch: def.pitch
+        };
+    }
+    else if("repeat" in def)
+    {
+        return {
+            type: OAMDB_SheetMusic_MelodyEntryType.Repeat,
+            music: ParseMelodyDefinition(def.repeat)
         };
     }
     else

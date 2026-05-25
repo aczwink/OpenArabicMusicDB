@@ -75,10 +75,9 @@ sheetMusic:
         - maqam: kurdi
           pitch: A
         - rhythm: maqsum
-        - noteLanguage: italian
-          notes: |
-            \repeat volta 2
-            {
+        - repeat:
+            noteLanguage: italian
+            notes: |
               \repeat percent 2
               {
                 sol8 la sib la la2 |
@@ -90,7 +89,6 @@ sheetMusic:
               la8 sol fa mi re4. mi16 fa |
               sol8 fa mi re do sib la sol |
               la sib do sib la2 |
-            }
       name: intro
 
   sectionsSequence: [intro]

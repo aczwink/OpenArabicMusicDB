@@ -342,6 +342,12 @@ function WriteStats(document: OpenArabicMusicDBDocument)
                 break;
             }
         }
+
+        if(piece.sheetMusic !== undefined)
+        {
+            withSheetMusic++;
+            withLilypond++;
+        }
     }
 
     console.log("Pieces with sheet music:", Math.round(withSheetMusic / document.musicalPieces.length * 100) + "%");
