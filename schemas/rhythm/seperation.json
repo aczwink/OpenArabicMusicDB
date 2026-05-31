@@ -1,0 +1,16 @@
+{    
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "title": "Seperation definition",
+    "description": "JSON Schema for seperation definitions",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "partitions": {
+            "type": "array",
+            "items": {
+                "$ref": "./rhythm.json"
+            }
+        }
+    },
+    "required": ["partitions"]
+}

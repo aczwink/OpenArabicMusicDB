@@ -73,7 +73,7 @@ sheetMusic:
             g:min a:5.8 a:5.8
       melody:
         - maqam: kurdi
-          pitch: A
+          pitch: a
         - rhythm: maqsum
         - repeat:
             noteLanguage: italian

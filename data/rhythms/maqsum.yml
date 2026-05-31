@@ -1,5 +1,5 @@
 #  OpenArabicMusicDB
-#  Copyright (C) 2025 Amir Czwink (amir130@hotmail.de)
+#  Copyright (C) 2025-2026 Amir Czwink (amir130@hotmail.de)
   
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU Affero General Public License as published by
@@ -34,3 +34,22 @@ text: |
   # Hossam Ramzy. Rhythms of the Nile: Introduction to Egyptian Dance Rhythms. Audio CD. www.hossamramzy.com/product/rhythms-of-the-nile-introduction-to-egyptian-dance-rhythms-2-cds/
   # Maqam world. Website. http://maqamworld.com/en/iqaa/maqsum.php
   # Mohamed A. Alsiadi. Arabic rhythms. Website. http://www.alsiadi.com/Iqaa_Maqsum8_8.html
+definition:
+  partitions:
+    - note: dom
+      duration: 8
+    - note: tak
+      duration: 8
+    - note: rest
+      duration: 8
+    - note: tak
+      duration: 8
+    
+    - note: dom
+      duration: 8
+    - note: rest
+      duration: 8
+    - note: tak
+      duration: 8
+    - note: rest
+      duration: 8
