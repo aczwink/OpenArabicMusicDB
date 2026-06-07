@@ -5,13 +5,13 @@
     "type": "object",
     "additionalProperties": false,
     "properties": {
+        "lilynotes": {
+            "type": "string"
+        },
         "noteLanguage": {
             "type": "string",
             "enum": ["english", "italian"]
-        },
-        "notes": {
-            "type": "string"
         }
     },
-    "required": ["noteLanguage", "notes"]
+    "required": ["lilynotes", "noteLanguage"]
 }

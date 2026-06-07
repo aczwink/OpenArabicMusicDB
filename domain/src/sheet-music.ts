@@ -19,9 +19,11 @@
 export enum OAMDB_SheetMusic_MelodyEntryType
 {
     LilyPondMusic,
-    Maqam,
     Repeat,
-    Rhythm,
+    UpdateMaqam,
+    UpdateRhythm,
+    UpdateRelativePitch,
+    UpdateTimeSignature,
 }
 
 export interface OAMDB_SheetMusic_LilyPondMusic
@@ -31,32 +33,45 @@ export interface OAMDB_SheetMusic_LilyPondMusic
     notes: string;
 }
 
-export interface OAMDB_SheetMusic_MaqamEntry
-{
-    type: OAMDB_SheetMusic_MelodyEntryType.Maqam;
-    maqamId: string;
-    pitch: string;
-}
-
 export interface OAMDB_SheetMusic_RepeatEntry
 {
     type: OAMDB_SheetMusic_MelodyEntryType.Repeat;
-    music: OAMDB_SheetMusic_MelodyEntry;
+    music: OAMDB_SheetMusic_MelodyEvent[];
 }
 
-export interface OAMDB_SheetMusic_RhythmEntry
+export interface OAMDB_SheetMusic_UpdateMaqamEvent
 {
-    type: OAMDB_SheetMusic_MelodyEntryType.Rhythm;
+    type: OAMDB_SheetMusic_MelodyEntryType.UpdateMaqam;
+    maqamId: string;
+    octavePitch: string;
+}
+
+export interface OAMDB_SheetMusic_UpdateRelativePitchEvent
+{
+    type: OAMDB_SheetMusic_MelodyEntryType.UpdateRelativePitch;
+    pitch: string;
+}
+
+export interface OAMDB_SheetMusic_UpdateRhythmEvent
+{
+    type: OAMDB_SheetMusic_MelodyEntryType.UpdateRhythm;
     rhythmId: string;
 }
 
-export type OAMDB_SheetMusic_MelodyEntry = OAMDB_SheetMusic_LilyPondMusic | OAMDB_SheetMusic_MaqamEntry | OAMDB_SheetMusic_RepeatEntry | OAMDB_SheetMusic_RhythmEntry;
+export interface OAMDB_SheetMusic_UpdateTimeSignatureEvent
+{
+    type: OAMDB_SheetMusic_MelodyEntryType.UpdateTimeSignature;
+    numerator: number;
+    denominator: number;
+}
+
+export type OAMDB_SheetMusic_MelodyEvent = OAMDB_SheetMusic_LilyPondMusic | OAMDB_SheetMusic_UpdateMaqamEvent | OAMDB_SheetMusic_RepeatEntry | OAMDB_SheetMusic_UpdateRhythmEvent | OAMDB_SheetMusic_UpdateRelativePitchEvent | OAMDB_SheetMusic_UpdateTimeSignatureEvent;
 export type OAMDB_SheetMusic_MusicEntry = OAMDB_SheetMusic_LilyPondMusic;
 
 export interface OAMDB_SheetMusic_Section
 {
     chords: OAMDB_SheetMusic_MusicEntry[];
-    melody: OAMDB_SheetMusic_MelodyEntry[];
+    melody: OAMDB_SheetMusic_MelodyEvent[];
     name: string;
 }
 

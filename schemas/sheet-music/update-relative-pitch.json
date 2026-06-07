@@ -1,0 +1,13 @@
+{    
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "title": "Relative pitch update definition",
+    "description": "JSON Schema for relative pitch update definitions",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "relativePitch": {
+            "type": "string"
+        }
+    },
+    "required": ["relativePitch"]
+}

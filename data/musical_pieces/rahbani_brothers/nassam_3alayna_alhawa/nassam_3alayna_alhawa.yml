@@ -61,28 +61,28 @@ lyrics: |
 sheetMusic:
   sections:
     - chords:
-        - noteLanguage: english
-          notes: |
-            a1:5.8
-            a:5.8
-            c2 bf
-            g:min a:5.8
-            d:5.8 g:min
-            bf f
-            d:5.8 bf
-            g:min a:5.8 a:5.8
+        noteLanguage: english
+        lilynotes: |
+          a1:5.8
+          a:5.8
+          c2 bf
+          g:min a:5.8
+          d:5.8 g:min
+          bf f
+          d:5.8 bf
+          g:min a:5.8 a:5.8
       melody:
         - maqam: kurdi
           pitch: a
+        - relativePitch: a4
         - rhythm: maqsum
+        - timeSignature: 4/4
         - repeat:
-            noteLanguage: italian
+          - repeat:
+              noteLanguage: italian
+              notes: sol8 la sib la la2 |
+          - noteLanguage: italian
             notes: |
-              \repeat percent 2
-              {
-                sol8 la sib la la2 |
-              }
-              
               do8 re mi do sib do re sib |
               la sib do sib la4. sol16 la |
               sib8 la sol fa mi4. fa16 sol |

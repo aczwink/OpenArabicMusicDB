@@ -1,0 +1,14 @@
+{    
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "title": "Time signature update definition",
+    "description": "JSON Schema for time signature update definitions",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "timeSignature": {
+            "type": "string",
+            "pattern": "^[0-9]+/[0-9]+$"
+        }
+    },
+    "required": ["timeSignature"]
+}

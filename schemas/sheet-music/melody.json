@@ -14,6 +14,12 @@
         },
         {
             "$ref": "./rhythm.json"
+        },
+        {
+            "$ref": "./update-relative-pitch.json"
+        },
+        {
+            "$ref": "./update-time-signature.json"
         }
     ]
 }
