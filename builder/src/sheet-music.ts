@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * */
 
-import { OAMDB_SheetMusic_Document, OAMDB_SheetMusic_MelodyEntry, OAMDB_SheetMusic_MelodyEntryType, OAMDB_SheetMusic_Section } from "@aczwink/openarabicmusicdb-domain";
+import { OAMDB_SheetMusic_Document, OAMDB_SheetMusic_MelodyEntryType, OAMDB_SheetMusic_MelodyEvent, OAMDB_SheetMusic_Section } from "@aczwink/openarabicmusicdb-domain";
 
 interface LilypondDefinition
 {
@@ -32,7 +32,7 @@ interface MaqamDefinition
 
 interface RepeatDefinition
 {
-    repeat: MelodyDefinition;
+    repeat: MelodyDefinition | MelodyDefinition[];
 }
 
 interface RhythmDefinition
@@ -44,7 +44,7 @@ type MelodyDefinition = LilypondDefinition | MaqamDefinition | RepeatDefinition 
 
 interface SectionDefinition
 {
-    chords: LilypondDefinition[];
+    chords: LilypondDefinition;
     melody: MelodyDefinition[];
     name: string;
 }
@@ -55,7 +55,7 @@ interface SheetMusicDefiniton
     sectionsSequence: string[];
 }
 
-function ParseMelodyDefinition(def: MelodyDefinition): OAMDB_SheetMusic_MelodyEntry
+function ParseMelodyDefinition(def: MelodyDefinition): OAMDB_SheetMusic_MelodyEvent
 {
     if("notes" in def)
     {
@@ -68,22 +68,22 @@ function ParseMelodyDefinition(def: MelodyDefinition): OAMDB_SheetMusic_MelodyEn
     else if("maqam" in def)
     {
         return {
-            type: OAMDB_SheetMusic_MelodyEntryType.Maqam,
+            type: OAMDB_SheetMusic_MelodyEntryType.UpdateMaqam,
             maqamId: def.maqam,
-            pitch: def.pitch
+            octavePitch: def.pitch
         };
     }
     else if("repeat" in def)
     {
         return {
             type: OAMDB_SheetMusic_MelodyEntryType.Repeat,
-            music: ParseMelodyDefinition(def.repeat)
+            music: Array.isArray(def.repeat) ? def.repeat.map(ParseMelodyDefinition) : [ParseMelodyDefinition(def.repeat)]
         };
     }
     else
     {
         return {
-            type: OAMDB_SheetMusic_MelodyEntryType.Rhythm,
+            type: OAMDB_SheetMusic_MelodyEntryType.UpdateRhythm,
             rhythmId: def.rhythm
         };
     }
@@ -92,7 +92,13 @@ function ParseMelodyDefinition(def: MelodyDefinition): OAMDB_SheetMusic_MelodyEn
 function ParseSection(def: SectionDefinition): OAMDB_SheetMusic_Section
 {
     return {
-        chords: def.chords.map(x => ({ noteLanguage: x.noteLanguage, notes: x.notes, type: OAMDB_SheetMusic_MelodyEntryType.LilyPondMusic })),
+        chords: [
+            {
+                noteLanguage: def.chords.noteLanguage,
+                notes: def.chords.notes,
+                type: OAMDB_SheetMusic_MelodyEntryType.LilyPondMusic
+            }
+        ],
         melody: def.melody.map(ParseMelodyDefinition),
         name: def.name
     };
