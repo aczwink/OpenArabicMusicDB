@@ -6,7 +6,17 @@
     "additionalProperties": false,
     "properties": {
         "repeat": {
-            "$ref": "./melody.json"
+            "oneOf": [
+                {
+                    "$ref": "./melody.json"
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "$ref": "./melody.json"
+                    }
+                }
+            ]
         }
     },
     "required": ["repeat"]

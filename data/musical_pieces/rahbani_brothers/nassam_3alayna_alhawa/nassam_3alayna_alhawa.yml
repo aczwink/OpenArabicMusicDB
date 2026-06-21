@@ -62,7 +62,7 @@ sheetMusic:
   sections:
     - chords:
         noteLanguage: english
-        lilynotes: |
+        notes: |
           a1:5.8
           a:5.8
           c2 bf
@@ -78,17 +78,85 @@ sheetMusic:
         - rhythm: maqsum
         - timeSignature: 4/4
         - repeat:
-          - repeat:
-              noteLanguage: italian
-              notes: sol8 la sib la la2 |
-          - noteLanguage: italian
-            notes: |
-              do8 re mi do sib do re sib |
-              la sib do sib la4. sol16 la |
-              sib8 la sol fa mi4. fa16 sol |
-              la8 sol fa mi re4. mi16 fa |
-              sol8 fa mi re do sib la sol |
-              la sib do sib la2 |
+            noteLanguage: italian
+            notes: sol8 la sib la la2 |
+        - noteLanguage: italian
+          notes: |
+            do8 re mi do sib do re sib |
+            la sib do sib la4. sol16 la |
+            sib8 la sol fa mi4. fa16 sol |
+            la8 sol fa mi re4. mi16 fa |
+            sol8 fa mi re do sib la sol |
+            la sib do sib la2 |
       name: intro
 
-  sectionsSequence: [intro]
+    - chords:
+        notes: |
+          a1:5.8
+          a:5.8
+          c2
+          c a:5.8
+          d1:5.8
+          d:5.8
+          c2 bf
+          g:min a:5.8
+        noteLanguage: english
+      melody:
+        - relativePitch: a4
+        - repeat:
+            notes: |
+              la4 sib la sol |
+            noteLanguage: italian
+        - notes: |
+            la sib do8 re re do |
+            do sib sib la la2 |
+            la8 sol la sib sol4 fa |
+            sol la fa8 mi re4 |
+            sol8 fa fa mi mi re re do |
+            do sib sib la la2 |
+          noteLanguage: italian
+      name: refrain
+
+    - chords:
+        notes: |
+          a1:5.8
+          d2:5.8 g:min
+          g:min c
+          c f
+          d1:5.8
+          c
+          g:min
+          a:5.8
+        noteLanguage: english
+      melody:
+        - relativePitch: a4
+        - repeat:
+            noteLanguage: italian
+            notes: |
+              la la4 re, |
+              sib'8 sol la fa sol2 |
+              sol4 sol sol do, |
+              la'8 fa sol mi fa2 |
+              mi8 fa sol fa fa mi mi re |
+              re mi fa mi mi re re do |
+              do re mi re re do do sib |
+              do4 sib la2 |
+        - notes: |
+            mi'4  mi mi re |
+            mi re8 do sib4 la |
+            fa' fa fa mi |
+            sol fa8 mi re do sib la |
+            sol'4 sol8 fad sol4 sol8 fad |
+            sol4. la8 fa mi re4 |
+            la'4 la2. |
+            sol2 do |
+            sib2. la4 |
+            sib la r2 |
+            la8 sol sol fa fa mi mi re |
+            re do do sib do sib la4 |
+            la1 |
+          noteLanguage: italian
+      name: verse
+
+  #sectionsSequence: [intro, intro, refrain, refrain, verse, refrain, intro, verse, refrain, refrain] #original
+  sectionsSequence: [intro, intro, refrain, refrain, verse, refrain] # simplified

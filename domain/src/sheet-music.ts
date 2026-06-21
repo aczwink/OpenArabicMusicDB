@@ -72,11 +72,10 @@ export interface OAMDB_SheetMusic_Section
 {
     chords: OAMDB_SheetMusic_MusicEntry[];
     melody: OAMDB_SheetMusic_MelodyEvent[];
-    name: string;
 }
 
 export interface OAMDB_SheetMusic_Document
 {
     sections: OAMDB_SheetMusic_Section[];
-    sectionsSequence: string[];
+    sectionsSequence: number[];
 }

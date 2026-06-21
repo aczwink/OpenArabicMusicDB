@@ -30,6 +30,11 @@ interface MaqamDefinition
     pitch: string;
 }
 
+interface RelativePitchDefinition
+{
+    relativePitch: string;
+}
+
 interface RepeatDefinition
 {
     repeat: MelodyDefinition | MelodyDefinition[];
@@ -40,7 +45,12 @@ interface RhythmDefinition
     rhythm: string;
 }
 
-type MelodyDefinition = LilypondDefinition | MaqamDefinition | RepeatDefinition | RhythmDefinition;
+interface TimeSignatureDefinition
+{
+    timeSignature: string;
+}
+
+type MelodyDefinition = LilypondDefinition | MaqamDefinition | RelativePitchDefinition | RepeatDefinition | RhythmDefinition | TimeSignatureDefinition;
 
 interface SectionDefinition
 {
@@ -73,6 +83,13 @@ function ParseMelodyDefinition(def: MelodyDefinition): OAMDB_SheetMusic_MelodyEv
             octavePitch: def.pitch
         };
     }
+    else if("relativePitch" in def)
+    {
+        return {
+            type: OAMDB_SheetMusic_MelodyEntryType.UpdateRelativePitch,
+            pitch: def.relativePitch
+        };
+    }
     else if("repeat" in def)
     {
         return {
@@ -80,11 +97,20 @@ function ParseMelodyDefinition(def: MelodyDefinition): OAMDB_SheetMusic_MelodyEv
             music: Array.isArray(def.repeat) ? def.repeat.map(ParseMelodyDefinition) : [ParseMelodyDefinition(def.repeat)]
         };
     }
-    else
+    else if("rhythm" in def)
     {
         return {
             type: OAMDB_SheetMusic_MelodyEntryType.UpdateRhythm,
             rhythmId: def.rhythm
+        };
+    }
+    else
+    {
+        const parts = def.timeSignature.split("/").map(x => parseInt(x));
+        return {
+            type: OAMDB_SheetMusic_MelodyEntryType.UpdateTimeSignature,
+            denominator: parts[1],
+            numerator: parts[0]
         };
     }
 }
