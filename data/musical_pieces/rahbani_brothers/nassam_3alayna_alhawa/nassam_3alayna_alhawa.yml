@@ -59,6 +59,10 @@ lyrics: |
   يحكي هوا بلادي 
   خدني على بلادي
 sheetMusic:
+  layout:
+    globalStaffSize: 20
+    includeLyrics: true
+    useTwoColumnsForLyrics: true
   sections:
     - chords:
         noteLanguage: english
@@ -154,7 +158,6 @@ sheetMusic:
             sib la r2 |
             la8 sol sol fa fa mi mi re |
             re do do sib do sib la4 |
-            la1 |
           noteLanguage: italian
       name: verse
 

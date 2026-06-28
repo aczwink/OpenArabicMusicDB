@@ -1,0 +1,26 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2026 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: تمر حنة
+form: maqtu3a
+composer: muhammad_fawzi
+releaseDate: 1957
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments: [] #TODO
+text: |
+  From the 1957 Egyptian movie تمر حنة. The piece appears at around 00:26:30 in the movie (with full length ~01:55:xx).
+  [https://ar.wikipedia.org/wiki/%D8%AA%D9%85%D8%B1_%D8%AD%D9%86%D8%A9_(%D9%81%D9%84%D9%85) Arabic Wikipedia]

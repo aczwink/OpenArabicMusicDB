@@ -1,0 +1,46 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2026 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: لا خبر
+form: song
+composer: hussein_alsa3di
+songWriter: tareq_yasin
+singers: []
+dialect: iq #from ChatGPT
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments: [] #TODO
+text: ""
+lyrics: |
+  لا خبر لا چفيه لا حامض حلو لا شربت
+  لا خبر قالوا صوانيكم شموع انترست
+  والتمن الحلوات من كل بيت حلوه التمت
+  وأترف أصابع ليلة الحنه بعذاب تحنت
+  وفد نوب فد نوب ما مش وفه لهنا وصلت
+  فد نوب فد نوب ما مش طيب لهنا وصلت
+  ولا خبر لا چفيه لا حامض حلو لا شربت
+
+  ما سألتي لا قبل المهر لا بالمهر لا بعده
+  يا حلوة جا ماي العشق يتبده چا واتبده
+  العشق ما ينحزر جزره او مده
+  والشوق ذبني بحيرتي واتعده
+  عذالي بية وبدموع شبت
+
+  مشينا  للاهلچ والقمر ويا النجم خطابه
+  صغنالچ انجوم الثريا قلادة يا حبابة
+  يللي محبتچ شجرة صنوبر بوحشة غابة
+  ما اريد حب چذابي يعذب قلوب احبابه
+  ما اريد عشرة من شمع وسط الشمس تتبدى

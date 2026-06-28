@@ -1,0 +1,49 @@
+#  OpenArabicMusicDB
+#  Copyright (C) 2026 Amir Czwink (amir130@hotmail.de)
+  
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+ 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: مريم مريمتي
+form: song
+composer: unknown #TODO
+songWriter: unknown #TODO
+singers: []
+dialect: shami #from ChatGPT
+maqamat: [] #TODO
+rhythms: [] #TODO
+attachments: [] #TODO
+text: ""
+lyrics: |
+  مريم مريمتي و عيني مريما
+  و القلب مجروح بده مرهما
+  يا عيني بده مريما
+  
+  مريم يا دلي
+  والشعر متدلي
+  و عسكر العثمانلي
+  خطفو مرياما
+  يا ويلي خطفو مرياما
+
+  لبست البنّي
+  وقلعت البنّي
+  قصدا تجننّي والله مرياما
+  يا عينوني عيني مرياما
+
+  مريم علسطوح والشعر عمبلوح  
+  والقلب مجروح بدو مرهما
+  يا عيني بده مرهما
+
+  ولأعزفلك عالعود يم عيون السود
+  ولخلي البارود يوصل للسما
+  يا مريم يوصل للسما

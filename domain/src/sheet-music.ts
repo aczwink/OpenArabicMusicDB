@@ -23,6 +23,7 @@ export enum OAMDB_SheetMusic_MelodyEntryType
     UpdateMaqam,
     UpdateRhythm,
     UpdateRelativePitch,
+    UpdateTempo,
     UpdateTimeSignature,
 }
 
@@ -58,6 +59,13 @@ export interface OAMDB_SheetMusic_UpdateRhythmEvent
     rhythmId: string;
 }
 
+export interface OAMDB_SheetMusic_UpdateTempoEvent
+{
+    type: OAMDB_SheetMusic_MelodyEntryType.UpdateTempo;
+    durationValue: string;
+    tempo: number;
+}
+
 export interface OAMDB_SheetMusic_UpdateTimeSignatureEvent
 {
     type: OAMDB_SheetMusic_MelodyEntryType.UpdateTimeSignature;
@@ -65,7 +73,7 @@ export interface OAMDB_SheetMusic_UpdateTimeSignatureEvent
     denominator: number;
 }
 
-export type OAMDB_SheetMusic_MelodyEvent = OAMDB_SheetMusic_LilyPondMusic | OAMDB_SheetMusic_UpdateMaqamEvent | OAMDB_SheetMusic_RepeatEntry | OAMDB_SheetMusic_UpdateRhythmEvent | OAMDB_SheetMusic_UpdateRelativePitchEvent | OAMDB_SheetMusic_UpdateTimeSignatureEvent;
+export type OAMDB_SheetMusic_MelodyEvent = OAMDB_SheetMusic_LilyPondMusic | OAMDB_SheetMusic_UpdateMaqamEvent | OAMDB_SheetMusic_RepeatEntry | OAMDB_SheetMusic_UpdateRhythmEvent | OAMDB_SheetMusic_UpdateRelativePitchEvent | OAMDB_SheetMusic_UpdateTempoEvent | OAMDB_SheetMusic_UpdateTimeSignatureEvent;
 export type OAMDB_SheetMusic_MusicEntry = OAMDB_SheetMusic_LilyPondMusic;
 
 export interface OAMDB_SheetMusic_Section
@@ -74,8 +82,16 @@ export interface OAMDB_SheetMusic_Section
     melody: OAMDB_SheetMusic_MelodyEvent[];
 }
 
+export interface OAMDB_SheetMusic_LayoutInfo
+{
+    globalStaffSize: number;
+    includeLyrics: boolean;
+    useTwoColumnsForLyrics: boolean;
+}
+
 export interface OAMDB_SheetMusic_Document
 {
+    layout: OAMDB_SheetMusic_LayoutInfo;
     sections: OAMDB_SheetMusic_Section[];
     sectionsSequence: number[];
 }

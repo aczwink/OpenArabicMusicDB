@@ -5,6 +5,24 @@
     "type": "object",
     "additionalProperties": false,
     "properties": {
+        "layout": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "globalStaffSize": {
+                    "type": "number",
+                    "minimum": 20,
+                    "default": 20
+                },
+                "includeLyrics": {
+                    "type": "boolean"
+                },
+                "useTwoColumnsForLyrics": {
+                    "type": "boolean"
+                }
+            },
+            "required": []
+        },
         "sections": {
             "type": "array",
             "items": {

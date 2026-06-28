@@ -125,8 +125,7 @@ function ParseSection(def: SectionDefinition): OAMDB_SheetMusic_Section
                 type: OAMDB_SheetMusic_MelodyEntryType.LilyPondMusic
             }
         ],
-        melody: def.melody.map(ParseMelodyDefinition),
-        name: def.name
+        melody: def.melody.map(ParseMelodyDefinition)
     };
 }
 
@@ -137,6 +136,6 @@ export function ParseSheetMusic(def?: SheetMusicDefiniton): OAMDB_SheetMusic_Doc
 
     return {
         sections: def.sections.map(ParseSection),
-        sectionsSequence: def.sectionsSequence
-    }
+        sectionsSequence: def.sectionsSequence.map( x => def.sections.findIndex(y => y.name === x) )
+    };
 }
