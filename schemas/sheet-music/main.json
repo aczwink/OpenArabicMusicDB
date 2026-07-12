@@ -10,8 +10,9 @@
             "additionalProperties": false,
             "properties": {
                 "globalStaffSize": {
-                    "type": "number",
+                    "type": "integer",
                     "minimum": 20,
+                    "maximum": 36,
                     "default": 20
                 },
                 "includeLyrics": {

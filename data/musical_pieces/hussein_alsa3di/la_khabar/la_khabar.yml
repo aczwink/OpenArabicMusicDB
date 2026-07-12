@@ -22,7 +22,11 @@ singers: []
 dialect: iq #from ChatGPT
 maqamat: [] #TODO
 rhythms: [] #TODO
-attachments: [] #TODO
+attachments:
+  - type: public
+    comment: Sheet music on F
+    contentType: text/x-lilypond
+    uri: ./sheet-music.ly
 text: ""
 lyrics: |
   لا خبر لا چفيه لا حامض حلو لا شربت

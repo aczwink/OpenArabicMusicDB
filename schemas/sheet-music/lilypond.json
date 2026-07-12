@@ -5,13 +5,12 @@
     "type": "object",
     "additionalProperties": false,
     "properties": {
-        "noteLanguage": {
-            "type": "string",
-            "enum": ["english", "italian"]
+        "chords": {
+            "type": "string"
         },
         "notes": {
             "type": "string"
         }
     },
-    "required": ["notes", "noteLanguage"]
+    "required": ["notes"]
 }

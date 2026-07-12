@@ -1,6 +1,6 @@
 {    
     "$schema": "https://json-schema.org/draft-07/schema#",
-    "title": "Melody entry definition",
+    "title": "Event entry definition",
     "description": "JSON Schema for melody entry definitions",
     "oneOf": [
         {
@@ -14,6 +14,9 @@
         },
         {
             "$ref": "./rhythm.json"
+        },
+        {
+            "$ref": "./tempo.json"
         },
         {
             "$ref": "./update-relative-pitch.json"

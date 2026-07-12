@@ -8,12 +8,12 @@
         "repeat": {
             "oneOf": [
                 {
-                    "$ref": "./melody.json"
+                    "$ref": "./event.json"
                 },
                 {
                     "type": "array",
                     "items": {
-                        "$ref": "./melody.json"
+                        "$ref": "./event.json"
                     }
                 }
             ]

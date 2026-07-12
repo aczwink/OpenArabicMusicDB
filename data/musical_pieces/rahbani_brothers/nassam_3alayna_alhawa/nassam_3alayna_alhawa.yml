@@ -60,91 +60,79 @@ lyrics: |
   خدني على بلادي
 sheetMusic:
   layout:
-    globalStaffSize: 20
+    globalStaffSize: 23
     includeLyrics: true
     useTwoColumnsForLyrics: true
   sections:
-    - chords:
-        noteLanguage: english
-        notes: |
-          a1:5.8
-          a:5.8
-          c2 bf
-          g:min a:5.8
-          d:5.8 g:min
-          bf f
-          d:5.8 bf
-          g:min a:5.8 a:5.8
-      melody:
+    - chordLanguage: english
+      melodyLanguage: italian
+      events:
         - maqam: kurdi
           pitch: a
-        - relativePitch: a4
         - rhythm: maqsum
         - timeSignature: 4/4
+        - tempo: 130
+          durationValue: "4"
+        - relativePitch: a4
         - repeat:
-            noteLanguage: italian
-            notes: sol8 la sib la la2 |
-        - noteLanguage: italian
-          notes: |
-            do8 re mi do sib do re sib |
-            la sib do sib la4. sol16 la |
-            sib8 la sol fa mi4. fa16 sol |
-            la8 sol fa mi re4. mi16 fa |
-            sol8 fa mi re do sib la sol |
-            la sib do sib la2 |
+            chords: a1:5.8
+            notes: sol8 la sib la la2
+        - chords: c2 bf
+          notes: do8 re mi do sib do re sib
+        - chords: g2:min a:5.8
+          notes: la sib do sib la4. sol16 la
+        - chords: d2:5.8 g:min
+          notes: sib8 la sol fa mi4. fa16 sol
+        - chords: bf2 f
+          notes: la8 sol fa mi re4. mi16 fa
+        - chords: d2:5.8 bf
+          notes: sol8 fa mi re do sib la sol
+        - chords: g2:min a:5.8
+          notes: la sib do sib la2
       name: intro
 
-    - chords:
-        notes: |
-          a1:5.8
-          a:5.8
-          c2
-          c a:5.8
-          d1:5.8
-          d:5.8
-          c2 bf
-          g:min a:5.8
-        noteLanguage: english
-      melody:
+    - chordLanguage: english
+      melodyLanguage: italian
+      events:
         - relativePitch: a4
         - repeat:
-            notes: |
-              la4 sib la sol |
-            noteLanguage: italian
-        - notes: |
-            la sib do8 re re do |
-            do sib sib la la2 |
-            la8 sol la sib sol4 fa |
-            sol la fa8 mi re4 |
-            sol8 fa fa mi mi re re do |
-            do sib sib la la2 |
-          noteLanguage: italian
+            chords: a1:5.8
+            notes: la4 sib la sol
+        - chords: a2:5.8 c
+          notes: la sib do8 re re do
+        - chords: c2 a:5.8
+          notes: do sib sib la la2
+        - chords: d1:5.8
+          notes: la8 sol la sib sol4 fa
+        - chords: d:5.8
+          notes: sol la fa8 mi re4
+        - chords: c2 bf
+          notes: sol8 fa fa mi mi re re do
+        - chords: g:min a:5.8
+          notes: do sib sib la la2
       name: refrain
 
-    - chords:
-        notes: |
-          a1:5.8
-          d2:5.8 g:min
-          g:min c
-          c f
-          d1:5.8
-          c
-          g:min
-          a:5.8
-        noteLanguage: english
-      melody:
+    - chordLanguage: english
+      melodyLanguage: italian
+      events:
         - relativePitch: a4
         - repeat:
-            noteLanguage: italian
-            notes: |
-              la la4 re, |
-              sib'8 sol la fa sol2 |
-              sol4 sol sol do, |
-              la'8 fa sol mi fa2 |
-              mi8 fa sol fa fa mi mi re |
-              re mi fa mi mi re re do |
-              do re mi re re do do sib |
-              do4 sib la2 |
+          - chords: a1:5.8
+            notes: la la4 re,
+          - chords: d2:5.8 g:min
+            notes: sib'8 sol la fa sol2
+          - chords: g:min c
+            notes: sol4 sol sol do,
+          - chords: c f
+            notes: la'8 fa sol mi fa2
+          - chords: d1:5.8
+            notes: mi8 fa sol fa fa mi mi re
+          - chords: c
+            notes: re mi fa mi mi re re do
+          - chords: g:min
+            notes: do re mi re re do do sib
+          - chords: a:5.8
+            notes: do4 sib la2
         - notes: |
             mi'4  mi mi re |
             mi re8 do sib4 la |
@@ -158,7 +146,6 @@ sheetMusic:
             sib la r2 |
             la8 sol sol fa fa mi mi re |
             re do do sib do sib la4 |
-          noteLanguage: italian
       name: verse
 
   #sectionsSequence: [intro, intro, refrain, refrain, verse, refrain, intro, verse, refrain, refrain] #original

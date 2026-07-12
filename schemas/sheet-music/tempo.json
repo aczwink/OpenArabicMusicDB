@@ -1,0 +1,16 @@
+{    
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "title": "Tempo update definition",
+    "description": "JSON Schema for tempo update definitions",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "durationValue": {
+            "type": "string"
+        },
+        "tempo": {
+            "type": "integer"
+        }
+    },
+    "required": ["durationValue", "tempo"]
+}

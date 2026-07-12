@@ -5,18 +5,23 @@
     "type": "object",
     "additionalProperties": false,
     "properties": {
-        "chords": {
-            "$ref": "./lilypond.json"
+        "chordLanguage": {
+            "type": "string",
+            "enum": ["english", "italian"]
         },
-        "melody": {
+        "events": {
             "type": "array",
             "items": {
-                "$ref": "./melody.json"
+                "$ref": "./event.json"
             }
+        },
+        "melodyLanguage": {
+            "type": "string",
+            "enum": ["english", "italian"]
         },
         "name": {
             "type": "string"
         }
     },
-    "required": ["chords", "melody", "name"]
+    "required": ["events", "melodyLanguage", "name"]
 }

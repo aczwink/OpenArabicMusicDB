@@ -18,7 +18,7 @@
 
 import { OctavePitch } from "./OctavePitch";
 import { OAMDB_RhythmDefinition, OAMDB_RhythmDefinition_Note, OAMDB_RhythmDefinition_Seperation } from "./rhythm";
-import { OAMDB_SheetMusic_Document, OAMDB_SheetMusic_LilyPondMusic, OAMDB_SheetMusic_MelodyEvent, OAMDB_SheetMusic_MelodyEntryType, OAMDB_SheetMusic_MusicEntry, OAMDB_SheetMusic_RepeatEntry, OAMDB_SheetMusic_UpdateRhythmEvent, OAMDB_SheetMusic_Section, OAMDB_SheetMusic_UpdateRelativePitchEvent, OAMDB_SheetMusic_UpdateTimeSignatureEvent, OAMDB_SheetMusic_UpdateMaqamEvent, OAMDB_SheetMusic_LayoutInfo, OAMDB_SheetMusic_UpdateTempoEvent } from "./sheet-music";
+import { OAMDB_SheetMusic_Document, OAMDB_SheetMusic_LilyPondMusic, OAMDB_SheetMusic_Event, OAMDB_SheetMusic_EventType, OAMDB_SheetMusic_RepeatEvent, OAMDB_SheetMusic_UpdateRhythmEvent, OAMDB_SheetMusic_Section, OAMDB_SheetMusic_UpdateRelativePitchEvent, OAMDB_SheetMusic_UpdateTimeSignatureEvent, OAMDB_SheetMusic_UpdateMaqamEvent, OAMDB_SheetMusic_LayoutInfo, OAMDB_SheetMusic_UpdateTempoEvent } from "./sheet-music";
 
 export type CountryCode = "eg" | "gr" | "iq" | "lb" | "ly" | "ps" | "sy" | "tn" | "tr" | "ye";
 
@@ -147,10 +147,9 @@ export {
     OAMDB_SheetMusic_Document,
     OAMDB_SheetMusic_LayoutInfo,
     OAMDB_SheetMusic_LilyPondMusic,
-    OAMDB_SheetMusic_MelodyEvent,
-    OAMDB_SheetMusic_MelodyEntryType,
-    OAMDB_SheetMusic_MusicEntry,
-    OAMDB_SheetMusic_RepeatEntry,
+    OAMDB_SheetMusic_Event,
+    OAMDB_SheetMusic_EventType,
+    OAMDB_SheetMusic_RepeatEvent,
     OAMDB_SheetMusic_Section,
     OAMDB_SheetMusic_UpdateMaqamEvent,
     OAMDB_SheetMusic_UpdateRelativePitchEvent,

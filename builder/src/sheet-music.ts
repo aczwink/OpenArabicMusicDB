@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * */
 
-import { OAMDB_SheetMusic_Document, OAMDB_SheetMusic_MelodyEntryType, OAMDB_SheetMusic_MelodyEvent, OAMDB_SheetMusic_Section } from "@aczwink/openarabicmusicdb-domain";
+import { OAMDB_SheetMusic_Document, OAMDB_SheetMusic_LayoutInfo, OAMDB_SheetMusic_MelodyEntryType, OAMDB_SheetMusic_MelodyEvent, OAMDB_SheetMusic_Section } from "@aczwink/openarabicmusicdb-domain";
 
 interface LilypondDefinition
 {
@@ -37,7 +37,7 @@ interface RelativePitchDefinition
 
 interface RepeatDefinition
 {
-    repeat: MelodyDefinition | MelodyDefinition[];
+    repeat: EventDefinition | EventDefinition[];
 }
 
 interface RhythmDefinition
@@ -45,27 +45,35 @@ interface RhythmDefinition
     rhythm: string;
 }
 
+interface TempoDefinition
+{
+    durationValue: string;
+    tempo: number;
+}
+
 interface TimeSignatureDefinition
 {
     timeSignature: string;
 }
 
-type MelodyDefinition = LilypondDefinition | MaqamDefinition | RelativePitchDefinition | RepeatDefinition | RhythmDefinition | TimeSignatureDefinition;
+type EventDefinition = LilypondDefinition | MaqamDefinition | RelativePitchDefinition | RepeatDefinition | RhythmDefinition | TempoDefinition | TimeSignatureDefinition;
 
 interface SectionDefinition
 {
-    chords: LilypondDefinition;
-    melody: MelodyDefinition[];
+    chordLanguage?: "english" | "italian";
+    events: EventDefinition[];
+    melodyLanguage: "english" | "italian";
     name: string;
 }
 
 interface SheetMusicDefiniton
 {
+    layout: OAMDB_SheetMusic_LayoutInfo;
     sections: SectionDefinition[];
     sectionsSequence: string[];
 }
 
-function ParseMelodyDefinition(def: MelodyDefinition): OAMDB_SheetMusic_MelodyEvent
+function ParseEventDefinition(def: EventDefinition): OAMDB_SheetMusic_MelodyEvent
 {
     if("notes" in def)
     {
@@ -94,7 +102,7 @@ function ParseMelodyDefinition(def: MelodyDefinition): OAMDB_SheetMusic_MelodyEv
     {
         return {
             type: OAMDB_SheetMusic_MelodyEntryType.Repeat,
-            music: Array.isArray(def.repeat) ? def.repeat.map(ParseMelodyDefinition) : [ParseMelodyDefinition(def.repeat)]
+            music: Array.isArray(def.repeat) ? def.repeat.map(ParseEventDefinition) : [ParseEventDefinition(def.repeat)]
         };
     }
     else if("rhythm" in def)
@@ -102,6 +110,14 @@ function ParseMelodyDefinition(def: MelodyDefinition): OAMDB_SheetMusic_MelodyEv
         return {
             type: OAMDB_SheetMusic_MelodyEntryType.UpdateRhythm,
             rhythmId: def.rhythm
+        };
+    }
+    else if("tempo" in def)
+    {
+        return {
+            type: OAMDB_SheetMusic_MelodyEntryType.UpdateTempo,
+            durationValue: def.durationValue,
+            tempo: def.tempo
         };
     }
     else
@@ -125,7 +141,7 @@ function ParseSection(def: SectionDefinition): OAMDB_SheetMusic_Section
                 type: OAMDB_SheetMusic_MelodyEntryType.LilyPondMusic
             }
         ],
-        melody: def.melody.map(ParseMelodyDefinition)
+        melody: def.melody.map(ParseEventDefinition)
     };
 }
 
@@ -135,6 +151,7 @@ export function ParseSheetMusic(def?: SheetMusicDefiniton): OAMDB_SheetMusic_Doc
         return undefined;
 
     return {
+        layout: def.layout,
         sections: def.sections.map(ParseSection),
         sectionsSequence: def.sectionsSequence.map( x => def.sections.findIndex(y => y.name === x) )
     };
