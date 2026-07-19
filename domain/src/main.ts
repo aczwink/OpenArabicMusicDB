@@ -156,4 +156,5 @@ export {
     OAMDB_SheetMusic_UpdateRhythmEvent,
     OAMDB_SheetMusic_UpdateTempoEvent,
     OAMDB_SheetMusic_UpdateTimeSignatureEvent,
+    OctavePitch,
 };

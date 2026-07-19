@@ -16,11 +16,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * */
 
-import { OAMDB_SheetMusic_Document, OAMDB_SheetMusic_LayoutInfo, OAMDB_SheetMusic_MelodyEntryType, OAMDB_SheetMusic_MelodyEvent, OAMDB_SheetMusic_Section } from "@aczwink/openarabicmusicdb-domain";
+import { OAMDB_SheetMusic_Document, OAMDB_SheetMusic_Event, OAMDB_SheetMusic_EventType, OAMDB_SheetMusic_LayoutInfo, OAMDB_SheetMusic_Section } from "@aczwink/openarabicmusicdb-domain";
 
 interface LilypondDefinition
 {
-    noteLanguage: "english" | "italian";
+    chords?: string;
     notes: string;
 }
 
@@ -73,20 +73,20 @@ interface SheetMusicDefiniton
     sectionsSequence: string[];
 }
 
-function ParseEventDefinition(def: EventDefinition): OAMDB_SheetMusic_MelodyEvent
+function ParseEventDefinition(def: EventDefinition): OAMDB_SheetMusic_Event
 {
     if("notes" in def)
     {
         return {
-            type: OAMDB_SheetMusic_MelodyEntryType.LilyPondMusic,
-            noteLanguage: def.noteLanguage,
+            type: OAMDB_SheetMusic_EventType.LilyPondMusic,
+            chords: def.chords,
             notes: def.notes
         };
     }
     else if("maqam" in def)
     {
         return {
-            type: OAMDB_SheetMusic_MelodyEntryType.UpdateMaqam,
+            type: OAMDB_SheetMusic_EventType.UpdateMaqam,
             maqamId: def.maqam,
             octavePitch: def.pitch
         };
@@ -94,28 +94,28 @@ function ParseEventDefinition(def: EventDefinition): OAMDB_SheetMusic_MelodyEven
     else if("relativePitch" in def)
     {
         return {
-            type: OAMDB_SheetMusic_MelodyEntryType.UpdateRelativePitch,
+            type: OAMDB_SheetMusic_EventType.UpdateRelativePitch,
             pitch: def.relativePitch
         };
     }
     else if("repeat" in def)
     {
         return {
-            type: OAMDB_SheetMusic_MelodyEntryType.Repeat,
+            type: OAMDB_SheetMusic_EventType.Repeat,
             music: Array.isArray(def.repeat) ? def.repeat.map(ParseEventDefinition) : [ParseEventDefinition(def.repeat)]
         };
     }
     else if("rhythm" in def)
     {
         return {
-            type: OAMDB_SheetMusic_MelodyEntryType.UpdateRhythm,
+            type: OAMDB_SheetMusic_EventType.UpdateRhythm,
             rhythmId: def.rhythm
         };
     }
     else if("tempo" in def)
     {
         return {
-            type: OAMDB_SheetMusic_MelodyEntryType.UpdateTempo,
+            type: OAMDB_SheetMusic_EventType.UpdateTempo,
             durationValue: def.durationValue,
             tempo: def.tempo
         };
@@ -124,7 +124,7 @@ function ParseEventDefinition(def: EventDefinition): OAMDB_SheetMusic_MelodyEven
     {
         const parts = def.timeSignature.split("/").map(x => parseInt(x));
         return {
-            type: OAMDB_SheetMusic_MelodyEntryType.UpdateTimeSignature,
+            type: OAMDB_SheetMusic_EventType.UpdateTimeSignature,
             denominator: parts[1],
             numerator: parts[0]
         };
@@ -134,14 +134,9 @@ function ParseEventDefinition(def: EventDefinition): OAMDB_SheetMusic_MelodyEven
 function ParseSection(def: SectionDefinition): OAMDB_SheetMusic_Section
 {
     return {
-        chords: [
-            {
-                noteLanguage: def.chords.noteLanguage,
-                notes: def.chords.notes,
-                type: OAMDB_SheetMusic_MelodyEntryType.LilyPondMusic
-            }
-        ],
-        melody: def.melody.map(ParseEventDefinition)
+        events: def.events.map(ParseEventDefinition),
+        melodyLanguage: def.melodyLanguage,
+        chordLanguage: def.chordLanguage,
     };
 }
 
