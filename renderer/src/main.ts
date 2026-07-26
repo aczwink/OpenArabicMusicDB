@@ -15,6 +15,10 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * */
+import child_process from "child_process";
+import fs from "fs";
+import os from "os";
+import path from "path";
 import { OAMDB_SheetMusic_Document } from "@aczwink/openarabicmusicdb-domain";
 import { OctavePitch } from "@aczwink/openarabicmusicdb-domain/dist/OctavePitch";
 import { EvaluateSheetMusic, EvaluationEnvironment } from "./oamdb_evaluate";
@@ -33,6 +37,56 @@ function TransposeTo(music: SingleSectionSheetMusic, targetPitch: OctavePitch)
 {
     //TODO: add \tranpose lilypond block
     return music;
+}
+
+async function CallLilypond(tempDir: string, lilyPondCode: string, outputFormat: "midi" | "pdf" | "png")
+{
+    const flag = (outputFormat === "midi") ? "" : ("--" + outputFormat);
+
+    const promise = new Promise<void>( (resolve, reject) => {
+        const process = child_process.exec("lilypond " + flag + " -", {
+            cwd: tempDir,
+        }, (err, _stdout, _stderr) => {
+            if(err)
+                reject(err.message + _stdout + _stderr);
+            else
+                resolve();
+        });
+        process.stdin?.end(lilyPondCode);
+    });
+    await promise;
+
+    switch(outputFormat)
+    {
+        case "midi":
+        case "pdf":
+            await fs.promises.rename(path.join(tempDir, "-." + outputFormat), path.join(tempDir, "_output." + outputFormat));
+            break;
+        case "png":
+            const child2 = child_process.exec("convert -trim -.png _output.png", {
+                cwd: tempDir,
+            });
+        
+            await new Promise( (resolve, reject) => {
+                child2.on("exit", resolve);
+                child2.on("error", reject);
+            });
+            break;
+    }
+}
+
+async function RunLilyPond(lilyPondCode: string, outputFormat: "midi" | "pdf" | "png")
+{
+    const dir = await fs.promises.mkdtemp(`${os.tmpdir()}${path.sep}ame`, "utf-8");
+
+    await CallLilypond(dir, lilyPondCode, outputFormat);
+
+    const outputPath = path.join(dir, "_output." + outputFormat);
+    const data = await fs.promises.readFile(outputPath);
+
+    await fs.promises.rm(dir, { recursive: true });
+
+    return data;
 }
 
 export async function GenerateMIDI(pieceInfo: PieceInformation, targetPitch: OctavePitch)
@@ -58,5 +112,5 @@ export async function RenderAsPDF(pieceInfo: PieceInformation, targetPitch: Octa
         unfoldRepeats: false
     });
 
-    console.log(code);
+    return RunLilyPond(code, "pdf");
 }

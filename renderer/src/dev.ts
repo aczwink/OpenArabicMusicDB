@@ -29,7 +29,7 @@ export async function DevMain()
     const piece = db.musicalPieces.find(x => x.id === pieceId)!;
     const composer = db.persons.find(x => x.id === piece.composerId)!;
 
-    await RenderAsPDF({
+    const data = await RenderAsPDF({
         environment: {
             async lookupRhythm(rhythmId)
             {
@@ -43,6 +43,8 @@ export async function DevMain()
         },
         sheetMusic: piece.sheetMusic!
     }, ParseOctavePitch(targetPitch));
+
+    await fs.promises.writeFile("_out.pdf", data);
 }
 
 DevMain();
