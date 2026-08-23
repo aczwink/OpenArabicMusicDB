@@ -14,14 +14,16 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: رقصة بلدي
-form: maqtu3a
-composer: sayyed_muhammad
+name: سماعي عشاق
+form: sama3i
+composer: 3aziz_dedah
 maqamat: [] #TODO
-rhythms: [] #TODO
+rhythms: #TODO
+  - rhythm: sama3i_thaqil
+    explanation: The primary rhythm
 attachments:
-  - comment: Sheet music on D
-    contentType: application/pdf
-    type: private
-    uri: /pieces/raqsat_baladi.pdf
+  - type: private
+    comment: Sheet music on D
+    contentType: image/heic
+    uri: /pieces/sama3i_3ushaq_dedah.HEIC
 text: ""

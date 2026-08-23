@@ -14,14 +14,18 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: رقصة بلدي
+name: مبروك
 form: maqtu3a
-composer: sayyed_muhammad
+composer: ahmad_fu2ad_hasan
 maqamat: [] #TODO
 rhythms: [] #TODO
 attachments:
-  - comment: Sheet music on D
-    contentType: application/pdf
+  - comment: Sheet music on E-half-flat
+    contentType: image/heic
     type: private
-    uri: /pieces/raqsat_baladi.pdf
+    uri: /pieces/mabruk.HEIC
+  - comment: Sheet music on E-half-flat
+    contentType: image/heic
+    type: private
+    uri: /pieces/mabruk2.HEIC
 text: ""
