@@ -16,8 +16,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * */
 
+import { Fraction } from "@aczwink/acts-util-core";
 import { OctavePitch } from "@aczwink/openarabicmusicdb-domain/dist/OctavePitch";
-import { Fraction } from "../Fraction";
 
 export enum ChordType
 {

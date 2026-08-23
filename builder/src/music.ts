@@ -66,7 +66,7 @@ interface SectionDefinition
     name: string;
 }
 
-interface SheetMusicDefiniton
+interface MusicDefiniton
 {
     layout: OAMDB_SheetMusic_LayoutInfo;
     sections: SectionDefinition[];
@@ -140,7 +140,7 @@ function ParseSection(def: SectionDefinition): OAMDB_SheetMusic_Section
     };
 }
 
-export function ParseSheetMusic(def?: SheetMusicDefiniton): OAMDB_SheetMusic_Document | undefined
+export function ParseMusic(def?: MusicDefiniton): OAMDB_SheetMusic_Document | undefined
 {
     if(def === undefined)
         return undefined;

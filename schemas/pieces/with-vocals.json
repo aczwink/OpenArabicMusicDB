@@ -84,8 +84,8 @@
                 "required": ["explanation", "rhythm"]
             }
         },
-        "sheetMusic": {
-            "$ref": "../sheet-music/main.json"
+        "music": {
+            "$ref": "../music/main.json"
         },
         "singers": {
             "type": "array",

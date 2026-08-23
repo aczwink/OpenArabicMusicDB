@@ -15,12 +15,14 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * */
-import { Fraction } from "../Fraction";
-import { NoteOrRest } from "../model/Note";
-import { MusicEvent, MusicEventType, RepeatEvent, SingleSectionSheetMusic } from "../sheet-music";
-import { ChordTypeToLilyPondString } from "./chords";
+import { OctavePitch } from "@aczwink/openarabicmusicdb-domain/dist/OctavePitch";
+import { MusicEvent, SingleSectionSheetMusic } from "../sheet-music";
+import { ComputeDurationOfEvents } from "./duration";
+import { ProcessEventsAndGenCode } from "./events-processing";
 import { GenerateLilyPondLyricsCode } from "./lyrics";
-import { ToLilypondNote } from "./notes";
+import { GenerateCodeForChord, GenerateCodeForNote } from "./notes-to-string";
+import { CreateRests } from "./rest-filling";
+import { WrapInTranspose } from "./transposition";
 
 interface RealizationOptions
 {
@@ -28,27 +30,14 @@ interface RealizationOptions
     unfoldRepeats: boolean;
 }
 
-function DurationToLilyPond(duration: Fraction)
-{
-    switch(duration.num)
-    {
-        case 1:
-            return duration.den;
-        case 3:
-            return (duration.den / 2) + ".";
-    }
-
-    throw new Error("Illegal duration value: " + duration.ToString());
-}
-
-async function GenerateAccompanimentCode(data: SingleSectionSheetMusic, state: RealizationOptions)
+async function GenerateAccompanimentCode(data: SingleSectionSheetMusic, targetPitch: OctavePitch, state: RealizationOptions)
 {
     if(state.fullAccompaniment)
     {
         //TODO :-)
     }
 
-    const chords = await GenerateChordModeCode(data.events, state);
+    const chords = await GenerateChordModeCode(data.events, targetPitch, state);
 
     return {
         staff: `\\chordmode { \\set chordChanges = ##t ${chords} }`,
@@ -56,145 +45,31 @@ async function GenerateAccompanimentCode(data: SingleSectionSheetMusic, state: R
     };
 }
 
-async function GenerateChordModeCode(event: MusicEvent | MusicEvent[], state: RealizationOptions): Promise<string>
+async function GenerateChordModeCode(events: MusicEvent[], targetPitch: OctavePitch, state: RealizationOptions): Promise<string>
 {
-    if(Array.isArray(event))
-    {
-        const parts = await event.Values().Map(x => GenerateChordModeCode(x, state)).Async().ToArray();
-        return parts.join("\n");
-    }
+    const code = await ProcessEventsAndGenCode(events, {
+        options: state,
 
-    switch(event?.type)
-    {
-        case MusicEventType.NotesOrRests:
-            if(event.chords !== undefined)
-                return event.chords.map(x => ToLilypondNote(x.root, "english") + DurationToLilyPond(x.duration) + ChordTypeToLilyPondString(x.type)).join(" ");
-            break;
-        case MusicEventType.Repeat:
-            return GenerateChordModeCode(event.nestedEvents, state);
-        case MusicEventType.SegnoRepeat:
-        {
-            const repeated = await GenerateChordModeCode(event.repeatedEvents, state);
-            const following = await GenerateChordModeCode(event.followingEvents, state);
-
-            if(!event.fineAfterRepeat)
-                throw new Error("not implemented"); //need example
-
-            return `\\repeat segno 2 { ${repeated} \\volta 2 \\fine \\volta 1 ${following} }`;
-        }
-    }
-
-    return "";
+        RenderNotes: event => {
+            if(event.chords === undefined)
+            {
+                const duration = ComputeDurationOfEvents([event]);
+                return CreateRests(duration);
+            }
+            return event.chords.map(GenerateCodeForChord).join(" ");
+        },
+    });
+    return WrapInTranspose(code, events, targetPitch);
 }
 
-function GenerateCodeForNote(note: NoteOrRest): string
+async function GenerateMelodyCode(events: MusicEvent[], targetPitch: OctavePitch, state: RealizationOptions)
 {
-    function Times(char: string, count: number)
-    {
-        let result = "";
-        while(count--)
-            result += char;
+    const code = await ProcessEventsAndGenCode(events, {
+        options: state,
 
-        return result;
-    }
-    function OctaveToString(octave: number)
-    {
-        const d = octave - 3; //3 is default octave in lilypond absolute mode
-        if(d > 0)
-            return Times("'", d);
-        return Times(",", Math.abs(d));
-    }
-
-    if("octave" in note)
-    {
-        return ToLilypondNote(note, "english") + OctaveToString(note.octave) + DurationToLilyPond(note.duration);
-    }
-
-    return "r" + DurationToLilyPond(note.duration);
-}
-
-function ComputeDurationOfEvent(event: MusicEvent): Fraction
-{
-    switch(event.type)
-    {
-        case MusicEventType.NotesOrRests:
-            return event.notesOrRests.Values().Map(x => x.duration).Accumulate( (a, b) => a.Add(b) );
-        case MusicEventType.Repeat:
-            const inner = ComputeDurationOfEvents(event.nestedEvents);
-            return inner.Scale(2);
-    }
-
-    return new Fraction(0, 1);
-}
-
-function ComputeDurationOfEvents(events: MusicEvent[])
-{
-    return events.Values().Map(ComputeDurationOfEvent).Accumulate( (a, b) => a.Add(b) );
-}
-
-async function GenerateCodeForRepeat(event: RepeatEvent, state: RealizationOptions)
-{
-    const nested = await GenerateMelodyCode(event.nestedEvents, state);
-
-    let repeatType = "volta";
-
-    if(state.unfoldRepeats)
-        repeatType = "unfold";
-    else
-    {
-        const duration = ComputeDurationOfEvents(event.nestedEvents);
-        if(duration.Eval() === 1)
-            repeatType = "percent";
-    }
-
-    return `\\repeat ${repeatType} 2 { ${nested} }`;
-}
-
-function MapMaqamId(maqamId: string)
-{
-    switch(maqamId)
-    {
-        case "kurdi":
-            return "\\kurd";
-        default:
-            throw new Error("Can't map maqam: " + maqamId);
-    }
-}
-
-export async function GenerateMelodyCode(event: MusicEvent | MusicEvent[], state: RealizationOptions): Promise<string>
-{
-    if(Array.isArray(event))
-    {
-        const parts = await event.Values().Map(x => GenerateMelodyCode(x, state)).PromiseAll();
-        return parts.join("\n");
-    }
-
-    switch(event.type)
-    {
-        case MusicEventType.NotesOrRests:
-            return event.notesOrRests.map(x => GenerateCodeForNote(x)).join(" ");
-        case MusicEventType.Repeat:
-            return GenerateCodeForRepeat(event, state);
-        case MusicEventType.SegnoRepeat:
-        {
-            const repeated = await GenerateMelodyCode(event.repeatedEvents, state);
-            const following = await GenerateMelodyCode(event.followingEvents, state);
-
-            if(!event.fineAfterRepeat)
-                throw new Error("not implemented"); //need example
-
-            return `\\repeat segno 2 { ${repeated} \\volta 2 \\fine \\volta 1 ${following} }`;
-        }
-        case MusicEventType.UpdateMaqam:
-            const keyPitch = ToLilypondNote(event.pitch, "english");
-            return `\\key ` + keyPitch + " " + MapMaqamId(event.maqamId);
-
-        case MusicEventType.UpdateTempo:
-            return "\\tempo " + DurationToLilyPond(event.duration) + " = " + event.tempo
-
-        case MusicEventType.UpdateTimeSignature:
-            return `\\time ${event.num}/${event.den}`;
-    }
+        RenderNotes: event => event.notesOrRests.map(GenerateCodeForNote).join(" ")
+    });
+    return WrapInTranspose(code, events, targetPitch);
 }
 
 function GenerateTagLine()
@@ -203,12 +78,12 @@ function GenerateTagLine()
     return `\\markup { \\abs-fontsize #11 "Released as part of https://github.com/aczwink/OpenArabicMusicDB. Copyright (C) 2025-${year} Amir Czwink" }`;
 }
 
-export async function GenerateLilyPondCodeFromSheetMusic(data: SingleSectionSheetMusic, state: RealizationOptions)
+export async function GenerateLilyPondCodeFromSheetMusic(data: SingleSectionSheetMusic, targetPitch: OctavePitch, state: RealizationOptions)
 {
     const fontSize = data.layout.globalStaffSize;
 
-    const acc = await GenerateAccompanimentCode(data, state);
-    const melody = await GenerateMelodyCode(data.events, state);
+    const acc = await GenerateAccompanimentCode(data, targetPitch, state);
+    const melody = await GenerateMelodyCode(data.events, targetPitch, state);
 
     const lyricsCode = data.layout.includeLyrics ? GenerateLilyPondLyricsCode(data.meta.lyrics, data.layout.useTwoColumnsForLyrics) : "";
 

@@ -18,9 +18,9 @@
 
 import { OAMDB_SheetMusic_LayoutInfo } from "@aczwink/openarabicmusicdb-domain";
 import { OctavePitch } from "@aczwink/openarabicmusicdb-domain/dist/OctavePitch";
-import { Fraction } from "./Fraction";
 import { NoteOrRest } from "./model/Note";
 import { TimedChord } from "./model/Chord";
+import { Fraction } from "@aczwink/acts-util-core";
 
 export enum MusicEventType
 {

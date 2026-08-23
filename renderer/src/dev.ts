@@ -16,8 +16,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * */
 import fs from "fs";
+import open from "open";
+import path from "path";
 import { ParseOctavePitch } from "@aczwink/openarabicmusicdb-domain/dist/OctavePitch";
-import { RenderAsPDF } from "./main";
+import { GenerateMIDI, RenderAsPDF } from "./main";
 import { OpenArabicMusicDBDocument } from "@aczwink/openarabicmusicdb-domain";
 
 export async function DevMain()
@@ -45,6 +47,28 @@ export async function DevMain()
     }, ParseOctavePitch(targetPitch));
 
     await fs.promises.writeFile("_out.pdf", data);
+
+    const midData = await GenerateMIDI({
+        environment: {
+            async lookupRhythm(rhythmId)
+            {
+                return db.rhythms.find(x => x.id === rhythmId)?.rhythm!;
+            },
+        },
+        meta: {
+            composerName: composer.name,
+            lyrics: piece.lyrics?.text ?? "",
+            title: piece.name
+        },
+        sheetMusic: piece.sheetMusic!
+    }, ParseOctavePitch(targetPitch));
+
+    await fs.promises.writeFile("_out.mid", midData);
+    
+    const absPath = path.resolve("_out.pdf");
+    await open(absPath, {
+        wait: true
+    });
 }
 
 DevMain();

@@ -22,7 +22,7 @@ import path from "path";
 import { OAMDB_SheetMusic_Document } from "@aczwink/openarabicmusicdb-domain";
 import { OctavePitch } from "@aczwink/openarabicmusicdb-domain/dist/OctavePitch";
 import { EvaluateSheetMusic, EvaluationEnvironment } from "./oamdb_evaluate";
-import { PieceMetaInformation, SingleSectionSheetMusic } from "./sheet-music";
+import { PieceMetaInformation } from "./sheet-music";
 import { ResolveSequence } from "./resolve-sequence";
 import { GenerateLilyPondCodeFromSheetMusic } from "./lilypond/generate-code";
 
@@ -33,15 +33,9 @@ interface PieceInformation
     sheetMusic: OAMDB_SheetMusic_Document;
 }
 
-function TransposeTo(music: SingleSectionSheetMusic, targetPitch: OctavePitch)
+async function CallLilypond(tempDir: string, lilyPondCode: string, outputFormat: "mid" | "pdf" | "png")
 {
-    //TODO: add \tranpose lilypond block
-    return music;
-}
-
-async function CallLilypond(tempDir: string, lilyPondCode: string, outputFormat: "midi" | "pdf" | "png")
-{
-    const flag = (outputFormat === "midi") ? "" : ("--" + outputFormat);
+    const flag = (outputFormat === "mid") ? "" : ("--" + outputFormat);
 
     const promise = new Promise<void>( (resolve, reject) => {
         const process = child_process.exec("lilypond " + flag + " -", {
@@ -58,7 +52,7 @@ async function CallLilypond(tempDir: string, lilyPondCode: string, outputFormat:
 
     switch(outputFormat)
     {
-        case "midi":
+        case "mid":
         case "pdf":
             await fs.promises.rename(path.join(tempDir, "-." + outputFormat), path.join(tempDir, "_output." + outputFormat));
             break;
@@ -75,7 +69,7 @@ async function CallLilypond(tempDir: string, lilyPondCode: string, outputFormat:
     }
 }
 
-async function RunLilyPond(lilyPondCode: string, outputFormat: "midi" | "pdf" | "png")
+async function RunLilyPond(lilyPondCode: string, outputFormat: "mid" | "pdf" | "png")
 {
     const dir = await fs.promises.mkdtemp(`${os.tmpdir()}${path.sep}ame`, "utf-8");
 
@@ -93,21 +87,23 @@ export async function GenerateMIDI(pieceInfo: PieceInformation, targetPitch: Oct
 {
     const evaled = await EvaluateSheetMusic(pieceInfo.sheetMusic, pieceInfo.meta, pieceInfo.environment);
     const layout = ResolveSequence(evaled);
-    const transposed = TransposeTo(layout, targetPitch); //const tranposed = await TransposeTo(layout, targetPitch);
+    //const tranposed = await TransposeTo(layout, targetPitch); //in future lilypond should not be used for midi generation to support stuff like accompaniments and so on. for that real note transposition is required
+    const transposed = layout;
 
-    const code = await GenerateLilyPondCodeFromSheetMusic(transposed, {
+    const code = await GenerateLilyPondCodeFromSheetMusic(transposed, targetPitch, {
         fullAccompaniment: true,
         unfoldRepeats: true
     });
+
+    return RunLilyPond(code, "mid");
 }
 
 export async function RenderAsPDF(pieceInfo: PieceInformation, targetPitch: OctavePitch)
 {
     const evaled = await EvaluateSheetMusic(pieceInfo.sheetMusic, pieceInfo.meta, pieceInfo.environment);
     const layout = ResolveSequence(evaled);
-    const transposed = TransposeTo(layout, targetPitch); //const tranposed = await TransposeTo(layout, targetPitch);
 
-    const code = await GenerateLilyPondCodeFromSheetMusic(transposed, {
+    const code = await GenerateLilyPondCodeFromSheetMusic(layout, targetPitch, {
         fullAccompaniment: false,
         unfoldRepeats: false
     });

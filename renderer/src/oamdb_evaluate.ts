@@ -22,9 +22,9 @@ import "@aczwink/acts-util-core";
 import { LilyPondNoteLanguage } from "./lilypond/notes";
 import { FullPitch } from "./FullPitch";
 import { ParseLilyPondChords, ParseLilyPondDuration, ParseLilyPondNote, ParseLilypondPitch } from "./lilypond/parsing";
-import { Fraction } from "./Fraction";
 import { Note, NoteOrRest } from "./model/Note";
 import { ComputeIntervalBetween24TET } from "./24TET";
+import { Fraction } from "@aczwink/acts-util-core";
 
 interface EvaluationContext
 {
@@ -40,6 +40,7 @@ export interface EvaluationEnvironment
 interface EvaluationState
 {
     currentDuration: Fraction;
+    currentDurationChords: Fraction;
     environment: EvaluationEnvironment;
     relativePitch: FullPitch;
 }
@@ -150,9 +151,12 @@ async function EvaluateEvent(event: OAMDB_SheetMusic_Event, context: EvaluationC
                     if(context.chordLanguage === undefined)
                         throw new Error("No chord language is defined!");
 
+                    const result = ParseLilyPondChords(event.chords, context.chordLanguage, state.currentDurationChords);
+                    state.currentDurationChords = result.currentDuration;
+
                     return {
                         type: MusicEventType.NotesOrRests,
-                        chords: ParseLilyPondChords(event.chords, context.chordLanguage),
+                        chords: result.result,
                         notesOrRests: parsed
                     };
                 }
@@ -234,6 +238,7 @@ export async function EvaluateSheetMusic(sheetMusic: OAMDB_SheetMusic_Document, 
 {
     const state: EvaluationState = {
         currentDuration: new Fraction(1, 4),
+        currentDurationChords: new Fraction(1, 4),
         environment,
         relativePitch: {
             accidental: Accidental.Natural,

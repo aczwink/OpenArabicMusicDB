@@ -18,8 +18,8 @@
 
 import { Accidental, NaturalNote, OctavePitch } from "@aczwink/openarabicmusicdb-domain/dist/OctavePitch";
 import { LilyPondNoteLanguage } from "./notes";
-import { Fraction } from "../Fraction";
 import { ChordType, TimedChord } from "../model/Chord";
+import { Fraction } from "@aczwink/acts-util-core";
 
 export function ParseLilyPondDuration(dur: string): Fraction
 {
@@ -147,12 +147,11 @@ function ParseLilyPondChordType(text?: string)
     throw new Error("ParseLilyPondChordType: " + text);
 }
 
-export function ParseLilyPondChords(notes: string, noteLanguage: LilyPondNoteLanguage)
+export function ParseLilyPondChords(notes: string, noteLanguage: LilyPondNoteLanguage, currentDuration: Fraction)
 {
     const split = notes.trim().split(/[ \n]+/);
 
-    const result: TimedChord[] = [];
-    let currentDuration = new Fraction(1, 4);
+    const chords: TimedChord[] = [];
     for (const element of split)
     {
         const parts = element.split(":");
@@ -166,10 +165,13 @@ export function ParseLilyPondChords(notes: string, noteLanguage: LilyPondNoteLan
             type: ParseLilyPondChordType(parts[1]),
             duration: currentDuration
         };
-        result.push(createdChord);
+        chords.push(createdChord);
     }
 
-    return result;
+    return {
+        result: chords,
+        currentDuration
+    };
 }
 
 export function ParseLilyPondNote(noteLanguage: LilyPondNoteLanguage, note: string)

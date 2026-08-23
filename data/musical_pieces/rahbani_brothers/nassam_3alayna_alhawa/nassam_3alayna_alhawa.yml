@@ -29,10 +29,6 @@ rhythms:
     explanation: ""
 attachments:
   - type: public
-    comment: Sheet music on A
-    contentType: text/x-lilypond
-    uri: ./sheet-music.ly
-  - type: public
     comment: Sheet music with variations on A
     contentType: text/x-lilypond
     uri: ./sheet-music-variations.ly
@@ -58,7 +54,7 @@ lyrics: |
   عالباب وما تحكي
   يحكي هوا بلادي 
   خدني على بلادي
-sheetMusic:
+music:
   layout:
     globalStaffSize: 23
     includeLyrics: true

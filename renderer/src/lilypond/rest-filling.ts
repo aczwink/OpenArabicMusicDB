@@ -17,16 +17,13 @@
  * */
 
 import { Fraction } from "@aczwink/acts-util-core";
-import { FullPitch } from "../FullPitch";
 
-export interface Note extends FullPitch
+export function CreateRests(duration: Fraction)
 {
-    duration: Fraction;
+    switch(duration.den)
+    {
+        case 1:
+            return "r1*" + duration.num;
+    }
+    throw new Error("NOT IMPLEMENTED; " + duration.ToString());
 }
-
-export interface Rest
-{
-    duration: Fraction;
-}
-
-export type NoteOrRest = Note | Rest;
