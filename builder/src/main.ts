@@ -15,6 +15,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * */
+import "@aczwink/acts-util-core";
 import fs from "fs";
 import path from "path";
 import { OpenArabicMusicDBDialect, OpenArabicMusicDBDocument, OpenArabicMusicDBForm, OpenArabicMusicDBJins, OpenArabicMusicDBMaqam, OpenArabicMusicDBMusicalPiece, OpenArabicMusicDBPerson, OpenArabicMusicDBRhythm, OpenArabicMusicDBWikiArticle } from "@aczwink/openarabicmusicdb-domain";
@@ -182,7 +183,7 @@ async function ReadMusicalPieces(dbSrcPath: string, forms: OpenArabicMusicDBForm
             if((attachment.type === "public") && (!attachment.uri.startsWith("/")))
             {
                 const absPath = path.join(fileEntry.parentPath, attachment.uri);
-                attachment.uri = absPath;
+                attachment.uri = absPath.ReplaceAll("\\", "/");
             }
         }
 
