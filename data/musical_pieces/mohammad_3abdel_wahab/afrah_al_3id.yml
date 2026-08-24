@@ -14,14 +14,14 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: رقصة بلدي
+name: أفراح العيد
 form: maqtu3a
-composer: sayyed_muhammad
+composer: mohammad_3abdel_wahab
 maqamat: [] #TODO
 rhythms: [] #TODO
 attachments:
   - comment: Sheet music on D
-    contentType: application/pdf
+    contentType: image/heic
     type: private
-    uri: /pieces/raqsat_baladi.pdf
+    uri: /pieces/afrah_al_3id.HEIC
 text: ""

@@ -14,14 +14,13 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: رقصة بلدي
-form: maqtu3a
-composer: sayyed_muhammad
+name: Die Zwei
+form: sama3i
+composer: farhan_sabbagh
+releaseDate: 2011-04-11
 maqamat: [] #TODO
-rhythms: [] #TODO
-attachments:
-  - comment: Sheet music on D
-    contentType: application/pdf
-    type: private
-    uri: /pieces/raqsat_baladi.pdf
+rhythms: #TODO
+  - rhythm: sama3i_thaqil
+    explanation: The primary rhythm
+attachments: [] #TODO
 text: ""

@@ -20,7 +20,11 @@ composer: muhammad_fawzi
 releaseDate: 1957
 maqamat: [] #TODO
 rhythms: [] #TODO
-attachments: [] #TODO
+attachments:
+  - comment: Sheet music on D
+    contentType: image/heic
+    type: private
+    uri: /pieces/tamr_henna.HEIC
 text: |
   From the 1957 Egyptian movie تمر حنة. The piece appears at around 00:26:30 in the movie (with full length ~01:55:xx).
   [https://ar.wikipedia.org/wiki/%D8%AA%D9%85%D8%B1_%D8%AD%D9%86%D8%A9_(%D9%81%D9%84%D9%85) Arabic Wikipedia]

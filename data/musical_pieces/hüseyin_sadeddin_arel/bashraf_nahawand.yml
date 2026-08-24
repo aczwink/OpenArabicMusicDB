@@ -14,14 +14,14 @@
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-name: رقصة بلدي
-form: maqtu3a
-composer: sayyed_muhammad
+name: بشرف نهاوند
+form: bashraf
+composer: hüseyin_sadeddin_arel
 maqamat: [] #TODO
 rhythms: [] #TODO
 attachments:
-  - comment: Sheet music on D
-    contentType: application/pdf
-    type: private
-    uri: /pieces/raqsat_baladi.pdf
+  - type: private
+    comment: Sheet music on C
+    contentType: image/heic
+    uri: /pieces/bashraf_nahawand.HEIC
 text: ""
