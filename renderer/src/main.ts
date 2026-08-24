@@ -35,7 +35,7 @@ interface PieceInformation
 
 async function CallLilypond(tempDir: string, lilyPondCode: string, outputFormat: "mid" | "pdf" | "png")
 {
-    const flag = (outputFormat === "mid") ? "" : ("--" + outputFormat);
+    const flag = (outputFormat === "mid") ? ("-dmidi-extension=mid") : ("--" + outputFormat);
 
     const promise = new Promise<void>( (resolve, reject) => {
         const process = child_process.exec("lilypond " + flag + " -", {

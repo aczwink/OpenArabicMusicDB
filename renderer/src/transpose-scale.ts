@@ -21,7 +21,7 @@ import { MusicEvent, MusicEventType, SingleSectionSheetMusic } from "./sheet-mus
 import { NoteOrRest } from "./model/Note";
 import { FullPitch } from "./FullPitch";
 import { AccidentalFrom24TET, AccidentalTo24TET } from "./24TET";
-import { TimedChord } from "./Chord";
+import { TimedChord } from "./model/Chord";
 
 interface PitchMap
 {
@@ -218,3 +218,14 @@ export async function TransposeTo(data: SingleSectionSheetMusic, targetKey: Octa
         meta: data.meta,
     };
 }*/
+
+/*
+TODO:
+a correct implementation requires the following:
+-transposition is the adjustment of all pitches by a fixed interval (every pitch is changed with the same delta) (in plain english: "move everything by N quartertones")
+-for transposition, it makes sense to define the target key (because +- delta could tranpose for example to F# but G is obviously preferrable)
+-however, transposition could also be +- diatonic steps (steps in the scale) + and chromatic steps (+- quarter tones for oamdb) => that makes more sense for midi maybe
+
+-modal transformation => change maqam (e.g., from g major to g minor)
+-modal transformation is important for Chord conversion/adaptation in MIDI
+*/
