@@ -12,12 +12,13 @@
   "author": "Amir Czwink",
   "license": "AGPL-3.0",
   "devDependencies": {
-    "@types/node": "^26.1.1",
+    "@types/node": "^26.4.0",
     "nodemon": "^3.1.14",
     "typescript": "^7.0.2"
   },
   "dependencies": {
     "@aczwink/acts-util-core": "^1.0.1",
+    "@aczwink/acts-util-node": "^1.1.1",
     "@aczwink/openarabicmusicdb-domain": "^1.4.0",
     "yaml": "^2.9.0"
   }

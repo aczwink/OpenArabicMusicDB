@@ -16,6 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * */
 import "@aczwink/acts-util-core";
+import { ReadObjectFile } from "@aczwink/acts-util-node";
 import fs from "fs";
 import path from "path";
 import { OpenArabicMusicDBDialect, OpenArabicMusicDBDocument, OpenArabicMusicDBForm, OpenArabicMusicDBJins, OpenArabicMusicDBMaqam, OpenArabicMusicDBMusicalPiece, OpenArabicMusicDBPerson, OpenArabicMusicDBRhythm, OpenArabicMusicDBWikiArticle } from "@aczwink/openarabicmusicdb-domain";
@@ -210,7 +211,7 @@ async function ReadMusicalPieces(dbSrcPath: string, forms: OpenArabicMusicDBForm
     return result;
 }
 
-async function ReadPersons(inputPath: string)
+async function ReadPersons(dbSrcPath: string)
 {
     function ParseLifeTime(lifeTime?: string)
     {
@@ -225,15 +226,12 @@ async function ReadPersons(inputPath: string)
         };
     }
 
-    const children = await fs.promises.readdir(inputPath);
     const result: OpenArabicMusicDBPerson[] = [];
-    for (const child of children)
+    const inputPath = dbSrcPath + "/persons";
+    for await (const fileEntry of ReadDirectoryRecursively(inputPath, "/persons"))
     {
-        const childPath = path.join(inputPath, child);
-        const content = await fs.promises.readFile(childPath, "utf-8");
-        const data = YAML.parse(content);
-
-        const parsed = path.parse(childPath);
+        const data = await ReadObjectFile<any>(fileEntry.filePath);
+        const parsed = path.parse(fileEntry.filePath);
 
         result.push({
             lifeTime: ParseLifeTime(data.lifeTime),
@@ -301,7 +299,7 @@ async function BuildDatabase(dbSrcPath: string)
 {
     const ajnas = await ReadAjnas(dbSrcPath + "/ajnas");
     const forms = await ReadForms(dbSrcPath + "/forms");
-    const persons = await ReadPersons(dbSrcPath + "/persons");
+    const persons = await ReadPersons(dbSrcPath);
 
     const finalDB: OpenArabicMusicDBDocument = {
         ajnas,
